@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This document was created with Syntext Serna Free. --><!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "../dtd/bookmap.dtd" []>
+<!-- (c) Copyright IBM Corp. 2004, 2007 All Rights Reserved. -->
+<bookmap id="fusioninventory-DOC" xml:lang="fr-fr">
+  <booktitle>
+    <mainbooktitle>FusionInventory !</mainbooktitle>
+  </booktitle>
+  <frontmatter>
+    <booklists>
+      <toc/>
+    </booklists>
+    <bookabstract href="fusioninventory/abstract.dita"/>
+    <notices href="fusioninventory/notices.dita"/>
+    <preface href="fusioninventory/preface.dita"/>
+  </frontmatter>
+  <part href="fusioninventory/agent_installing.dita">
+    <topicref href="fusioninventory/agent_prerequisite.dita"/>
+    <topicref href="fusioninventory/agent_install.dita">
+      <topicref href="fusioninventory/agent_installpackage.dita"/>
+      <topicref href="fusioninventory/agent_installcpan.dita"/>
+    </topicref>
+  </part>
+  <part href="fusioninventory/pluginglpi_fusioninventory_installation.dita"/>
+  <part href="fusioninventory/pluginglpi_fusioninventory_configuration.dita"/>
+  <part href="fusioninventory/inventory.dita"/>
+  <part href="fusioninventory/networkdiscovery.dita"/>
+  <part href="fusioninventory/snmpquery.dita"/>
+  <part href="fusioninventory/wakeonlan.dita"/>
+  <appendix href="fusioninventory/glossary.dita">
+    <topicref href="fusioninventory/glossary/mac_address.dita"/>
+  </appendix>
+  <appendix href="fusioninventory/appendix.dita"/>
+  <backmatter>
+    <booklists>
+      <indexlist/>
+    </booklists>
+  </backmatter>
+</bookmap>

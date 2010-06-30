@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="agent_prerequisite" xml:lang="fr-fr">
+  <title>Prerequis</title>
+  <shortdesc>Prerequis pour l&apos;installation de l&apos;agent</shortdesc>
+  <body>
+    <p>L&apos;agent permet d&apos;être installe sur les systemes d&apos;exploitation suivants : </p>
+    <ul>
+      <li>Windows (2000 à Seven)</li>
+      <li>Systemes a base de Linux</li>
+      <li>BSD</li>
+      <li>MacOS X</li>
+      <li>Solaris</li>
+      <li>AIX</li>
+    </ul>
+  </body>
+</topic>
