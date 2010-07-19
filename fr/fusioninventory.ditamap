@@ -9,14 +9,33 @@
     <booklists>
       <toc/>
     </booklists>
-    <bookabstract href="fusioninventory/abstract.dita"/>
-    <notices href="fusioninventory/notices.dita"/>
-    <preface href="fusioninventory/preface.dita"/>
+    <preface href="fusioninventory/preface.dita">
+      <topicref href="fusioninventory/preface_liens.dita">
+        <topicref href="fusioninventory/preface_liens_site.dita"/>
+        <topicref href="fusioninventory/preface_liens_forge.dita"/>
+        <topicref href="fusioninventory/preface_liens_mailing.dita"/>
+        <topicref href="fusioninventory/preface_liens_irc.dita"/>
+        <topicref href="fusioninventory/preface_liens_forum.dita"/>
+      </topicref>
+      <topicref href="fusioninventory/preface_versions.dita">
+        <topicref href="fusioninventory/preface_versions_agent.dita"/>
+        <topicref href="fusioninventory/preface_versions_moduledecouverte.dita"/>
+        <topicref href="fusioninventory/preface_versions_moduleinventairesnmp.dita"/>
+        <topicref href="fusioninventory/preface_versions_moduleocsdeploy.dita"/>
+        <topicref href="fusioninventory/preface_versions_pluginglpi.dita"/>
+        <topicref href="fusioninventory/preface_versions_libserveurphp.dita"/>
+      </topicref>
+    </preface>
   </frontmatter>
   <part href="fusioninventory/agent_installing.dita">
     <topicref href="fusioninventory/agent_prerequisite.dita"/>
     <topicref href="fusioninventory/agent_install.dita">
-      <topicref href="fusioninventory/agent_installpackage.dita"/>
+      <topicref href="fusioninventory/agent_installpackage.dita">
+        <topicref href="fusioninventory/agent_installpackage_apt.dita"/>
+        <topicref href="fusioninventory/agent_installpackage_yum.dita"/>
+        <topicref href="fusioninventory/agent_installpackage_windows.dita"/>
+        <topicref href="fusioninventory/agent_installpackage_macosx.dita"/>
+      </topicref>
       <topicref href="fusioninventory/agent_installcpan.dita"/>
     </topicref>
   </part>
