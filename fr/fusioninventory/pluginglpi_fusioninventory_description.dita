@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="pluginglpi_fusioninventory_description" xml:lang="fr-fr">
+  <title>Description</title>
+  <shortdesc>Description du plugin FusionInventory pour GLPI</shortdesc>
+  <body>
+    <p>FusionInventory pour GLPI est une extension (plugin) de GLPI permettant un dialogue direct avec les agents FusionInventory.
+Les fonctionnalités accessibles depuis GLPI sont :</p>
+    <ul>
+      <li>la découverte de tous les équipements connectés au réseau</li>
+      <li>l&apos;interrogation (inventaire) des équipements reseaux via SNMP</li>
+      <li>Le réveil à distance de l&apos;ordinateur</li>
+    </ul>
+    <p>Voici la liste des fonctionnalites : </p>
+    <ul>
+      <li>Dialogue en HTTP et/ou HTTPS entre le plugin et l&apos;agent</li>
+      <li>Réveil des agents à distance avec gestion d&apos;une liste d&apos;actions : inventaire, découverte réseau, WakeOnLan...</li>
+      <li>Gestion des authentifications SNMP : SNMP Version 1, SNMP Version 2c, SNMP Version 3 (non chiffrés / semi chiffré / chiffré complètement).</li>
+      <li>Gestion des modèles SNMP (gérés et fournis dans le plugin) : correspondance entre les OID SNMP et les champs de GLPI.</li>
+      <li>Récupération des informations des switchs et de ses ports.</li>
+      <li>Récupération des informations des imprimantes.</li>
+      <li>Gestion des agents sur le serveur (verrouillage, optimisations quant au nombre de threads, activation des modules).</li>
+      <li>Gestion des plages IP à associer aux agents par entité.</li>
+      <li>Gestion du matériel inconnu (découvert par FusionInventory mais inexistant dans GLPI).</li>
+      <li>Gestion des matériels réseaux découverts par les agents (ordinateurs, switchs, routeurs, téléphones).</li>
+      <li>Gestion des hub : physiques ou virtuel (liés à la virtualisation).</li>
+      <li>Divers rapports.</li>
+    </ul>
+  </body>
+</topic>
