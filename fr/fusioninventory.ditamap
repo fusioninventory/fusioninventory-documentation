@@ -43,7 +43,11 @@
     <topicref href="fusioninventory/pluginglpi_fusioninventory_description.dita"/>
     <topicref href="fusioninventory/pluginglpi_fusioninventory_prerequisite.dita"/>
     <topicref href="fusioninventory/pluginglpi_fusioninventory_functionalities.dita"/>
-    <topicref href="fusioninventory/pluginglpi_fusioninventory_installation.dita"/>
+    <topicref href="fusioninventory/pluginglpi_fusioninventory_installation.dita">
+      <topicref href="fusioninventory/pluginglpi_fusioninventory_installation_new.dita"/>
+      <topicref href="fusioninventory/pluginglpi_fusioninventory_installation_updatefusioninventory.dita"/>
+      <topicref href="fusioninventory/pluginglpi_fusioninventory_installation_updatetracker.dita"/>
+    </topicref>
     <topicref href="fusioninventory/pluginglpi_fusioninventory_configuration.dita">
       <topicref href="fusioninventory/pluginglpi_fusioninventory_configuration_general.dita"/>
       <topicref href="fusioninventory/pluginglpi_fusioninventory_configuration_criterii.dita"/>

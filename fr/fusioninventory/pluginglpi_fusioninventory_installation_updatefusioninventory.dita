@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="pluginglpi_fusioninventory_installation_updatefusioninventory" xml:lang="fr-fr">
+  <title>Mise a jour du plugin FusionInventory pour GLPI</title>
+  <shortdesc>Procedure pour mettre a jour le plugin FusionInventory pour GLPI</shortdesc>
+  <body>
+    <p>Pour cela, il faut : </p>
+    <ul>
+      <li> Télécharger l&apos;archive du plugin ici : <xref>http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/files</xref></li>
+      <li>Supprimer le dossier glpi/plugins/fusioninventory</li>
+      <li>Décompresser l&apos;archive dans le dossier plugins de GLPI. La liste des fichiers doit ressembler à cette arborescence :</li>
+      <li>Se connecter sur GLPI en tant qu&apos;administrateur </li>
+      <li>Aller dans le menu Configuration / Plugins </li>
+      <li>Installer FusionInventory </li>
+      <li>Activer FusionInventory </li>
+    </ul>
+    <p>Ces opérations permettent de mettre a jour  les tables dans la base de données MySQL ainsi que les droits d&apos;administration du plugin.</p>
+  </body>
+</topic>
