@@ -62,13 +62,14 @@
     <topicref href="fusioninventory/pluginglpi_fusioninventory_networkports.dita"/>
     <topicref href="fusioninventory/pluginglpi_fusioninventory_cartridgestate.dita"/>
     <topicref href="fusioninventory/pluginglpi_fusioninventory_pagecounter.dita"/>
-    <topicref href="fusioninventory/pluginglpi_fusioninventory_example.dita"/>
-    <topicref href="fusioninventory/pluginglpi_fusioninventory_configure.dita"/>
-    <topicref href="fusioninventory/pluginglpi_fusioninventory_configureagent.dita"/>
-    <topicref href="fusioninventory/pluginglpi_fusioninventory_configureiprange.dita"/>
-    <topicref href="fusioninventory/pluginglpi_fusioninventory_discovery.dita"/>
-    <topicref href="fusioninventory/pluginglpi_fusioninventory_discovery_unknowndevicesmanagement.dita"/>
-    <topicref href="fusioninventory/pluginglpi_fusioninventory_query.dita"/>
+    <topicref href="fusioninventory/pluginglpi_fusioninventory_example.dita">
+      <topicref href="fusioninventory/pluginglpi_fusioninventory_example_configure.dita"/>
+      <topicref href="fusioninventory/pluginglpi_fusioninventory_example_configureagent.dita"/>
+      <topicref href="fusioninventory/pluginglpi_fusioninventory_example_configureiprange.dita"/>
+      <topicref href="fusioninventory/pluginglpi_fusioninventory_example_discovery.dita"/>
+      <topicref href="fusioninventory/pluginglpi_fusioninventory_example_discovery_unknowndevicesmanagement.dita"/>
+      <topicref href="fusioninventory/pluginglpi_fusioninventory_example_query.dita"/>
+    </topicref>
   </part>
   <part href="fusioninventory/libserverphp.dita">
     <topicref href="fusioninventory/libserverphp_description.dita"/>
@@ -77,9 +78,10 @@
     <topicref href="fusioninventory/libserverphp_installation.dita"/>
     <topicref href="fusioninventory/libserverphp_configuration.dita"/>
     <topicref href="fusioninventory/libserverphp_datasafterlib.dita">
-      <topicref href="fusioninventory/libserverphp_datasafterlib_infile.dita"/>
-      <topicref href="fusioninventory/libserverphp_datasafterlib_phparray.dita"/>
-      <topicref href="fusioninventory/libserverphp_datasafterlib_database.dita"/>
+      <topicref href="fusioninventory/libserverphp_datasafterlib_phparray.dita">
+        <topicref href="fusioninventory/libserverphp_datasafterlib_infile.dita"/>
+        <topicref href="fusioninventory/libserverphp_datasafterlib_database.dita"/>
+      </topicref>
     </topicref>
   </part>
   <part href="fusioninventory/inventory.dita">
@@ -124,7 +126,6 @@
   <appendix href="fusioninventory/glossary.dita">
     <topicref href="fusioninventory/glossary/mac_address.dita"/>
   </appendix>
-  <appendix href="fusioninventory/appendix.dita"/>
   <backmatter>
     <booklists>
       <indexlist/>
