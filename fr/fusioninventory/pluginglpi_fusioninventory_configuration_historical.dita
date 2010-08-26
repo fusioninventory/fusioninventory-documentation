@@ -6,6 +6,17 @@
   <title>Configuration de l&apos;historique</title>
   <shortdesc>Configuration de l&apos;historique</shortdesc>
   <body>
-    <p>Blabla...</p>
+    <p>Ce menu permet de configurer l&apos;historique des ports de l&apos;inventaire &quot;réseaux&quot;.
+</p>
+    <p>Pour chaque valeur, on peut configurer la retention :
+
+    </p>
+    <ul>
+      <li><i>Jamais</i> : Ne garde aucun historique</li>
+      <li><i>Toujours</i> : garde l&apos;historique indéfiniment</li>
+      <li><i>1, 2, 3...</i> : nombre de jours de rétention de l&apos;historique de ce champs </li>
+    </ul>
+    <p>Une fois l&apos;historique modifié et validé, le bouton &quot;Nettoyer&quot; permet de nettoyer l&apos;historique suivant les réglages defini ci-dessus. </p>
+    <note type="attention">Cette fonction de nettoyage peut prendre plusieurs dizaines de secondes (voire plus) suivant la taille de vos historique et du traitement à réaliser.</note>
   </body>
 </topic>

@@ -6,6 +6,13 @@
   <title>Configuration des modules</title>
   <shortdesc>Configuration des modules</shortdesc>
   <body>
-    <p>Blabla...</p>
+    <p>Liste des modules a activer : </p>
+    <ul>
+      <li><i>Snmp</i> : Activation de la partie SNMP de Fusioninventory</li>
+      <li><i>Découverte d&apos;équipements</i> : Activation de la partie découverte (découverte SNMP, Netbios, NMAP)</li>
+      <li><i>Inventaire OCS</i> : l&apos;agent FusionInventory envoie à FusionInventory for GLPI un inventaire, qui est lui-même poussé au serveur OCS (solution actuelle de contournement)</li>
+      <li><i>Contrôle de l&apos;agent à partir de GLPI</i> : Reveil manuel de l&apos;agent afin de lui envoyer des tâches à effectuer (WakeOnLan, inventaire de l&apos;ordinateur, découverte réseau, interrogation SNMP)</li>
+      <li><i>Wake On Lan</i> : Activation du Wake On Lan qui permet de demarrer les ordinateurs a travers le reseau</li>
+    </ul>
   </body>
 </topic>

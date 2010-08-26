@@ -6,6 +6,6 @@
   <title>Configuration des verrous</title>
   <shortdesc>Configuration des verrous</shortdesc>
   <body>
-    <p>Blabla...</p>
+    <p>Vous avez la possibilité de verrouiller des champs. Par exemple si sur un switch, le lieu remonte &apos;salle1&apos; et que le lieu réel est &apos;salle2&apos;, vous pouvez dire je veux que le champs lieu soit &apos;salle2&apos; et Fusioninventory ne doit pas le modifier.</p>
   </body>
 </topic>

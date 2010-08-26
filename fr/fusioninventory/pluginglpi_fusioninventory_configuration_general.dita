@@ -6,6 +6,12 @@
   <title>Configuration generale</title>
   <shortdesc>Configuration generale</shortdesc>
   <body>
-    <p>Blabla...</p>
+    <p><b>Configuration générale</b></p>
+    <ul>
+      <li><i>SSL seulement pour l&apos;agent</i> : Permet d&apos;activer ou non le dialogue exclusif en HTTPS avec les agents.</li>
+      <li><i>Stockage de l&apos;authentification SNMP</i> : Mode de stockage de l&apos;authentification (Base de donnée MySQL ou dans un fichier XML).</li>
+      <li><i>Fréquence des inventaires (en heures)</i> : Paramètre pour une utilisation future (remontées des inventaires OCS = PROLOG).</li>
+      <li><i>Effacer les informations des process agent après</i> : Les informations sur chaque exécution des agents seront effacé après xx heures.</li>
+    </ul>
   </body>
 </topic>

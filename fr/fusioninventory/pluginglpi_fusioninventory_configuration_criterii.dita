@@ -6,6 +6,27 @@
   <title>Configuration des criteres</title>
   <shortdesc>Configuration des criteres</shortdesc>
   <body>
-    <p>Blabla...</p>
+    <p>Ces critères permettent de déterminer si un matériel remonté par le module netdiscovery correspond à un matériel déjà présent dans GLPI ou inconnu déjà détecté.
+</p>
+    <p>Deux jeux de critères sont utilisés afin d&apos;afiner cette recherche d&apos;existance :
+</p>
+    <p><u>Critères d&apos;existence 1</u></p>
+    <ul>
+      <li><i>IP</i> : Adresse IP de l&apos;équipement</li>
+      <li><i>Nom</i> : Nom de l&apos;équipement</li>
+      <li><i>Numéro de série</i> : Numéro de série de l&apos;équipement</li>
+      <li><i>Adresse Mac</i> : Adresse mac de l&apos;équipement</li>
+    </ul>
+    <p><u>Critères d&apos;existence 2</u></p>
+    <p>Si tous les critères d&apos;existence correspondent à des champs vides ou ne sont pas trouvé dans GLPI, vous pouvez sélectionner des critères secondaires différents:
+
+    </p>
+    <ul>
+      <li><i>IP</i> : Adresse IP de l&apos;équipement</li>
+      <li><i>Nom</i> : Nom de l&apos;équipement</li>
+      <li><i>Numéro de série</i> : Numéro de série de l&apos;équipement</li>
+      <li><i>Adresse Mac</i> : Adresse mac de l&apos;équipement</li>
+    </ul>
+    <note type="important">Le critere IP n&apos;est pas pris en compte lors de l&apos;inventaire reseau (car un materiel peut être en IP dynamique).</note>
   </body>
 </topic>
