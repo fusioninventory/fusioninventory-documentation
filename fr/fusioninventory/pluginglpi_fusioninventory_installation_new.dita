@@ -8,7 +8,7 @@
   <body>
     <p>Pour cela, il faut : </p>
     <ul>
-      <li> Télécharger l&apos;archive du plugin ici : <xref>http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/files</xref></li>
+      <li> Télécharger l&apos;archive du plugin ici : http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/files</li>
       <li>Décompresser l&apos;archive dans le dossier plugins de GLPI. La liste des fichiers doit ressembler à cette arborescence :</li>
       <li> glpi </li>
       <li> plugins</li>
