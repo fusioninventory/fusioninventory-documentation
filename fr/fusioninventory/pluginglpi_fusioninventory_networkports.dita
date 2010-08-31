@@ -6,6 +6,44 @@
   <title>Ports des materiels reseau</title>
   <shortdesc>Visualisation des ports des materiels reseau (switch, routeurs)</shortdesc>
   <body>
-    <p>Blabla...</p>
+    <p>Pour acceder a cette page, il faut se rendre sur une fiche d&apos;un  materiel reseau et aller sur l&apos;onglet <i>FusionInventory</i>.</p>
+    <section>
+      <title>Informations supplementaires</title>
+    </section>
+    <section>
+      <title>Actions de l&apos;agent</title>
+    </section>
+    <section>
+      <title>Informations SNMP</title>
+    </section>
+    <section>
+      <title>Tableau des ports</title>
+      <p>La liste des champs a afficher est personnalisable grace au petit <b>+</b> a gauche dans la ligne des titres.</p>
+      <p>Voici cette liste : </p>
+      <ul>
+        <li><i>Nom</i> : Affiche le nom du port</li>
+        <li><i>MTU</i> : Affiche la taille maximale d&apos;un paquet transitant par cd port</li>
+        <li><i>Vitesse </i>: Affiche la vitesse du port<note>La vitesse est de 10 Mbps lorsqu&apos;aucun materiel n&apos;est connecte sur ce port</note> </li>
+        <li><i>Statut Interne</i> : Indique par une pastille de couleur si le port est actif ou desactive</li>
+        <li><i>Dernier changement</i> : Indique la duree depuis le dernier changement intervenu sur le port</li>
+        <li><i>Nb d&apos;octets recus</i> : Indique le nombre d&apos;octets que le port a recu</li>
+        <li><i>Nb d&apos;erreurs en entrée</i> : Indique le nombre d&apos;erreurs lors de la reception de donnees</li>
+        <li><i>Nb d&apos;octets envoyés</i> : Indique le nombre d&apos;octets que le port a envoye</li>
+        <li><i>Nb d&apos;erreurs en réception</i> : Indique le nombre d&apos;erreurs lors de l&apos;envoi de donnees</li>
+        <li><i>Duplex</i> : Indique si le port est en half-duplex ou full duplex</li>
+        <li><i>MAC interne</i> : Indique l&apos;adresse MAC du port (qui peut etre differente du port du switch)</li>
+        <li><i>VLAN</i> : Indique le ou les VLAN du port</li>
+        <li><i>Connecté à</i> : Indique sur quel materiel de GLPI ce port est connecte</li>
+        <li><i>Connexion</i> : Indique par une pastille de couleur si un materiel est connecte ou pas<note>Un materiel peut etre connecte et avoir une pastille rouge (pas connecte) si ce materiel n&apos;est pas allume</note></li>
+        <li><i>Description du port</i> : Affiche la description du port</li>
+      </ul>
+    </section>
+    <p>Il existe plusieurs couleurs de lignes (couleur de fond de ligne) : </p>
+    <ul>
+      <li>Couleur unie grise : Ce port n&apos;est connecte a aucun materiel</li>
+      <li>Couleur orange avec les mots &quot;Trunk port&quot; : Ce port est connecte avec un switch ou serveur en mode Trunk (ou Taggé)</li>
+      <li>Couleur verte avec les mots &quot;Connected port&quot; : Ce sont les ports non trunk connecte sur un materiel</li>
+    </ul>
+    <p>L&apos;historique de chaque port peut être visualise en cliquant sur le <b>+</b> se situant dans la premiere cellule de chaque ligne de port. Un tableau va s&apos;afficher en dessous avec les modifications des colonnes cit ci-dessus ainsi que les connexion et deconnexion avec les materiels.</p>
   </body>
 </topic>
