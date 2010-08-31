@@ -6,6 +6,18 @@
   <title>Exemple de mise en place</title>
   <shortdesc>Exemple de mise en place de FusionInventory</shortdesc>
   <body>
-    <p>Blabla...</p>
+    <p>Nous souhaitons : </p>
+    <ul>
+      <li>Faire une decouverte de nos switchs</li>
+      <li>Faire un inventaire de nos switchs decouverts</li>
+    </ul>
+    <p>Voici les donnees utilisees dans cet exemple : </p>
+    <ul>
+      <li>Plage IP de notre reseau : 192.168.0.1 a 192.168.0.254</li>
+      <li>Serveur GLPI : 192.168.0.10</li>
+      <li>GLPI est accessible via l&apos;url http://192.168.0.10/glpi/</li>
+      <li>L&apos;agent sera installe sur le serveur 192.168.0.11 (mais il pourrait etre installe sur le meme serveur que le serveur GLPI)</li>
+      <li>Communaute utilisee : versions 1 &amp; 2c &quot;public&quot;</li>
+    </ul>
   </body>
 </topic>

@@ -6,6 +6,8 @@
   <title>Decouverte de materiels</title>
   <shortdesc>Decouverte de materiel</shortdesc>
   <body>
-    <p>Blabla...</p>
+    <p>Nous pouvons desormais decouvrir nos materiels reseau.</p>
+    <p>On lance l&apos;agent une nouvelle fois pour qu&apos;il decouvre les materiels.</p>
+    <p>Une fois que l&apos;agent a termine, on passe au chapitre suivant.</p>
   </body>
 </topic>

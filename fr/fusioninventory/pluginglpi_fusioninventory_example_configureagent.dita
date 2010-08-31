@@ -6,6 +6,11 @@
   <title>Configuration de l&apos;agent</title>
   <shortdesc>Configuration de l&apos;agent</shortdesc>
   <body>
-    <p>Blabla...</p>
+    <p>Il faut <xref href="agent_installing.dita">installer l&apos;agent</xref> sur le serveur 192.168.0.11</p>
+    <p>Il faut configurer l&apos;agent avec cette variable : </p>
+    <ul>
+      <li>server=http://192.168.0.10/glpi/plugins/fusioninventory/front/plugin_fusioninventory.communication.php</li>
+    </ul>
+    <p>Lancer l&apos;agent une fois.</p>
   </body>
 </topic>

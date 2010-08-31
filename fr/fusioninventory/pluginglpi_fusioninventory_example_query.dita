@@ -6,6 +6,11 @@
   <title>Inventaire du materiel reseau</title>
   <shortdesc>Inventaire du materiel reseau</shortdesc>
   <body>
-    <p>Blabla...</p>
+    <p>Pour inventorier nos switch, il faut modifier notre <xref href="pluginglpi_fusioninventory_rangeip.dita">configuration de plages IP</xref> pour les champs : </p>
+    <ul>
+      <li><i>Decouverte</i> : Non</li>
+      <li><i>Interrogation</i> : Oui</li>
+    </ul>
+    <p>On relance l&apos;agent et quand il a fini, toutes les donnees sont dans la fiche de chaque switch.</p>
   </body>
 </topic>

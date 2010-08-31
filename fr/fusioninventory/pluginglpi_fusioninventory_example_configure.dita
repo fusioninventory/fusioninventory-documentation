@@ -6,6 +6,25 @@
   <title>Configuration</title>
   <shortdesc>Configuration</shortdesc>
   <body>
-    <p>Blabla...</p>
+    <p>Il faut commencer a configurer le plugin FusionInventory pour GLPI.</p>
+    <p>Dans la <xref href="pluginglpi_fusioninventory_configuration.dita">configuration du plugin</xref>, nous allons parametrer les <xref href="pluginglpi_fusioninventory_configuration_criterii.dita">criteres d&apos;existence</xref> suivants : </p>
+    <ul>
+      <li>Criteres 1 : <ul>
+          <li>IP : Non</li>
+          <li>Nom : Non</li>
+          <li>Numéro de série : Oui</li>
+          <li>Adresse Mac : Non</li>
+        </ul></li>
+      <li>Criteres 2 :<ul>
+          <li>IP : Non</li>
+          <li>Nom : Non</li>
+          <li>Numéro de série : Non</li>
+          <li>Adresse Mac : Oui</li>
+        </ul> </li>
+    </ul>
+    <p>Dans les <xref href="pluginglpi_fusioninventory_configuration_modules.dita">modules</xref> nous allons activer uniquement :<ul>
+        <li>Snmp</li>
+        <li>Découverte d&apos;équipements</li>
+      </ul></p>
   </body>
 </topic>

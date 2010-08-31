@@ -6,6 +6,7 @@
   <title>Gestion du materiel inconnu decouvert</title>
   <shortdesc>Gestion du materiel inconnu decouvert</shortdesc>
   <body>
-    <p>Blabla...</p>
+    <p>Dans ce <xref href="pluginglpi_fusioninventory_unknowndevices.dita">menu</xref>, on va gerer les materiels que l&apos;agent a decouvert.</p>
+    <p>On va importer les switchs decouverts.</p>
   </body>
 </topic>
