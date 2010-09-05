@@ -3,16 +3,16 @@
  Sourceforge.net. See the accompanying license.txt file for 
  applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="pluginglpi_fusioninventory_prerequisite" xml:lang="fr-fr">
-  <title>Pre-requis</title>
-  <shortdesc>Pre-requis pour utiliser le plugin FusionInventory for GLPI</shortdesc>
+  <title>Pré-requis</title>
+  <shortdesc>Pré-requis pour utiliser le plugin FusionInventory for GLPI</shortdesc>
   <body>
     <p>Pour utiliser FusionInventory pour GLPI, il faut d&apos;installe sur le serveur : </p>
     <ul>
       <li>GLPI 0.72.x mais partir de la version 0.72.1 (donc pas la version 0.72)</li>
-      <li>PHP 5 ou superieur</li>
+      <li>PHP 5 ou supérieur</li>
       <li>PHP-ZLIB</li>
       <li>PHP-GD</li>
-      <li>MySQL 5 or superieur</li>
+      <li>MySQL 5 or supérieur</li>
     </ul>
   </body>
 </topic>

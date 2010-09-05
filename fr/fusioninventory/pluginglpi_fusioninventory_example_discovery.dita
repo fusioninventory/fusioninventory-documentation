@@ -3,11 +3,11 @@
  Sourceforge.net. See the accompanying license.txt file for 
  applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="pluginglpi_fusioninventory_example_configureiprange" xml:lang="fr-fr">
-  <title>Decouverte de materiels</title>
-  <shortdesc>Decouverte de materiel</shortdesc>
+  <title>Découverte de matériels</title>
+  <shortdesc>Découverte de matériel</shortdesc>
   <body>
-    <p>Nous pouvons desormais decouvrir nos materiels reseau.</p>
-    <p>On lance l&apos;agent une nouvelle fois pour qu&apos;il decouvre les materiels.</p>
-    <p>Une fois que l&apos;agent a termine, on passe au chapitre suivant.</p>
+    <p>Nous pouvons désormais découvrir nos matériels réseau.</p>
+    <p>On lance l&apos;agent une nouvelle fois pour qu&apos;il découvre les matériels.</p>
+    <p>Une fois que l&apos;agent a terminé, on passe au chapitre suivant.</p>
   </body>
 </topic>

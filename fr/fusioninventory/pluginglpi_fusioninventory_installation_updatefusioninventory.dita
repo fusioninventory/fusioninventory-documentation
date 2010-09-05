@@ -3,10 +3,10 @@
  Sourceforge.net. See the accompanying license.txt file for 
  applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="pluginglpi_fusioninventory_installation_updatefusioninventory" xml:lang="fr-fr">
-  <title>Mise a jour du plugin FusionInventory pour GLPI</title>
-  <shortdesc>Procedure pour mettre a jour le plugin FusionInventory pour GLPI</shortdesc>
+  <title>Mise à jour du plugin FusionInventory pour GLPI</title>
+  <shortdesc>Procédure pour mettre à jour le plugin FusionInventory pour GLPI</shortdesc>
   <body>
-    <p>Pour cela, il faut : </p>
+    <p>Pour celà, il faut : </p>
     <ul>
       <li> Télécharger l&apos;archive du plugin ici : http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/files</li>
       <li>Supprimer le dossier glpi/plugins/fusioninventory</li>
@@ -16,6 +16,6 @@
       <li>Installer FusionInventory </li>
       <li>Activer FusionInventory </li>
     </ul>
-    <p>Ces opérations permettent de mettre a jour  les tables dans la base de données MySQL ainsi que les droits d&apos;administration du plugin.</p>
+    <p>Ces opérations permettent de mettre à jour les tables dans la base de données MySQL ainsi que les droits d&apos;administration du plugin.</p>
   </body>
 </topic>

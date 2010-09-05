@@ -4,9 +4,9 @@
  applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="pluginglpi_fusioninventory_installation_new" xml:lang="fr-fr">
   <title>Nouvelle installation</title>
-  <shortdesc>Procedure pour installer le plugin FusionInventory pour GLPI</shortdesc>
+  <shortdesc>Procédure pour installer le plugin FusionInventory pour GLPI</shortdesc>
   <body>
-    <p>Pour cela, il faut : </p>
+    <p>Pour celà, il faut : </p>
     <ul>
       <li> Télécharger l&apos;archive du plugin ici : http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/files</li>
       <li>Décompresser l&apos;archive dans le dossier plugins de GLPI. La liste des fichiers doit ressembler à cette arborescence :</li>

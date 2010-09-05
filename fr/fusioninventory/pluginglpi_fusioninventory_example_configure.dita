@@ -6,16 +6,16 @@
   <title>Configuration</title>
   <shortdesc>Configuration</shortdesc>
   <body>
-    <p>Il faut commencer a configurer le plugin FusionInventory pour GLPI.</p>
-    <p>Dans la <xref href="pluginglpi_fusioninventory_configuration.dita">configuration du plugin</xref>, nous allons parametrer les <xref href="pluginglpi_fusioninventory_configuration_criterii.dita">criteres d&apos;existence</xref> suivants : </p>
+    <p>Il faut commencer à configurer le plugin FusionInventory pour GLPI.</p>
+    <p>Dans la <xref href="pluginglpi_fusioninventory_configuration.dita">configuration du plugin</xref>, nous allons paramétrer les <xref href="pluginglpi_fusioninventory_configuration_criterii.dita">critères d&apos;existence</xref> suivants : </p>
     <ul>
-      <li>Criteres 1 : <ul>
+      <li>Critères 1 : <ul>
           <li>IP : Non</li>
           <li>Nom : Non</li>
           <li>Numéro de série : Oui</li>
           <li>Adresse Mac : Non</li>
         </ul></li>
-      <li>Criteres 2 :<ul>
+      <li>Critères 2 :<ul>
           <li>IP : Non</li>
           <li>Nom : Non</li>
           <li>Numéro de série : Non</li>

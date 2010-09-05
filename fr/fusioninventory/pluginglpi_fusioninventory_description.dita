@@ -10,7 +10,7 @@
 Les fonctionnalités accessibles depuis GLPI sont :</p>
     <ul>
       <li>la découverte de tous les équipements connectés au réseau</li>
-      <li>l&apos;interrogation (inventaire) des équipements reseaux via SNMP</li>
+      <li>l&apos;interrogation (inventaire) des équipements réseaux via SNMP</li>
       <li>Le réveil à distance de l&apos;ordinateur</li>
     </ul>
   </body>

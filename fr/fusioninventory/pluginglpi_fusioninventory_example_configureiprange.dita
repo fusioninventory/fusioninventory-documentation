@@ -6,13 +6,13 @@
   <title>Configuration d&apos;une plage IP</title>
   <shortdesc>Configuration d&apos;une plage IP</shortdesc>
   <body>
-    <p>L&apos;agent a ete cree dans le plugin, nous allons maintenant <xref href="pluginglpi_fusioninventory_rangeip.dita">creer notre plage IP</xref> avec les parametres suivants : </p>
+    <p>L&apos;agent a été créé dans le plugin, nous allons maintenant <xref href="pluginglpi_fusioninventory_rangeip.dita">créer notre plage IP</xref> avec les paramètres suivants : </p>
     <ul>
-      <li><i>Nom</i> : reseau interne</li>
+      <li><i>Nom</i> : réseau interne</li>
       <li><i>Début de la plage IP</i> : 192.168.0.1</li>
       <li><i>Fin de la plage IP</i> : 192.168.0.254</li>
-      <li><i>Agent découverte</i> : L&apos;agent qui a du se creer (on ne doit en avoir qu&apos;un seul dans la liste)</li>
-      <li><i>Agent interrogation</i> : L&apos;agent qui a du se creer (on ne doit en avoir qu&apos;un seul dans la liste) IP</li>
+      <li><i>Agent découverte</i> : L&apos;agent qui a dû se créer (on ne doit en avoir qu&apos;un seul dans la liste)</li>
+      <li><i>Agent interrogation</i> : L&apos;agent qui a dû se créer (on ne doit en avoir qu&apos;un seul dans la liste) IP</li>
       <li><i>Découverte</i> : Oui</li>
       <li><i>Interrogation</i> : Non</li>
     </ul>
