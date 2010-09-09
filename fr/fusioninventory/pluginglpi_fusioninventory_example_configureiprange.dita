@@ -6,7 +6,7 @@
   <title>Configuration d&apos;une plage IP</title>
   <shortdesc>Configuration d&apos;une plage IP</shortdesc>
   <body>
-    <p>L&apos;agent a été créé dans le plugin, nous allons maintenant <xref href="pluginglpi_fusioninventory_rangeip.dita">créer notre plage IP</xref> avec les paramètres suivants : </p>
+    <p>Il faut maintenant <xref href="pluginglpi_fusioninventory_rangeip.dita">créer notre plage IP</xref> avec les paramètres suivants : </p>
     <ul>
       <li><i>Nom</i> : réseau interne</li>
       <li><i>Début de la plage IP</i> : 192.168.0.1</li>

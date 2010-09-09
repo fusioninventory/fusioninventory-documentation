@@ -5,7 +5,7 @@
   <booktitle>
     <mainbooktitle>FusionInventory !</mainbooktitle>
     <booktitlealt>
-      <image href="image/fusion_transparence_400x150.png" width="400" height="150"/>
+      <image href="image/fusion_transparence_400x150.png" height="150" width="400"/>
     </booktitlealt>
   </booktitle>
   <frontmatter>
@@ -68,6 +68,7 @@
     <topicref href="fusioninventory/pluginglpi_fusioninventory_example.dita">
       <topicref href="fusioninventory/pluginglpi_fusioninventory_example_configure.dita"/>
       <topicref href="fusioninventory/pluginglpi_fusioninventory_example_configureagent.dita"/>
+      <topicref href="fusioninventory/pluginglpi_fusioninventory_example_configureagent_glpi.dita"/>
       <topicref href="fusioninventory/pluginglpi_fusioninventory_example_configureiprange.dita"/>
       <topicref href="fusioninventory/pluginglpi_fusioninventory_example_discovery.dita"/>
       <topicref href="fusioninventory/pluginglpi_fusioninventory_example_discovery_unknowndevicesmanagement.dita"/>
