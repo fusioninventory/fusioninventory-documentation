@@ -127,6 +127,10 @@
     <topicref href="fusioninventory/wakeonlan_wakeosi2.dita"/>
     <topicref href="fusioninventory/wakeonlan_wakeudp.dita"/>
   </part>
+  <part href="fusioninventory/ocsdeployp2p.dita">
+    <topicref href="fusioninventory/ocsdeployp2p_description.dita"/>
+    <topicref href="fusioninventory/ocsdeployp2p_p2p.dita"/>
+  </part>
   <appendix href="fusioninventory/glossary.dita">
     <topicref href="fusioninventory/glossary/mac_address.dita"/>
   </appendix>

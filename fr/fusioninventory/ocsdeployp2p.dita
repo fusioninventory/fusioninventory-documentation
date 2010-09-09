@@ -2,10 +2,10 @@
 <!-- This file is part of the DITA Open Toolkit project hosted on 
  Sourceforge.net. See the accompanying license.txt file for 
  applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
-<topic id="preface_versions_agent" xml:lang="fr-fr">
-  <title>Agent FusionInventory</title>
-  <shortdesc>Version de l&apos;agent FusionInventory</shortdesc>
+<topic id="ocsdeployp2p" xml:lang="fr-fr">
+  <title>OCS Deploy p2p</title>
+  <shortdesc>OCS Deploy p2p : deploiement d&apos;applications avec gestion p2p</shortdesc>
   <body>
-    <p>La version de l&apos;agent FusionInventory utilisée dans ce manuel est la version : <b>2.1.3</b></p>
+    <p>Blabla...</p>
   </body>
 </topic>

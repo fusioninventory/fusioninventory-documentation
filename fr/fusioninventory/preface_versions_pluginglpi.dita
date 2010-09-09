@@ -4,8 +4,8 @@
  applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="preface_versions_pluginglpi" xml:lang="fr-fr">
   <title>Plugin FusionInventory for GLPI</title>
-  <shortdesc>Version du plugin dedie a GLPI</shortdesc>
+  <shortdesc>Version du plugin dédié à GLPI</shortdesc>
   <body>
-    <p>La version du plugin pour GLPI utilisee dans ce manuel est : <b>2.2.2</b></p>
+    <p>La version du plugin pour GLPI utilisée dans ce manuel est : <b>2.2.2</b></p>
   </body>
 </topic>
