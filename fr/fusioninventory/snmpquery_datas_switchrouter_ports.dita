@@ -6,6 +6,23 @@
   <title>Informations des ports réseau</title>
   <shortdesc>Informations des ports réseau</shortdesc>
   <body>
-    <p>Blabla...</p>
+    <p>On récupere chaque port physique du switch ainsi que leurs informations : </p>
+    <ul>
+      <li><i>Nom</i> : Affiche le nom du port</li>
+      <li><i>MTU</i> : Affiche la taille maximale d&apos;un paquet transitant par cd port</li>
+      <li><i>Vitesse </i>: Affiche la vitesse du port</li>
+      <li><i>Statut Interne</i> : Indique par une pastille de couleur si le port est actif ou désactivé</li>
+      <li><i>Dernier changement</i> : Indique la durée depuis le dernier changement intervenu sur le port</li>
+      <li><i>Nb d&apos;octets recus</i> : Indique le nombre d&apos;octets que le port a reçu</li>
+      <li><i>Nb d&apos;erreurs en entrée</i> : Indique le nombre d&apos;erreurs lors de la réception de données</li>
+      <li><i>Nb d&apos;octets envoyés</i> : Indique le nombre d&apos;octets que le port a envoyé</li>
+      <li><i>Nb d&apos;erreurs en réception</i> : Indique le nombre d&apos;erreurs lors de l&apos;envoi de données</li>
+      <li><i>Duplex</i> : Indique si le port est en half-duplex ou full duplex</li>
+      <li><i>MAC interne</i> : Indique l&apos;adresse MAC du port (qui peut etre différente du port du switch)</li>
+      <li><i>VLAN</i> : Indique le ou les VLAN du port</li>
+      <li><i>Connecté à</i> : Indique sur quel matériel de GLPI ce port est connecté</li>
+      <li><i>Connexion</i> : Indique par une pastille de couleur si un matériel est connecté ou pas<note>Un matériel peut être connecté et avoir une pastille rouge (pas connecté) si ce matériel n&apos;est pas allumé</note></li>
+      <li><i>Description du port</i> : Affiche la description du port</li>
+    </ul>
   </body>
 </topic>

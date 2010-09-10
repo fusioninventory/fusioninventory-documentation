@@ -6,13 +6,17 @@
   <title>Fonctionnement du peer to peer</title>
   <shortdesc>Fonctionnement du peer to peer</shortdesc>
   <body>
-    <p>Le peer to peer permet d&apos;economiser la bande passante entre le site ou on deploie une application et le site ou se trouve le serveur central.</p>
+    <p>Le peer to peer permet de : </p>
+    <ul>
+      <li>économiser la bande passante entre le serveur central (si il est sur un site distant) et l&apos;ordinateur</li>
+      <li>récupérer les fichiers tres rapidement</li>
+    </ul>
     <p>Fonctionnement : </p>
     <ul>
-      <li>Le premier ordinateur telecharge les fragments du paquet sur le serveur central</li>
-      <li>les autres ordinateurs regarder sur les agents sur le site local s&apos;ils ont les fragments, a ce moment la, on a 2 cas : <ul>
-          <li>Ils trouvent les fragments sur un autre ordinateur, ils les telechargent (donc en local et preserve la bande passante entre le site local et le site principal)</li>
-          <li>Ils ne trouvent pas les fragments, ils les telechargent sur le serveur central</li>
+      <li>Le premier ordinateur télécharge les fragments du paquet sur le serveur central</li>
+      <li>les autres ordinateurs regardent sur les autres ordinateurs sur le site local s&apos;ils ont les fragments. On a alors 2 cas : <ul>
+          <li>les fragments sont sur d&apos;autres ordinateurs, ils sont téléchargés (donc sur le site local)</li>
+          <li>Les fragments ne sont pas sur d&apos;autres ordinateurs, ils sont alors téléchargés sur le serveur central</li>
         </ul></li>
     </ul>
   </body>

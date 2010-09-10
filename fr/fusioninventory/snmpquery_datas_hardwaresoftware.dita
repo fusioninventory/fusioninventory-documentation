@@ -6,6 +6,16 @@
   <title>Informations matériel et logiciel</title>
   <shortdesc>Informations matériel et logiciel</shortdesc>
   <body>
-    <p>Blabla...</p>
+    <p>Sont récupérés les informations telles que : </p>
+    <ul>
+      <li>Nom du matériel</li>
+      <li>Modele du matériel</li>
+      <li>Firmware (version du micrologiciel)</li>
+      <li>Numéro de série</li>
+      <li>Mémoire vive</li>
+      <li>Nom du fabricant</li>
+      <li>L&apos;adresse IP</li>
+      <li>L&apos;adresse MAC</li>
+    </ul>
   </body>
 </topic>
