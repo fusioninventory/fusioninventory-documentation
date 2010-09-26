@@ -6,7 +6,7 @@
   <title>Canal IRC</title>
   <shortdesc>Adresse du canal IRC</shortdesc>
   <body>
-    <p>Pour acceder au canal irc, voici les informations : </p>
+    <p>Pour accéder au canal irc, voici les informations : </p>
     <ul>
       <li>Serveur : freenode</li>
       <li>Canal : #fusioninventory</li>

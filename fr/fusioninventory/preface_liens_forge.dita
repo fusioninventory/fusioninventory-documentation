@@ -3,10 +3,10 @@
  Sourceforge.net. See the accompanying license.txt file for 
  applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="preface_liens_forge" xml:lang="fr-fr">
-  <title>Forge de developpement</title>
+  <title>Forge de développement</title>
   <shortdesc>Adresse de la forge</shortdesc>
   <body>
-    <p>Le lien pour acceder la forge de developpement est : </p>
+    <p>Le lien pour accéder la forge de développement est : </p>
     <ul>
       <li>http://forge.fusioninventory.org/</li>
     </ul>
