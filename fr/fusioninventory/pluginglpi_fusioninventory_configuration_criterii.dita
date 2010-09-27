@@ -6,9 +6,9 @@
   <title>Configuration des critères</title>
   <shortdesc>Configuration des critères</shortdesc>
   <body>
-    <p>Ces critères permettent de déterminer si un matériel remonté par le module netdiscovery correspond à un matériel déjà présent dans GLPI ou inconnu déjà détecté.
+    <p>Ces critères permettent de déterminer si un matériel remonté par le module <i>netdiscovery</i> correspond à un matériel déjà présent dans GLPI ou inconnu déjà détecté.
 </p>
-    <p>Deux jeux de critères sont utilisés afin d&apos;afiner cette recherche d&apos;existance :
+    <p>Deux jeux de critères sont utilisés afin d&apos;affiner cette recherche d&apos;existence :
 </p>
     <p><u>Critères d&apos;existence 1</u></p>
     <ul>
@@ -18,7 +18,7 @@
       <li><i>Adresse Mac</i> : Adresse mac de l&apos;équipement</li>
     </ul>
     <p><u>Critères d&apos;existence 2</u></p>
-    <p>Si tous les critères d&apos;existence correspondent à des champs vides ou ne sont pas trouvé dans GLPI, vous pouvez sélectionner des critères secondaires différents:
+    <p>Si tous les critères d&apos;existence correspondent à des champs vides ou ne sont pas trouvé dans GLPI, les critères secondaires différents peuvent être utilisés :
 
     </p>
     <ul>

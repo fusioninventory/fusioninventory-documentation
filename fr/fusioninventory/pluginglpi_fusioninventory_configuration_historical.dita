@@ -16,7 +16,7 @@
       <li><i>Toujours</i> : garde l&apos;historique indéfiniment</li>
       <li><i>1, 2, 3...</i> : nombre de jours de rétention de l&apos;historique de ce champs </li>
     </ul>
-    <p>Une fois l&apos;historique modifié et validé, le bouton &quot;Nettoyer&quot; permet de nettoyer l&apos;historique suivant les réglages defini ci-dessus. </p>
-    <note type="attention">Cette fonction de nettoyage peut prendre plusieurs dizaines de secondes (voire plus) suivant la taille de vos historique et du traitement à réaliser.</note>
+    <p>Une fois l&apos;historique modifié et validé, le bouton &quot;Nettoyer&quot; permet de nettoyer l&apos;historique suivant les réglages defini ci-dessus (si on choisi 3 jours, l&apos;historique datant de plus de 3 jours sera supprimé). </p>
+    <note type="attention">Cette fonction de nettoyage peut prendre plusieurs dizaines de secondes (voire plus) suivant la taille de vos historiques et du traitement à réaliser.</note>
   </body>
 </topic>
