@@ -6,6 +6,8 @@
   <title>Installeur Windows</title>
   <shortdesc>Installation avec l&apos;installeur Windows</shortdesc>
   <body>
-    <p>[En cours d&apos;écriture]</p>
+    <p>Il faut récupérer le fichier d&apos;installation sur le site de FusionInventory (<xref format="html" href="http://prebuilt.fusioninventory.org/stable/windows-i386/">http://prebuilt.fusioninventory.org/stable/windows-i386/</xref>).</p>
+    <p>Il suffit ensuite de lancer le fichier d&apos;installation et l&apos;installation interactive s&apos;affiche.</p>
+    <note>Ce programme d&apos;installation embarque une version de perl spécialement prévue pour FusionInventory, donc il n&apos;est pas nécessaire d&apos;installer perl en plus.</note>
   </body>
 </topic>

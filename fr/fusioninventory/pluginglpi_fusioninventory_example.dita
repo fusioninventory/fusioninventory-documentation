@@ -13,11 +13,11 @@
     </ul>
     <p>Voici les données utilisées dans cet exemple : </p>
     <ul>
-      <li>Plage IP de notre réseau : 192.168.0.1 a 192.168.0.254</li>
-      <li>Serveur GLPI : 192.168.0.10</li>
+      <li>Plage IP de notre réseau : <i>192.168.0.1</i> à <i>192.168.0.254</i></li>
+      <li>Serveur GLPI : <i>192.168.0.10</i></li>
       <li>GLPI est accessible via l&apos;url http://192.168.0.10/glpi/</li>
-      <li>L&apos;agent sera installé sur le serveur 192.168.0.11 (mais il pourrait être installé sur le meme serveur que le serveur GLPI)</li>
-      <li>Communaute utilisée : versions 1 &amp; 2c &quot;public&quot;</li>
+      <li>L&apos;agent sera installé sur le serveur 192.168.0.11 (mais il pourrait être installé sur le même serveur que le serveur GLPI)</li>
+      <li>Communauté utilisée : versions 1 &amp; 2c &quot;public&quot;</li>
     </ul>
   </body>
 </topic>

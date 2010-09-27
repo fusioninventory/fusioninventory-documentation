@@ -6,6 +6,16 @@
   <title>Packages yum</title>
   <shortdesc>Installation avec les packages yum</shortdesc>
   <body>
-    <p>[En cours d&apos;écriture]</p>
+    <p>Les packages RPM sont maintenus par Remi Collet.
+</p>
+    <p>Il faut installer EPEL (<xref format="html" href="http://fedoraproject.org/wiki/EPEL">http://fedoraproject.org/wiki/EPEL</xref>) ainsi que le dépôt de Remi (<xref format="html" href="http://blog.famillecollet.com/pages/Config">http://blog.famillecollet.com/pages/Config</xref>)
+
+
+</p>
+    <p>Pour installer l&apos;agent FusionInventory, voici la commande : </p>
+    <p><codeblock>yum --enablerepo=remi install fusioninventory-agent</codeblock>
+
+</p>
+    <p><note type="important">Ne pas utiliser les packages perl provenant de rpmforge!</note></p>
   </body>
 </topic>

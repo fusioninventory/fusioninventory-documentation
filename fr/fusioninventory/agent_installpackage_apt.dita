@@ -6,6 +6,9 @@
   <title>Packages apt</title>
   <shortdesc>Installation avec les packages apt</shortdesc>
   <body>
-    <p>[En cours d&apos;écriture]</p>
+    <p>Les dernières versions sont maintenues par l&apos;équipe de FusionInventory.</p>
+    <p>Rajouter dans le fichier <codeblock>/etc/apt/sources.list</codeblock></p>
+    <p>la ligne suivante : <codeblock>deb http://debian.fusioninventory.org/debian/ stable main</codeblock></p>
+    <p>Il sera ensuite possible d&apos;utiliser la commande <i>apt-get install</i> pour installer l&apos;agent FusionInventory et ses modules.</p>
   </body>
 </topic>
