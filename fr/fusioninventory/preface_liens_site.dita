@@ -8,7 +8,9 @@
   <body>
     <p>Le lien du site internet est : </p>
     <ul>
-      <li>http://www.fusioninventory.org/</li>
+      <li>
+        <xref format="html" href="http://www.fusioninventory.org/">http://www.fusioninventory.org/</xref>
+      </li>
     </ul>
   </body>
 </topic>

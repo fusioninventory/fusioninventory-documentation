@@ -8,7 +8,9 @@
   <body>
     <p>Le lien pour accéder aux forums est : </p>
     <ul>
-      <li>http://forum.fusioninventory.org/</li>
+      <li>
+        <xref format="html" href="http://forum.fusioninventory.org/">http://forum.fusioninventory.org/</xref>
+      </li>
     </ul>
   </body>
 </topic>

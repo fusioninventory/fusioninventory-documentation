@@ -8,7 +8,9 @@
   <body>
     <p>Le lien pour accéder la forge de développement est : </p>
     <ul>
-      <li>http://forge.fusioninventory.org/</li>
+      <li>
+        <xref format="html" href="http://forge.fusioninventory.org/">http://forge.fusioninventory.org/</xref>
+      </li>
     </ul>
   </body>
 </topic>
