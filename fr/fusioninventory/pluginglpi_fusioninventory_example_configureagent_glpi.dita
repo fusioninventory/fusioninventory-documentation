@@ -7,8 +7,8 @@
   <shortdesc>Configuration de l&apos;agent dans GLPI</shortdesc>
   <body>
     <p>L&apos;agent a été créé dans GLPI.</p>
-    <p>Il faut activer les modules nécessaires pour faire la decouverte ainsi que l&apos;inventaire réseau.</p>
-    <p>Dans <i>Plugins &gt; FusionInventory &gt; Gestion des agents</i>, cliquer sur la nom de notre agent et mettre à <i>Oui</i> les champs suivants : </p>
+    <p>Il faut activer les modules nécessaires pour faire la découverte ainsi que l&apos;inventaire réseau.</p>
+    <p>Dans <i>Plugins &gt; FusionInventory &gt; Gestion des agents</i>, cliquer sur le nom de l&apos; agent et mettre à <i>Oui</i> les champs suivants : </p>
     <ul>
       <li>Découverte d&apos;équipements</li>
       <li>Interrogation SNMP</li>

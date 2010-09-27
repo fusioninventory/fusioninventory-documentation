@@ -10,27 +10,27 @@
     <p>Il suffit de lancer l&apos;agent avec l&apos;url de GLPI pour que l&apos;agent se crée automatiquement.</p>
     <p>La liste des champs est : </p>
     <ul>
-      <li><i>Nom</i> : c&apos;est le DEVICEID, c&apos;est l&apos;identifiant de l&apos;agent généré par l&apos;agent, il remonte automatiquement et à ne pas modifier puisque l&apos;agent se base sur ce champs nom pour s&apos;authentifier sur le plugin. </li>
+      <li><i>Nom</i> : c&apos;est le DEVICEID, c&apos;est l&apos;identifiant unique généré par l&apos;agent, il remonte automatiquement et à ne pas modifier puisque l&apos;agent se base sur ce champs nom pour s&apos;authentifier sur le plugin. </li>
       <li><i>Version de l&apos;agent </i>: version de l&apos;agent (lors de la dernière connexion de l&apos;agent au plugin FusionInventory for GLPI)</li>
       <li><i>Verrouillage</i> : permet de verrouiller l&apos;agent afin qu&apos;il ne fasse rien (aucune découverte et aucune interrogation). Celà permet de désactiver l&apos;agent à partir du serveur.</li>
-      <li><i>Lié à l&apos;ordinateur</i> : on peut lier un agent à un ordinateur, ce qui permet de récupérer la ou les IP de la machine ou s&apos;exécute l&apos;agent. Ceci est utile pour le réveil des agent à partir du plugin GLPI.</li>
+      <li><i>Lié à l&apos;ordinateur</i> : on peut lier un agent à un ordinateur, ce qui permet de récupérer la ou les IP de la machine où s&apos;exécute l&apos;agent. Ceci est utile pour le réveil des agent à partir du plugin GLPI.</li>
       <li><i>Inventaire</i> : active ou désactive l&apos;inventaire de la machine par l&apos;agent</li>
       <li><i>Découverte d&apos;équipements</i> : active ou désactive la découverte réseau de l&apos;agent</li>
       <li><i>Interrogation SNMP</i> : active ou désactive l&apos;interrogation SNMP de l&apos;agent</li>
       <li><i>Wake On Lan</i> : active ou désactive le WakeOnLan de l&apos;agent</li>
-      <li><i>Token</i> : c&apos;est la clé utilisée pour réveiller l&apos;agent à distance. Change à chaque nouvelle exécution de l&apos;agent.</li>
+      <li><i>Token</i> : c&apos;est la clé utilisée pour réveiller l&apos;agent à distance. Elle change à chaque nouvelle exécution de l&apos;agent.</li>
     </ul>
     <p><b>Onglet options avancées (ces valeurs permettent d&apos;affiner et optimiser l&apos;agent) :</b></p>
     <ul>
       <li><i>Threads découverte (par coeur)</i> : nombre de threads dédiés à la découverte</li>
       <li><i>Threads interrogation (par coeur)</i> : nombre de threads dédiés à l&apos;interrogation (inventaire)</li>
     </ul>
-    <note>Les valeurs d&apos;optimisations sont à tester pour chaque agent afin de déterminer les ressources maximum à attribuer et d&apos;avoir ainsi, les meilleures performances possibles.</note>
+    <note>Les valeurs d&apos;optimisations sont à tester pour chaque agent afin de déterminer les ressources maximum à attribuer sur la machine et d&apos;avoir ainsi, les meilleures performances possibles.</note>
     <p><b>Onglet action (ces valeurs permettent d&apos;affiner et optimiser l&apos;agent) :</b></p>
     <p>Permet de réveiller un agent et lui affecter une tâche.
 </p>
     <p>Par exemple : réveilles-toi et lance une découverte réseau.
 </p>
-    <p>Pour que l&apos;action soit possible, l&apos;agent dois être lancé en daemon  ou service.</p>
+    <p>Pour que l&apos;action soit possible, l&apos;agent doit être lancé en daemon  ou service.</p>
   </body>
 </topic>
