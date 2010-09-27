@@ -8,17 +8,20 @@
   <body>
     <p>Pour celà, il faut : </p>
     <ul>
-      <li> Télécharger l&apos;archive du plugin ici : http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/files</li>
-      <li>Décompresser l&apos;archive dans le dossier plugins de GLPI. La liste des fichiers doit ressembler à cette arborescence :</li>
-      <li> glpi </li>
-      <li> plugins</li>
-      <li> fusioninventory</li>
-      <li>index.php</li>
-      <li>hook.php</li>
-      <li>front</li>
-      <li>inc etc... </li>
+      <li> Télécharger l&apos;archive (nommée RELEASE) du plugin ici : <xref format="html" href="http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/files">http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/files</xref></li>
+      <li>
+        <p>Décompresser l&apos;archive dans le dossier plugins de GLPI. La liste des fichiers doit ressembler à cette arborescence :</p>
+        <p>- glpi</p>
+        <p>--- plugins</p>
+        <p>-----fusioninventory</p>
+        <p>-------index.php</p>
+        <p>------- hook.php</p>
+        <p>------- front</p>
+        <p>------- inc</p>
+        <p>etc...</p>
+      </li>
       <li>Se connecter sur GLPI en tant qu&apos;administrateur </li>
-      <li>Aller dans le menu Configuration / Plugins </li>
+      <li>Aller dans le menu <i>Configuration &gt; Plugins</i> </li>
       <li>Installer FusionInventory </li>
       <li>Activer FusionInventory </li>
     </ul>

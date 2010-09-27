@@ -9,8 +9,8 @@
     <p>Voici la liste des fonctionnalités : </p>
     <ul>
       <li>Dialogue en HTTP et/ou HTTPS entre le plugin et l&apos;agent</li>
-      <li>Réveil des agents à distance avec gestion d&apos;une liste d&apos;actions : inventaire, découverte réseau, WakeOnLan...</li>
-      <li>Gestion des authentifications SNMP : SNMP Version 1, SNMP Version 2c, SNMP Version 3 (non chiffrés / semi chiffré / chiffré complètement).</li>
+      <li>Réveil (démarrage) des agents à distance avec gestion d&apos;une liste d&apos;actions : inventaire, découverte réseau, WakeOnLan...</li>
+      <li>Gestion des authentifications SNMP : version 1, version 2c, version 3 (non chiffré / semi chiffré / chiffré complètement).</li>
       <li>Gestion des modèles SNMP (gérés et fournis dans le plugin) : correspondance entre les OID SNMP et les champs de GLPI.</li>
       <li>Récupération des informations des switchs et de ses ports.</li>
       <li>Récupération des informations des imprimantes.</li>
