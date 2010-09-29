@@ -6,6 +6,8 @@
   <title>Description</title>
   <shortdesc>Description</shortdesc>
   <body>
-    <p>[En cours d&apos;écriture]</p>
+    <p>Le Wake On Lan permet d&apos;envoyer un signal sur le réseau qui est récuperé par la carte réseau et démarre la carte mère.</p>
+    <p>Il peut être important de devoir démarrer une machine; par exemple en pleine nuit pour mettre à jour une application et ainsi éviter d&apos;embêter l&apos;utilisateur.</p>
+    <p>C&apos;est dans cette optique que ce module a été développé.</p>
   </body>
 </topic>

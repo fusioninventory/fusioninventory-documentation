@@ -6,6 +6,7 @@
   <title>Wake on Lan en UDP</title>
   <shortdesc>Le wake on Lan en UDP</shortdesc>
   <body>
-    <p>[En cours d&apos;écriture]</p>
+    <p>Cette méthode est en substitution de la méthode sur la couche OSI 2. L&apos;agent envoi le paquet magique  en UDP.</p>
+    <note type="important">Cette méthode ne fonctionne pas toujours, il peut y avoir un nombre important d&apos;échecs de démarrage des machines.</note>
   </body>
 </topic>
