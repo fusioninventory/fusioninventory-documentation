@@ -19,5 +19,7 @@
           <li>Les fragments ne sont pas sur d&apos;autres ordinateurs, ils sont alors téléchargés sur le serveur central</li>
         </ul></li>
     </ul>
+    <p>Sur des déploiement sur plusieurs ordinateur d&apos;un même site, on aperçoit un gain vraiment significatif sur l&apos;usage de la bande passante. </p>
+    <note>Ce fonctionnement p2p évite de gérer des serveurs locaux avec des synchronisations, etc. On peut donc déployer sans toucher à l&apos;architecture.</note>
   </body>
 </topic>

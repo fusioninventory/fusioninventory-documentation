@@ -30,16 +30,61 @@
       </topicref>
     </preface>
   </frontmatter>
-  <part href="fusioninventory/agent_installing.dita">
-    <topicref href="fusioninventory/agent_prerequisite.dita"/>
-    <topicref href="fusioninventory/agent_install.dita">
-      <topicref href="fusioninventory/agent_installpackage.dita">
-        <topicref href="fusioninventory/agent_installpackage_apt.dita"/>
-        <topicref href="fusioninventory/agent_installpackage_yum.dita"/>
-        <topicref href="fusioninventory/agent_installpackage_windows.dita"/>
-        <topicref href="fusioninventory/agent_installpackage_macosx.dita"/>
+  <part href="fusioninventory/agent.dita">
+    <topicref href="fusioninventory/agent_installing.dita">
+      <topicref href="fusioninventory/agent_prerequisite.dita"/>
+      <topicref href="fusioninventory/agent_install.dita">
+        <topicref href="fusioninventory/agent_installpackage.dita">
+          <topicref href="fusioninventory/agent_installpackage_apt.dita"/>
+          <topicref href="fusioninventory/agent_installpackage_yum.dita"/>
+          <topicref href="fusioninventory/agent_installpackage_windows.dita"/>
+          <topicref href="fusioninventory/agent_installpackage_macosx.dita"/>
+        </topicref>
+        <topicref href="fusioninventory/agent_installcpan.dita"/>
       </topicref>
-      <topicref href="fusioninventory/agent_installcpan.dita"/>
+    </topicref>
+    <topicref href="fusioninventory/inventory.dita">
+      <topicref href="fusioninventory/inventory_description.dita"/>
+      <topicref href="fusioninventory/inventory_datas.dita">
+        <topicref href="fusioninventory/inventory_datas_hardware.dita"/>
+        <topicref href="fusioninventory/inventory_datas_software.dita"/>
+        <topicref href="fusioninventory/inventory_datas_processes.dita"/>
+        <topicref href="fusioninventory/inventory_datas_antivirus.dita"/>
+        <topicref href="fusioninventory/inventory_datas_environmentvariable.dita"/>
+        <topicref href="fusioninventory/inventory_datas_windowsregistry.dita"/>
+      </topicref>
+    </topicref>
+    <topicref href="fusioninventory/networkdiscovery.dita">
+      <topicref href="fusioninventory/networkdiscovery_description.dita"/>
+      <topicref href="fusioninventory/networkdiscovery_scan.dita">
+        <topicref href="fusioninventory/networkdiscovery_scan_nmap.dita"/>
+        <topicref href="fusioninventory/networkdiscovery_scan_netbios.dita"/>
+        <topicref href="fusioninventory/networkdiscovery_scan_snmp.dita"/>
+      </topicref>
+    </topicref>
+    <topicref href="fusioninventory/snmpquery.dita">
+      <topicref href="fusioninventory/snmpquery_description.dita"/>
+      <topicref href="fusioninventory/snmpquery_datas.dita">
+        <topicref href="fusioninventory/snmpquery_datas_hardwaresoftware.dita"/>
+        <topicref href="fusioninventory/snmpquery_datas_switchrouter.dita">
+          <topicref href="fusioninventory/snmpquery_datas_switchrouter_ports.dita"/>
+          <topicref href="fusioninventory/snmpquery_datas_switchrouter_portsconnections.dita"/>
+        </topicref>
+        <topicref href="fusioninventory/snmpquery_datas_printer.dita">
+          <topicref href="fusioninventory/snmpquery_datas_printer_ports.dita"/>
+          <topicref href="fusioninventory/snmpquery_datas_printer_cartridgestate.dita"/>
+          <topicref href="fusioninventory/snmpquery_datas_printer_pagecounter.dita"/>
+        </topicref>
+      </topicref>
+    </topicref>
+    <topicref href="fusioninventory/wakeonlan.dita">
+      <topicref href="fusioninventory/wakeonlan_description.dita"/>
+      <topicref href="fusioninventory/wakeonlan_wakeosi2.dita"/>
+      <topicref href="fusioninventory/wakeonlan_wakeudp.dita"/>
+    </topicref>
+    <topicref href="fusioninventory/ocsdeployp2p.dita">
+      <topicref href="fusioninventory/ocsdeployp2p_description.dita"/>
+      <topicref href="fusioninventory/ocsdeployp2p_p2p.dita"/>
     </topicref>
   </part>
   <part href="fusioninventory/pluginglpi_fusioninventory.dita">
@@ -87,49 +132,6 @@
         <topicref href="fusioninventory/libserverphp_datasafterlib_database.dita"/>
       </topicref>
     </topicref>
-  </part>
-  <part href="fusioninventory/inventory.dita">
-    <topicref href="fusioninventory/inventory_description.dita"/>
-    <topicref href="fusioninventory/inventory_datas.dita">
-      <topicref href="fusioninventory/inventory_datas_hardware.dita"/>
-      <topicref href="fusioninventory/inventory_datas_software.dita"/>
-      <topicref href="fusioninventory/inventory_datas_processes.dita"/>
-      <topicref href="fusioninventory/inventory_datas_antivirus.dita"/>
-      <topicref href="fusioninventory/inventory_datas_environmentvariable.dita"/>
-      <topicref href="fusioninventory/inventory_datas_windowsregistry.dita"/>
-    </topicref>
-  </part>
-  <part href="fusioninventory/networkdiscovery.dita">
-    <topicref href="fusioninventory/networkdiscovery_description.dita"/>
-    <topicref href="fusioninventory/networkdiscovery_scan.dita">
-      <topicref href="fusioninventory/networkdiscovery_scan_nmap.dita"/>
-      <topicref href="fusioninventory/networkdiscovery_scan_netbios.dita"/>
-      <topicref href="fusioninventory/networkdiscovery_scan_snmp.dita"/>
-    </topicref>
-  </part>
-  <part href="fusioninventory/snmpquery.dita">
-    <topicref href="fusioninventory/snmpquery_description.dita"/>
-    <topicref href="fusioninventory/snmpquery_datas.dita">
-      <topicref href="fusioninventory/snmpquery_datas_hardwaresoftware.dita"/>
-      <topicref href="fusioninventory/snmpquery_datas_switchrouter.dita">
-        <topicref href="fusioninventory/snmpquery_datas_switchrouter_ports.dita"/>
-        <topicref href="fusioninventory/snmpquery_datas_switchrouter_portsconnections.dita"/>
-      </topicref>
-      <topicref href="fusioninventory/snmpquery_datas_printer.dita">
-        <topicref href="fusioninventory/snmpquery_datas_printer_ports.dita"/>
-        <topicref href="fusioninventory/snmpquery_datas_printer_cartridgestate.dita"/>
-        <topicref href="fusioninventory/snmpquery_datas_printer_pagecounter.dita"/>
-      </topicref>
-    </topicref>
-  </part>
-  <part href="fusioninventory/wakeonlan.dita">
-    <topicref href="fusioninventory/wakeonlan_description.dita"/>
-    <topicref href="fusioninventory/wakeonlan_wakeosi2.dita"/>
-    <topicref href="fusioninventory/wakeonlan_wakeudp.dita"/>
-  </part>
-  <part href="fusioninventory/ocsdeployp2p.dita">
-    <topicref href="fusioninventory/ocsdeployp2p_description.dita"/>
-    <topicref href="fusioninventory/ocsdeployp2p_p2p.dita"/>
   </part>
   <appendix href="fusioninventory/glossary.dita">
     <topicref href="fusioninventory/glossary/mac_address.dita"/>
