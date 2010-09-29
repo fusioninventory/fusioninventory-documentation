@@ -41,6 +41,7 @@
           <topicref href="fusioninventory/agent_installpackage_macosx.dita"/>
         </topicref>
         <topicref href="fusioninventory/agent_installcpan.dita"/>
+        <topicref href="fusioninventory/agent_installprebuilt.dita"/>
       </topicref>
     </topicref>
     <topicref href="fusioninventory/inventory.dita">
