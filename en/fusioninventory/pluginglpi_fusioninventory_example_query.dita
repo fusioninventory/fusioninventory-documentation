@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="pluginglpi_fusioninventory_example_query" xml:lang="fr-fr">
+  <title>Inventaire du matériel réseau</title>
+  <shortdesc>Inventaire du matériel réseau</shortdesc>
+  <body>
+    <p>Pour inventorier nos switch, il faut modifier notre <xref href="pluginglpi_fusioninventory_rangeip.dita">configuration de plages IP</xref> pour les champs : </p>
+    <ul>
+      <li><i>Découverte</i> : Non</li>
+      <li><i>Interrogation</i> : Oui</li>
+    </ul>
+    <p>On relance l&apos;agent et quand il a fini, toutes les données sont dans la fiche de chaque switch.</p>
+  </body>
+</topic>

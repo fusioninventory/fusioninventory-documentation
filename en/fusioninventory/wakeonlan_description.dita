@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="wakeonlan_description" xml:lang="fr-fr">
+  <title>Description</title>
+  <shortdesc>Description</shortdesc>
+  <body>
+    <p>Le Wake On Lan permet d&apos;envoyer un signal sur le réseau qui est récuperé par la carte réseau et démarre la carte mère.</p>
+    <p>Il peut être important de devoir démarrer une machine; par exemple en pleine nuit pour mettre à jour une application et ainsi éviter d&apos;embêter l&apos;utilisateur.</p>
+    <p>C&apos;est dans cette optique que ce module a été développé.</p>
+  </body>
+</topic>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="pluginglpi_fusioninventory_example_configure" xml:lang="fr-fr">
+  <title>Configuration</title>
+  <shortdesc>Configuration</shortdesc>
+  <body>
+    <p>Il faut commencer à configurer le plugin FusionInventory pour GLPI.</p>
+    <p>Dans la <xref href="pluginglpi_fusioninventory_configuration.dita">configuration du plugin</xref>, nous allons paramétrer les <xref href="pluginglpi_fusioninventory_configuration_criterii.dita">critères d&apos;existence</xref> suivants : </p>
+    <ul>
+      <li>Critères 1 : <ul>
+          <li>IP : Non</li>
+          <li>Nom : Non</li>
+          <li>Numéro de série : Oui</li>
+          <li>Adresse Mac : Non</li>
+        </ul></li>
+      <li>Critères 2 :<ul>
+          <li>IP : Non</li>
+          <li>Nom : Non</li>
+          <li>Numéro de série : Non</li>
+          <li>Adresse Mac : Oui</li>
+        </ul> </li>
+    </ul>
+    <p>Dans les <xref href="pluginglpi_fusioninventory_configuration_modules.dita">modules</xref> nous allons activer uniquement :<ul>
+        <li>Snmp</li>
+        <li>Découverte d&apos;équipements</li>
+      </ul></p>
+  </body>
+</topic>

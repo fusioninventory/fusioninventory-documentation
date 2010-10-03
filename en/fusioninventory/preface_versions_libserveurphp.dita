@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="preface_versions_libserveurphp" xml:lang="fr-fr">
+  <title>Lib serveur php</title>
+  <shortdesc>Version de la lib serveur php</shortdesc>
+  <body>
+    <p>La lib serveur php n&apos;a pas encore été releasé, elle est encore en cours de développement / test.</p>
+  </body>
+</topic>

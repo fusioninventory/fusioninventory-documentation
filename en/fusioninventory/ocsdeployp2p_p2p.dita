@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="ocsdeployp2p_p2p" xml:lang="fr-fr">
+  <title>Fonctionnement du peer to peer</title>
+  <shortdesc>Fonctionnement du peer to peer</shortdesc>
+  <body>
+    <p>Le peer to peer permet de : </p>
+    <ul>
+      <li>économiser la bande passante entre le serveur central (utile si il est sur un site distant) et l&apos;ordinateur</li>
+      <li>récupérer les fichiers très rapidement</li>
+    </ul>
+    <p>Fonctionnement : </p>
+    <ul>
+      <li>Le premier ordinateur télécharge les fragments du paquet sur le serveur central</li>
+      <li>les autres ordinateurs regardent sur les autres ordinateurs sur le site local s&apos;ils ont les fragments. On a alors 2 cas : <ul>
+          <li>les fragments sont sur d&apos;autres ordinateurs, ils sont téléchargés (donc en restant sur le site local)</li>
+          <li>Les fragments ne sont pas sur d&apos;autres ordinateurs, ils sont alors téléchargés sur le serveur central</li>
+        </ul></li>
+    </ul>
+    <p>Sur des déploiement sur plusieurs ordinateur d&apos;un même site, on aperçoit un gain vraiment significatif sur l&apos;usage de la bande passante. </p>
+    <note>Ce fonctionnement p2p évite de gérer des serveurs locaux avec des synchronisations, etc. On peut donc déployer sans toucher à l&apos;architecture.</note>
+  </body>
+</topic>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="pluginglpi_fusioninventory_configuration_modules" xml:lang="fr-fr">
+  <title>Configuration des modules</title>
+  <shortdesc>Configuration des modules</shortdesc>
+  <body>
+    <p>Liste des modules a activer : </p>
+    <ul>
+      <li><i>Snmp</i> : Activation de la partie SNMP de Fusioninventory</li>
+      <li><i>Découverte d&apos;équipements</i> : Activation de la partie découverte (découverte SNMP, Netbios, NMAP)</li>
+      <li><i>Inventaire OCS</i> : l&apos;agent FusionInventory envoie au plugin <i>FusionInventory pour GLPI</i> un inventaire, qui est envoyé au serveur OCS (solution actuelle de contournement)</li>
+      <li><i>Contrôle de l&apos;agent à partir de GLPI</i> : Réveil (démarrage) de l&apos;agent à partir de GLPI afin de lui envoyer des tâches à effectuer (WakeOnLan, inventaire de l&apos;ordinateur, découverte réseau, interrogation SNMP)</li>
+      <li><i>Wake On Lan</i> : Activation du Wake On Lan qui permet de démarrer les ordinateurs à travers le réseau</li>
+    </ul>
+  </body>
+</topic>

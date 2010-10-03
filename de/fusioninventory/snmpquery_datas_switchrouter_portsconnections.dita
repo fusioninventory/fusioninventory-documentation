@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="snmpquery_datas_switchrouter_portsconnections" xml:lang="fr-fr">
+  <title>Informations des matériels connectés sur les ports</title>
+  <shortdesc>Informations des matériels connectés sur les ports réseau</shortdesc>
+  <body>
+    <p>Ce module récupere les adresses MAC des matériels connectés sur chaque port.</p>
+    <note type="important">Ces adresses MAC se sont récupérables uniquement sur les switchs de la marque Cisco et de la marque HP Procurve.</note>
+    <note type="attention">Les adresses MAC des matériels connectés sur les switchs ne sont gardés en cache que quelques minutes ou secondes (suivant la configuration) et donc si aucune trame ne transite par le switch, cette addresse MAC ne sera pas récupérable.</note>
+  </body>
+</topic>

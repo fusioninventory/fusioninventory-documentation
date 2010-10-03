@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="snmpquery_datas_hardwaresoftware" xml:lang="fr-fr">
+  <title>Informations matériel et logiciel</title>
+  <shortdesc>Informations matériel et logiciel</shortdesc>
+  <body>
+    <p>Sont récupérés les informations telles que : </p>
+    <ul>
+      <li>Nom du matériel</li>
+      <li>Modele du matériel</li>
+      <li>Firmware (version du micrologiciel)</li>
+      <li>Numéro de série</li>
+      <li>Mémoire vive</li>
+      <li>Nom du fabricant</li>
+      <li>L&apos;adresse IP</li>
+      <li>L&apos;adresse MAC</li>
+    </ul>
+  </body>
+</topic>

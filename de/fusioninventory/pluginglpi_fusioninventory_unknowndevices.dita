@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="pluginglpi_fusioninventory_unknowndevices" xml:lang="fr-fr">
+  <title>Matériels inconnus</title>
+  <shortdesc>Gestion de la zone entre le matériel réel et l&apos;inventaire GLPI</shortdesc>
+  <body>
+    <p>Les matériels inconnus sont la zone de stockage entre le matériel réel et le matériel géré dans GLPI. C&apos;est à dire qu&apos;un agent FusionInventory a trouvé un matériel sur le réseau et il n&apos;a aucune correspondance avec un matériel dans GLPI, ainsi donc, il est crée un matériel inconnu. Un utilisateur GLPI devra décider si ce matériel doit etre géré dans GLPI ou pas. </p>
+    <p><b>Par exemple</b> : on peut avoir découvert un ordinateur d&apos;un intervenant mais ce n&apos;est pas l&apos;ordinateur de la société. On gère ainsi son ordinateur (savoir où il se trouve, son ip...) dans les matériels inconnus mais on ne le gère pas dans notre inventaire de matériel.</p>
+    <p>On gère différentes informations sur ces matériels inconnus : </p>
+    <section>
+      <title>Informations de ces matériels</title>
+      <dl>
+        <dlentry>
+          <dt>Titre</dt>
+          <dd>Découvert par l&apos;agent xxx : permet de savoir quel agent a découvert ce matériel</dd>
+        </dlentry>
+        <dlentry>
+          <dt>Nom</dt>
+          <dd>Nom du matériel</dd>
+        </dlentry>
+      </dl>
+    </section>
+    <ul>
+      <li>Titre : Découvert par l&apos;agent xxx : permet de savoir quel agent a découvert ce matériel</li>
+      <li>Nom : Nom du matériel</li>
+      <li>Entite : Entite sur laquelle le matériel appartient</li>
+      <li>Nom DNS : Nom DNS </li>
+      <li>Contact : Nom de la personne en contact </li>
+      <li>Type : Type de matériel (ordinateur, imprimante, matériel réseau)</li>
+      <li>Domaine :</li>
+      <li>Lieu : </li>
+      <li>Numero de série : </li>
+      <li>Matériel approuvé :</li>
+      <li>Numéro d&apos;inventaire :</li>
+      <li>SNMP : </li>
+      <li>Modeles SNMP :</li>
+      <li>Authentification SNMP : </li>
+      <li>Commentaires :</li>
+      <li>Hub réseau :</li>
+    </ul>
+    <section>
+      <title>Onglet connexions</title>
+    </section>
+    <section>
+      <title>Onglet importer</title>
+      <p>Permet d&apos;importer ce matérial dans GLPI. C&apos;est à dire que si ce matériel inconnu a un type <i>ordinateur</i>, quant on va cliquer sur le bouton importer, le plugin va créer un ordinateur avec les informations de ce matériel inconnu et supprimer celui-ci. Il récupère le port réseau du matériel inconnu pour le mettre sur l&apos;ordinateur afin de garder la connexion et l&apos;historique de celui-ci.</p>
+      <note type="important">L&apos;importation ne peut se faire que si le type a été défini.</note>
+    </section>
+    <section>
+      <title>Onglet action</title>
+    </section>
+    <section>
+      <title>Onglet historique</title>
+    </section>
+  </body>
+</topic>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="pluginglpi_fusioninventory_example_configureiprange" xml:lang="fr-fr">
+  <title>Découverte de matériels</title>
+  <shortdesc>Découverte de matériel</shortdesc>
+  <body>
+    <p>Nous pouvons désormais découvrir nos matériels réseau.</p>
+    <p>On lance l&apos;agent une nouvelle fois pour qu&apos;il découvre les matériels.</p>
+    <p>Une fois que l&apos;agent a terminé, on passe au chapitre suivant.</p>
+  </body>
+</topic>

@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="preface_versions_moduleinventairesnmp" xml:lang="fr-fr">
+  <title>Module d&apos;inventaire SNMP</title>
+  <shortdesc>Version du module d&apos;inventaire SNMP (SNMPQUERY)</shortdesc>
+  <body>
+    <p>La version du module d&apos;inventaire SNMP &quot;SNMPQUERY&quot; utilisée dans ce manuel est : <b>1.2</b></p>
+  </body>
+</topic>

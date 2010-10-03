@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="pluginglpi_fusioninventory_historyagentinformations" xml:lang="fr-fr">
+  <title>Etats d&apos;exécution des agents</title>
+  <shortdesc>Que font les agents?</shortdesc>
+  <body>
+    <p>Ces informations sont consultables dans le menu <i>Plugins &gt; FusionInventory &gt; Informations sur l&apos;exécution des agents</i>.</p>
+    <p><b>Onglet <i>Informations sur l&apos;exécution des agents</i></b></p>
+    <p>Ce tableau affiche une ligne pour chaque lancement d&apos;un agent.</p>
+    <ul>
+      <li><i>PID</i> : représente le <i>Temps unix/id de l&apos;agent</i> au moment où le serveur envoi les ordres à l&apos;agent</li>
+      <li><i>Agent</i> : Il s&apos;agit de l&apos;agent qui s&apos;exécute (ou c&apos;est exécuté)</li>
+      <li><i>Statut</i> : <ul>
+          <li>Rond orange : Action non commencée</li>
+          <li>Sablier : Action en cours d&apos;exécution </li>
+          <li>Rond vert : Action terminée</li>
+        </ul></li>
+      <li><i>Date de début</i> : indique l&apos;heure à laquelle l&apos;agent s&apos;est lancé</li>
+      <li><i>Durée totale</i> : Indique le temps total utilisé par l&apos;agent pour faire toutes les tâches demandée par le serveur</li>
+    </ul>
+    <p>Le tableau se sépare ensuite en 2 lignes : </p>
+    <ul>
+      <li>Première ligne<ul>
+          <li><i>Découverte&gt;&gt;</i> : Indique l&apos;état de la découverte réseau<ul>
+              <li><i>Rond orange</i> : Découverte non commencée</li>
+              <li><i>Sablier</i> : Découverte en cours d&apos;exécution </li>
+              <li><i>Rond vert</i> : Découverte terminée</li>
+            </ul></li>
+          <li><i>Date de début</i> : indique la date et l&apos;heure à laquelle la découverte a commencée</li>
+          <li><i>Durée totale</i> : Indique la durée totale d&apos;exécution de la découverte réseau</li>
+          <li><i>Threads</i> : Indique le nombre de threads simultanée utilisés lors de la découverte</li>
+          <li><i>Total IP</i> : Indique le nombre de total d&apos;IP qui ont été scannées</li>
+          <li><i>Découvert / En erreur</i> : Indique le nombre de matériel découvert / de matériel en erreur</li>
+          <li><i>Existant</i> : Indique le nombre de matériels déjà existant dans GLPI (avec l&apos;utilisation des critères d&apos;existences)</li>
+          <li><i>Importé</i> : Indique le nombre de matériels non existant et importés dans les matériels inconnus</li>
+        </ul></li>
+      <li>Deuxieme ligne<ul>
+          <li><i>Interrogation&gt;&gt;</i> : Indique l&apos;état de l&apos;inventaire réseau<ul>
+              <li><i>Rond orange</i> : Découverte non commencée</li>
+              <li><i>Sablier</i> : Découverte en cours d&apos;exécution </li>
+              <li><i>Rond vert</i> : Découverte terminée</li>
+            </ul></li>
+          <li><i>Date de début</i> : Indique la date et l&apos;heure à laquelle l&apos;inventaire réseau a commencé </li>
+          <li><i>Durée totale</i> : Indique la durée totale d&apos;exécution de l&apos;inventaire réseau</li>
+          <li><i>Threads</i> : Indique le nombre de threads simultanée utilisés lors de l&apos;inventaire réseau</li>
+          <li><i>Interrogé</i> : Indique le nombre de matériels réseau que l&apos;agent a inventorié </li>
+          <li><i>En erreur</i> : Indique le nombre de matériels en erreur (l&apos;ip ne réponds pas, le SNMP ne réponds pas, etc...)</li>
+          <li><i>Connexions créés</i> : Indique le nombre de connexions crées entre les ports de switch, imprimantes, ordinateurs...</li>
+          <li><i>Connexions supprimées</i> : Indique le nombre de connexions supprimées entre les ports de switch, imprimantes, ordinateurs...</li>
+        </ul></li>
+    </ul>
+  </body>
+</topic>

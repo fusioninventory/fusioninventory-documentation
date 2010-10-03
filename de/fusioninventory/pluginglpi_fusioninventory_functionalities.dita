@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="pluginglpi_fusioninventory_functionalities" xml:lang="fr-fr">
+  <title>Fonctionnalités</title>
+  <shortdesc>Liste des fonctionnnalités</shortdesc>
+  <body>
+    <p>Voici la liste des fonctionnalités : </p>
+    <ul>
+      <li>Dialogue en HTTP et/ou HTTPS entre le plugin et l&apos;agent</li>
+      <li>Réveil (démarrage) des agents à distance avec gestion d&apos;une liste d&apos;actions : inventaire, découverte réseau, WakeOnLan...</li>
+      <li>Gestion des authentifications SNMP : version 1, version 2c, version 3 (non chiffré / semi chiffré / chiffré complètement).</li>
+      <li>Gestion des modèles SNMP (gérés et fournis dans le plugin) : correspondance entre les OID SNMP et les champs de GLPI.</li>
+      <li>Récupération des informations des switchs et de ses ports.</li>
+      <li>Récupération des informations des imprimantes.</li>
+      <li>Gestion des agents sur le serveur (verrouillage, optimisations quant au nombre de threads, activation des modules).</li>
+      <li>Gestion des plages IP à associer aux agents par entité.</li>
+      <li>Gestion du matériel inconnu (découvert par FusionInventory mais inexistant dans GLPI).</li>
+      <li>Gestion des matériels réseaux découverts par les agents (ordinateurs, switchs, routeurs, téléphones).</li>
+      <li>Gestion des hub : physiques ou virtuel (liés à la virtualisation).</li>
+      <li>Divers rapports.</li>
+    </ul>
+  </body>
+</topic>
