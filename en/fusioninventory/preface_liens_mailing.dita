@@ -4,14 +4,14 @@
  applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" [
 <!ENTITY toto 'www.google.fr'>
 <!ENTITY www.google.fr SYSTEM "http://www.google.fr">]>
-<topic id="preface_liens_mailing" xml:lang="fr-fr">
-  <title>Mailing liste</title>
-  <shortdesc>Adresses des mailings listes</shortdesc>
+<topic id="preface_liens_mailing" xml:lang="en-us">
+  <title>Mailing lists</title>
+  <shortdesc>Adress of mailing lists</shortdesc>
   <body>
     <p><ul>
-        <li><xref format="html" href="http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-user">Utilisateurs FusionInventory</xref> (<xref format="html" href="http://lists.alioth.debian.org/pipermail/fusioninventory-devel/">archive</xref>)</li>
-        <li><xref format="html" href="http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-devel">Deloppeurs FusionInventory</xref> (<xref format="html" href="http://lists.alioth.debian.org/pipermail/fusioninventory-user/">archive</xref>)</li>
-        <li><xref format="html" href="http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-i18n">Internationalisation et traduction FusionInventory</xref> (<xref format="html" href="http://lists.alioth.debian.org/pipermail/fusioninventory-i18n/">archive</xref>)</li>
+        <li><xref href="http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-user" format="html">FusionInventory users</xref> (<xref href="http://lists.alioth.debian.org/pipermail/fusioninventory-devel/" format="html">archive</xref>)</li>
+        <li><xref href="http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-devel" format="html">FusionInventory developers</xref> (<xref href="http://lists.alioth.debian.org/pipermail/fusioninventory-user/" format="html">archive</xref>)</li>
+        <li><xref href="http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-i18n" format="html">FusionInventory internationalization and translation</xref> (<xref href="http://lists.alioth.debian.org/pipermail/fusioninventory-i18n/" format="html">archive</xref>)</li>
       </ul></p>
   </body>
 </topic>

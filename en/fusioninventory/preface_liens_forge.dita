@@ -2,14 +2,14 @@
 <!-- This file is part of the DITA Open Toolkit project hosted on 
  Sourceforge.net. See the accompanying license.txt file for 
  applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
-<topic id="preface_liens_forge" xml:lang="fr-fr">
-  <title>Forge de développement</title>
-  <shortdesc>Adresse de la forge</shortdesc>
+<topic id="preface_liens_forge" xml:lang="en-us">
+  <title>Development forge</title>
+  <shortdesc>Adress of the forge</shortdesc>
   <body>
-    <p>Le lien pour accéder la forge de développement est : </p>
+    <p>The development forge can be found under: </p>
     <ul>
       <li>
-        <xref format="html" href="http://forge.fusioninventory.org/">http://forge.fusioninventory.org/</xref>
+        <xref href="http://forge.fusioninventory.org/" format="html">http://forge.fusioninventory.org/</xref>
       </li>
     </ul>
   </body>

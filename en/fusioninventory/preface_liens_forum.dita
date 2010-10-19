@@ -2,14 +2,14 @@
 <!-- This file is part of the DITA Open Toolkit project hosted on 
  Sourceforge.net. See the accompanying license.txt file for 
  applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
-<topic id="preface_liens_forums" xml:lang="fr-fr">
+<topic id="preface_liens_forums" xml:lang="en-us">
   <title>Forums</title>
-  <shortdesc>Adresse des forums</shortdesc>
+  <shortdesc>Forums&apos; adress</shortdesc>
   <body>
-    <p>Le lien pour accéder aux forums est : </p>
+    <p>You can find the projects&apos; forums on: </p>
     <ul>
       <li>
-        <xref format="html" href="http://forum.fusioninventory.org/">http://forum.fusioninventory.org/</xref>
+        <xref href="http://forum.fusioninventory.org/" format="html">http://forum.fusioninventory.org/</xref>
       </li>
     </ul>
   </body>

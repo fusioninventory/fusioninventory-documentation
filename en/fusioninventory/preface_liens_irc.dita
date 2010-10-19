@@ -2,14 +2,14 @@
 <!-- This file is part of the DITA Open Toolkit project hosted on 
  Sourceforge.net. See the accompanying license.txt file for 
  applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
-<topic id="preface_liens_irc" xml:lang="fr-fr">
-  <title>Canal IRC</title>
-  <shortdesc>Adresse du canal IRC</shortdesc>
+<topic id="preface_liens_irc" xml:lang="en-us">
+  <title>IRC-Channel</title>
+  <shortdesc>Adress of the irc-ChannelAdresse du canal IRC</shortdesc>
   <body>
-    <p>Pour accéder au canal irc, voici les informations : </p>
+    <p>Here are the informations to find the projects&apos; IRC channel: </p>
     <ul>
-      <li>Serveur : freenode</li>
-      <li>Canal : #fusioninventory</li>
+      <li>Server: freenode</li>
+      <li>Channel: #fusioninventory</li>
     </ul>
   </body>
 </topic>
