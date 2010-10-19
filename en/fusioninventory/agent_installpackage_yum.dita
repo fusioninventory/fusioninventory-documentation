@@ -2,20 +2,20 @@
 <!-- This file is part of the DITA Open Toolkit project hosted on 
  Sourceforge.net. See the accompanying license.txt file for 
  applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
-<topic id="agent_installpackage_yum" xml:lang="fr-fr">
-  <title>Packages yum</title>
-  <shortdesc>Installation avec les packages yum</shortdesc>
+<topic id="agent_installpackage_yum" xml:lang="en-us">
+  <title>rpm Package</title>
+  <shortdesc>Installation with the rpm package</shortdesc>
   <body>
-    <p>Les packages RPM sont maintenus par Remi Collet.
+    <p>The RPM-Packages are mainained by  Remi Collet.
 </p>
-    <p>Il faut installer EPEL (<xref format="html" href="http://fedoraproject.org/wiki/EPEL">http://fedoraproject.org/wiki/EPEL</xref>) ainsi que le dépôt de Remi (<xref format="html" href="http://blog.famillecollet.com/pages/Config">http://blog.famillecollet.com/pages/Config</xref>)
+    <p>For this, you have to install the EPEL-Repositories (<xref href="http://fedoraproject.org/wiki/EPEL" format="html">http://fedoraproject.org/wiki/EPEL</xref>) and also the Remi repository (<xref href="http://blog.famillecollet.com/pages/Config" format="html">http://blog.famillecollet.com/pages/Config</xref>)
 
 
 </p>
-    <p>Pour installer l&apos;agent FusionInventory, voici la commande : </p>
+    <p>To install the FusionInventory agent execute the following command: </p>
     <p><codeblock>yum --enablerepo=remi install fusioninventory-agent</codeblock>
 
 </p>
-    <p><note type="important">Ne pas utiliser les packages perl provenant de rpmforge!</note></p>
+    <p><note type="important">Don&apos;t use the perl packages from RPMforge.</note></p>
   </body>
 </topic>

@@ -2,21 +2,21 @@
 <!-- This file is part of the DITA Open Toolkit project hosted on 
  Sourceforge.net. See the accompanying license.txt file for 
  applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
-<topic id="agent_installcpan" xml:lang="fr-fr">
-  <title>Installation avec les prebuilt</title>
-  <shortdesc>Comment utiliser les versions prebuilt</shortdesc>
+<topic id="agent_installcpan" xml:lang="en-us">
+  <title>Installation / Usage of pre-built versions</title>
+  <shortdesc>How to use the pre-built versions</shortdesc>
   <body>
-    <p>Les version prebuilt sont des versions précompilée.</p>
-    <p>Le but est d&apos;utiliser un agent sans rien installer sur le système.</p>
-    <p>Voici les manipulations : </p>
+    <p>There are also pre-compiled or pre-built versions of the agent maintained by the project.</p>
+    <p>The idea is to launch the agent without installing anything on your system.</p>
+    <p>Here are the steps : </p>
     <ul>
-      <li>Télécharger la version prebuilt pour son système d&apos;exploitation à cette addresse : <xref format="html" href="http://prebuilt.fusioninventory.org/stable/">http://prebuilt.fusioninventory.org/stable/</xref></li>
-      <li>Décompresser l&apos;archive</li>
-      <li>Configurer l&apos;agent</li>
+      <li>Download the pre-built version for your OS: <xref href="http://prebuilt.fusioninventory.org/stable/" format="html">http://prebuilt.fusioninventory.org/stable/</xref></li>
+      <li>Uncompress the downloaded archive</li>
+      <li>Configure the agent</li>
       <li>
-        <p>Lancer l&apos;agent avec la commande suivante :</p>
+        <p>Launch the agent with the following command:</p>
         <codeblock>./fusioninventory-agent</codeblock>
-       </li>
+      </li>
     </ul>
   </body>
 </topic>

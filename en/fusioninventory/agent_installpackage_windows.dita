@@ -2,13 +2,13 @@
 <!-- This file is part of the DITA Open Toolkit project hosted on 
  Sourceforge.net. See the accompanying license.txt file for 
  applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
-<topic id="agent_installpackage_windows" xml:lang="fr-fr">
-  <title>Installeur Windows</title>
-  <shortdesc>Installation avec l&apos;installeur Windows</shortdesc>
+<topic id="agent_installpackage_windows" xml:lang="en-us">
+  <title>Windows installer</title>
+  <shortdesc>How to install the agent under Windows with the installer</shortdesc>
   <body>
-    <p>Il faut récupérer le fichier d&apos;installation sur le site de FusionInventory (<xref href="http://prebuilt.fusioninventory.org/stable/windows-i386/" format="html">http://prebuilt.fusioninventory.org/stable/windows-i386/</xref>).</p>
-    <p>Il suffit ensuite de lancer le fichier d&apos;installation et l&apos;installation interactive s&apos;affiche.</p>
-    <note>Ce programme d&apos;installation embarque une version de perl spécialement prévue pour FusionInventory, donc il n&apos;est pas nécessaire d&apos;installer perl en plus.</note>
-    <note>Si vous souhaitez utiliser la fonctionnalité de découverte réseau et le scan NMAP, il faudra installer en plus <i>NMAP pour Windows</i>. Il se télécharge ici : <xref format="html" href="http://nmap.org/download.html">http://nmap.org/download.html</xref>.</note>
+    <p>You have to download the installer packagefrom the following  FusionInventory page:<xref href="http://prebuilt.fusioninventory.org/stable/windows-i386/" format="html">http://prebuilt.fusioninventory.org/stable/windows-i386/</xref></p>
+    <p>You will just have to launch the installer for an interactive installation process.</p>
+    <note>Thi installer contains an embedded version of Perl that was specially (made for / modified for?) usage with FusionInventory. It&apos;s not necessary to additionally install Perl for this.</note>
+    <note>If you want to use the network discovery and nmap feature, you will have to install the Windows-version of nmap. You can find the most recent version here: <xref href="http://nmap.org/download.html" format="html">http://nmap.org/download.html</xref>.</note>
   </body>
 </topic>

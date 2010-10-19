@@ -2,10 +2,10 @@
 <!-- This file is part of the DITA Open Toolkit project hosted on 
  Sourceforge.net. See the accompanying license.txt file for 
  applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
-<topic id="agent_install" xml:lang="fr-fr">
+<topic id="agent_install" xml:lang="en-us">
   <title>Agent</title>
-  <shortdesc>Toutes les informations sur l&apos;agent FusionInventory </shortdesc>
+  <shortdesc>All informations about the agent.</shortdesc>
   <body>
-    <p>Les fonctionnalités, l&apos;installation, le paramétrage de l&apos;agent est traité dans ce chapitre.</p>
+    <p>All about the functionalities, the installation, configuration will be treated in this chapter.</p>
   </body>
 </topic>
