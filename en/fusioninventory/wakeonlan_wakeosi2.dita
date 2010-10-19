@@ -2,11 +2,11 @@
 <!-- This file is part of the DITA Open Toolkit project hosted on 
  Sourceforge.net. See the accompanying license.txt file for 
  applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
-<topic id="wakeonlan_wakeosi2" xml:lang="fr-fr">
-  <title>Wake on Lan et la couche OSI 2</title>
-  <shortdesc>La couche OSI 2</shortdesc>
+<topic id="wakeonlan_wakeosi2" xml:lang="en-us">
+  <title>Wake on LAN on OSI Layer 2</title>
+  <shortdesc>The OSI Layer 2</shortdesc>
   <body>
     <p>Cette méthode est la meilleure méthode qui existe. L&apos;agent envoi le paquet magique  directement sur le réseau, soit  sur la couche 2 de l&apos;OSI.</p>
-    <note type="important">Cette méthode ne fonctionne pour le moment que sur les agents installés sur une distribution LINUX (Debian, Fedora, RedHat, ubuntu...).</note>
+    <note type="important">Yet this method only works with agents installed on Linux distributions (Debian, Fedora, RedHat, Ubuntu et cetera ...).</note>
   </body>
 </topic>

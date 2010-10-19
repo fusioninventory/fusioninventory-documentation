@@ -2,11 +2,11 @@
 <!-- This file is part of the DITA Open Toolkit project hosted on 
  Sourceforge.net. See the accompanying license.txt file for 
  applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
-<topic id="wakeonlan_wakeudp" xml:lang="fr-fr">
-  <title>Wake on Lan en UDP</title>
-  <shortdesc>Le wake on Lan en UDP</shortdesc>
+<topic id="wakeonlan_wakeudp" xml:lang="en-us">
+  <title>Wake on LAN over UDP</title>
+  <shortdesc>Wake on LAN over UDP</shortdesc>
   <body>
-    <p>Cette méthode est en substitution de la méthode sur la couche OSI 2. L&apos;agent envoi le paquet magique  en UDP.</p>
-    <note type="important">Cette méthode ne fonctionne pas toujours, il peut y avoir un nombre important d&apos;échecs de démarrage des machines.</note>
+    <p>This metod is a substitute for the method that works on OSI Layer 2. This method sends a magic-packet over UDP (usually Port 7 or 9). This is using a broadcast and won&apos;t work normally in routed networks. Sometimes you may need to used so-called directed broadcasts which normally requires configuration steps on your switches / routers.</p>
+    <note type="important">This method won&apos;t always work. Il peut y avoir un nombre important d&apos;échecs de démarrage des machines. </note>
   </body>
 </topic>

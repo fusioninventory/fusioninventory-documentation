@@ -2,10 +2,10 @@
 <!-- This file is part of the DITA Open Toolkit project hosted on 
  Sourceforge.net. See the accompanying license.txt file for 
  applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
-<topic id="wakeonlan" xml:lang="fr-fr">
-  <title>Wake on Lan</title>
-  <shortdesc>Wake on Lan : réveil des ordinateurs à distance</shortdesc>
+<topic id="wakeonlan" xml:lang="en-us">
+  <title>Wake on LAN</title>
+  <shortdesc>Wake on LAN: Remote wake up of computer</shortdesc>
   <body>
-    <p>Ce chapitre traite du réveil à distance d&apos;un ordinateur.</p>
+    <p>This chapter treats the remote wake up of computers - with FusionInventory.</p>
   </body>
 </topic>
