@@ -2,10 +2,10 @@
 <!-- This file is part of the DITA Open Toolkit project hosted on 
  Sourceforge.net. See the accompanying license.txt file for 
  applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
-<topic id="ocsdeployp2p_description" xml:lang="fr-fr">
+<topic id="ocsdeployp2p_description" xml:lang="en-us">
   <title>Description</title>
   <shortdesc>Description</shortdesc>
   <body>
-    <p>Ce module permet de déployer des applications, exécuter des commandes, ou juste déposer des fichiers.</p>
+    <p>This mode allows (unattended) deployment of applications,  execution of commands and allows also simple file transfer.</p>
   </body>
 </topic>
