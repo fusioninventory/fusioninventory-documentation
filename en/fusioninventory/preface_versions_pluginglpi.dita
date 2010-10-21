@@ -2,10 +2,10 @@
 <!-- This file is part of the DITA Open Toolkit project hosted on 
  Sourceforge.net. See the accompanying license.txt file for 
  applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
-<topic id="preface_versions_pluginglpi" xml:lang="fr-fr">
-  <title>Plugin FusionInventory for GLPI</title>
-  <shortdesc>Version du plugin dédié à GLPI</shortdesc>
+<topic id="preface_versions_pluginglpi" xml:lang="en-gb">
+  <title>FusionInventory plugin for GLPI</title>
+  <shortdesc>GLPI plugin version</shortdesc>
   <body>
-    <p>La version du plugin pour GLPI utilisée dans ce manuel est : <b>2.2.2</b></p>
+    <p>The version of the GLPI plugin described in this manual is: <b>2.2.2</b></p>
   </body>
 </topic>

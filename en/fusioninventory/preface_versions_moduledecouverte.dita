@@ -2,10 +2,10 @@
 <!-- This file is part of the DITA Open Toolkit project hosted on 
  Sourceforge.net. See the accompanying license.txt file for 
  applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
-<topic id="preface_versions_moduledecouverte" xml:lang="fr-fr">
-  <title>Module de découverte</title>
-  <shortdesc>Version du module de découverte (NETDISCOVERY)</shortdesc>
+<topic id="preface_versions_moduledecouverte" xml:lang="en-gb">
+  <title>Network discovery module</title>
+  <shortdesc>Version of the discovery module (NETDISCOVERY)</shortdesc>
   <body>
-    <p>La version du module de découverte &quot;NETDISCOVERY&quot; utilisée dans ce manuel est : <b>1.2</b></p>
+    <p>The version of the  &quot;NETDISCOVERY&quot; module is: <b>1.2</b></p>
   </body>
 </topic>
