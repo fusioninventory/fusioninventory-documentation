@@ -1,6 +1,6 @@
 <project name="Documentation" default="dist" basedir=".">
     <property name="dita.output"
-        value="${basedir}${file.separator}output${lang}"/>
+        value="${basedir}${file.separator}${lang}"/>
     <import file="..${file.separator}dita${file.separator}build.xml"/>
 
     <target name="dist"
