@@ -1,0 +1,29 @@
+<project name="Documentation" default="dist" basedir=".">
+    <property name="dita.output"
+        value="${basedir}${file.separator}output"/>
+    <property name="dita.output.fr"
+        value="${dita.output}${file.separator}fr"/>
+
+    <import file="..${file.separator}dita${file.separator}build.xml"/>
+
+
+    <target name="dist"
+        description="generate the distribution" >
+
+        <antcall target="dita2xhtml">
+            <param name="args.input"
+                value="..${file.separator}fr${file.separator}fusioninventory.ditamap"/>
+            <param name="output.dir"
+                value="${dita.output.fr}"/>
+            <param name="transtype" value="xhtml"/>
+        </antcall>
+        <!-- DOST is the project name of imported build.xml-->
+        <antcall target="DOST.init">
+            <param name="args.input"      
+                value="..${file.separator}fr${file.separator}fusioninventory.ditamap"/>
+            <param name="output.dir"      value="${dita.output.fr}"/>
+            <param name="transtype" value="pdf"/>
+        </antcall>
+    </target>
+</project>
+
