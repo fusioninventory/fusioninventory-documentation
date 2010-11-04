@@ -7,7 +7,7 @@ CLASSPATH="${DITA_HOME}/lib:${DITA_HOME}/lib/dost.jar:${DITA_HOME}/lib/resolver.
 export ANT_OPTS
 export CLASSPATH 
 
-all:
+all: dita
 	ant -f build/build.xml
 
 dita.tar.gz:
