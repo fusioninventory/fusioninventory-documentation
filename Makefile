@@ -10,13 +10,13 @@ export CLASSPATH
 all: dita_fr dita_en dita_de
 
 
-fr:
+fr: dita
 	ant -Dlang=fr -f build/build.xml
 
-en:
+en: dita
 	ant -Dlang=en -f build/build.xml
 
-de:
+de: dita
 	ant -Dlang=de -f build/build.xml
 
 dita.tar.gz:
