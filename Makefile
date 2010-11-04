@@ -7,8 +7,17 @@ CLASSPATH="${DITA_HOME}/lib:${DITA_HOME}/lib/dost.jar:${DITA_HOME}/lib/resolver.
 export ANT_OPTS
 export CLASSPATH 
 
-all: dita
-	ant -f build/build.xml
+all: dita_fr dita_en dita_de
+
+
+fr:
+	ant -Dlang=fr -f build/build.xml
+
+en:
+	ant -Dlang=en -f build/build.xml
+
+de:
+	ant -Dlang=de -f build/build.xml
 
 dita.tar.gz:
 	wget -O dita.tar.gz.part ${DITAOT_URL}
@@ -18,4 +27,4 @@ dita: dita.tar.gz
 	tar xfz dita.tar.gz
 	mv DITA-OT${DITAOT_VER} dita
 
-
+.PHONY: fr de en
