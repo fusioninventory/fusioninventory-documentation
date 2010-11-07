@@ -7,7 +7,7 @@ CLASSPATH="${DITA_HOME}/lib:${DITA_HOME}/lib/dost.jar:${DITA_HOME}/lib/resolver.
 export ANT_OPTS
 export CLASSPATH 
 
-all: dita_fr dita_en dita_de
+all: fr en de
 
 
 fr: dita
