@@ -10,9 +10,10 @@
     <p>Rajouter dans le fichier <codeblock>/etc/apt/sources.list</codeblock></p>
     <p>la ligne suivante : <codeblock>deb http://debian.fusioninventory.org/debian/ stable main</codeblock></p>
     <p>Mettre a jour les depôts : </p>
-    <codeblock>apt-get update</codeblock>
+    <codeblock>aptitude update</codeblock>
     <p>Lister les packages FusionInventory : </p>
     <codeblock>apt-cache search fusioninventory</codeblock>
     <p>Il faudra ensuite utiliser la commande <i>apt-get install</i> pour installer l&apos;agent FusionInventory et ses modules.</p>
+    <codeblock>aptitude install fusioninventory-agent</codeblock>
   </body>
 </topic>
