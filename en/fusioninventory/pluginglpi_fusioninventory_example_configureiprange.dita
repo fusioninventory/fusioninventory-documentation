@@ -2,7 +2,7 @@
 <!-- This file is part of the DITA Open Toolkit project hosted on 
  Sourceforge.net. See the accompanying license.txt file for 
  applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
-<topic id="pluginglpi_fusioninventory_example_configureiprange" xml:lang="fr-fr">
+<topic id="pluginglpi_fusioninventory_example_configureiprange" xml:lang="en-gb">
   <title>Configuration d&apos;une plage IP</title>
   <shortdesc>Configuration d&apos;une plage IP</shortdesc>
   <body>
