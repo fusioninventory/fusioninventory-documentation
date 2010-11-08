@@ -46,14 +46,7 @@
     </topicref>
     <topicref href="fusioninventory/inventory.dita">
       <topicref href="fusioninventory/inventory_description.dita"/>
-      <topicref href="fusioninventory/inventory_datas.dita">
-        <topicref href="fusioninventory/inventory_datas_hardware.dita"/>
-        <topicref href="fusioninventory/inventory_datas_software.dita"/>
-        <topicref href="fusioninventory/inventory_datas_processes.dita"/>
-        <topicref href="fusioninventory/inventory_datas_antivirus.dita"/>
-        <topicref href="fusioninventory/inventory_datas_environmentvariable.dita"/>
-        <topicref href="fusioninventory/inventory_datas_windowsregistry.dita"/>
-      </topicref>
+      <topicref href="fusioninventory/inventory_datas.dita"/>
     </topicref>
     <topicref href="fusioninventory/networkdiscovery.dita">
       <topicref href="fusioninventory/networkdiscovery_description.dita"/>
