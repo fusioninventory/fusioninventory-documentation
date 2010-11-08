@@ -112,7 +112,8 @@
       <topicref href="fusioninventory/pluginglpi_fusioninventory_example_discovery_unknowndevicesmanagement.dita"/>
       <topicref href="fusioninventory/pluginglpi_fusioninventory_example_query.dita"/>
     </topicref>
-  </part>
+</part>
+<!--
   <part href="fusioninventory/libserverphp.dita">
     <topicref href="fusioninventory/libserverphp_description.dita"/>
     <topicref href="fusioninventory/libserverphp_goal.dita"/>
@@ -126,6 +127,7 @@
       </topicref>
     </topicref>
   </part>
+-->
   <appendix href="fusioninventory/glossary.dita">
     <topicref href="fusioninventory/glossary/mac_address.dita"/>
   </appendix>
