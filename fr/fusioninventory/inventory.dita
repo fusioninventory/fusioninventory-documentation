@@ -6,6 +6,18 @@
   <title>Inventaire local de la machine</title>
   <shortdesc>Inventaire local de la machine</shortdesc>
   <body>
-    <p>[En cours d&apos;écriture]</p>
+      <p>Vous pouvez générer un inventaire local de la machine au format XML ou HTML.</p>
+      <p>
+          on Windows :
+          <codeblock>fusioninventory-agent --local c:/tmp</codeblock>
+      </p>
+      <p>
+          or on UNIX :
+          <codeblock>fusioninventory-agent --local c:/tmp</codeblock>
+      </p>
+      <p>
+          To do a HTML inventory, just add the <b>--html</b> parameter:
+          <codeblock>fusioninventory-agent --local c:/tmp --html</codeblock>
+      </p>
   </body>
 </topic>
