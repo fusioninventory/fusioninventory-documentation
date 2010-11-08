@@ -6,6 +6,9 @@
   <title>Informations récoltées</title>
   <shortdesc>Informations récoltées</shortdesc>
   <body>
-    <p>[En cours d&apos;écriture]</p>
+      <p>
+      La structure et la nature des informations qui sont récolées sont documentés dans la documentation de l'agent :
+      <xref format="html" href="http://search.cpan.org/dist/FusionInventory-Agent/lib/FusionInventory/Agent/XML/Query/Inventory.pm">http://search.cpan.org/dist/FusionInventory-Agent/lib/FusionInventory/Agent/XML/Query/Inventory.pm</xref>
+  </p>
   </body>
 </topic>

@@ -45,7 +45,6 @@
       </topicref>
     </topicref>
     <topicref href="fusioninventory/inventory.dita">
-      <topicref href="fusioninventory/inventory_description.dita"/>
       <topicref href="fusioninventory/inventory_datas.dita"/>
     </topicref>
     <topicref href="fusioninventory/networkdiscovery.dita">
