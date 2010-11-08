@@ -10,9 +10,9 @@
     <ul>
       <li>Windows (2000 à Seven)</li>
       <li>Systèmes a base de Linux</li>
-      <li>*BSD</li>
+      <li>FreeBSD, OpenBSD, NetBSD, DragonFlyBSD</li>
       <li>MacOS X</li>
-      <li>*Solaris</li>
+      <li>Solaris, OpenSolaris, OpenIndiana</li>
       <li>AIX</li>
       <li>HP-UX</li>
     </ul>
