@@ -2,10 +2,10 @@
 <!-- This file is part of the DITA Open Toolkit project hosted on 
  Sourceforge.net. See the accompanying license.txt file for 
  applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
-<topic id="pluginglpi_fusioninventory_pagecounter" xml:lang="fr-fr">
-  <title>Compteurs de pages d&apos;imprimante</title>
-  <shortdesc>Visualisation des compteurs de pages d&apos;imprimantes</shortdesc>
+<topic id="pluginglpi_fusioninventory_pagecounter" xml:lang="en-gb">
+  <title>Printer page counter</title>
+  <shortdesc>Visualization of page counters from printers</shortdesc>
   <body>
-    <p>[En cours d&apos;écriture]</p>
+    <p>[WiP]</p>
   </body>
 </topic>

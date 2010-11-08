@@ -2,10 +2,10 @@
 <!-- This file is part of the DITA Open Toolkit project hosted on 
  Sourceforge.net. See the accompanying license.txt file for 
  applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
-<topic id="preface_versions_moduleocsdeploy" xml:lang="fr-fr">
-  <title>Module de déploiement OCS p2p</title>
-  <shortdesc>Version du module de déploiement OCS p2p (OCSDEPLOY)</shortdesc>
+<topic id="preface_versions_moduleocsdeploy" xml:lang="en-gb">
+  <title>P2P OCS deployment module</title>
+  <shortdesc>Version of the P2P OCS module (OCSDEPLOY)</shortdesc>
   <body>
-    <p>La version du module de déploiement OCS p2p utilisée dans ce manuel est : <b>1.0.8</b></p>
+    <p>The version of P2P OCS deployment module described in this manual is: <b>1.0.8</b></p>
   </body>
 </topic>
