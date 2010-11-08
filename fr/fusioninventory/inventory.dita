@@ -16,7 +16,7 @@
           <codeblock>fusioninventory-agent --local c:/tmp</codeblock>
       </p>
       <p>
-          To do a HTML inventory, just add the <b>--html</b> parameter:
+          Pour faire un inventaire local, vous devez juste ajouter le paramètre <b>--html</b> :
           <codeblock>fusioninventory-agent --local c:/tmp --html</codeblock>
       </p>
   </body>
