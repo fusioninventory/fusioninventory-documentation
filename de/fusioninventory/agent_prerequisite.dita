@@ -6,7 +6,7 @@
   <title>Prérequis</title>
   <shortdesc>Prérequis pour l&apos;installation de l&apos;agent</shortdesc>
   <body>
-    <p>L&apos;agent permet d&apos;être installé sur les systèmes d&apos;exploitation suivants : </p>
+    <p>L&apos;agent permet d&apos;être installé sur les systèmes d&apos;exploitation suivants :
     <ul>
       <li>Windows (2000 à Seven)</li>
       <li>Systèmes a base de Linux</li>
@@ -16,5 +16,9 @@
       <li>AIX</li>
       <li>HP-UX</li>
     </ul>
-  </body>
+</p>
+<p>
+    A list of tested plateform is avaible here: <xref format="html" href="http://forge.fusioninventory.org/projects/fusioninventory-agent/wiki/Agent_supportedplateforms">http://forge.fusioninventory.org/projects/fusioninventory-agent/wiki/Agent_supportedplateforms</xref>
+</p>
+</body>
 </topic>
