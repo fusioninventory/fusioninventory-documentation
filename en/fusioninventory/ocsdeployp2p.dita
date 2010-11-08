@@ -6,6 +6,8 @@
   <title>OCS Deploy P2P</title>
   <shortdesc>OCS deploy P2P: Application deployment with P2P</shortdesc>
   <body>
-    <p>[WiP]</p>
+      <p>This module is designed to work with an OCS Inventory server and especially with the OCS Reports web console. Please read OCS Inventory documentaton to go further.
+          <xref format="html" href="http://wiki.ocsinventory-ng.org/index.php/Main_Page">http://wiki.ocsinventory-ng.org/index.php/Main_Page</xref>
+      </p>
   </body>
 </topic>
