@@ -6,6 +6,8 @@
   <title>Installation with CPAN</title>
   <shortdesc>How to install the agent via CPAN</shortdesc>
   <body>
-    <p>[WiP]</p>
+      <p>To install FusionInventory from CPAN, use this command:
+          <codeblock>cpan FusionInventory::Agent</codeblock>
+      </p>
   </body>
 </topic>

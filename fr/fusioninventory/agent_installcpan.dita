@@ -6,6 +6,8 @@
   <title>Installation avec CPAN</title>
   <shortdesc>Comment installer avec avec le systeme perl CPAN</shortdesc>
   <body>
-    <p>[En cours d&apos;écriture]</p>
+      <p>L'installation depuis le CPAN ce fait simplement avec la commande suivante :
+          <codeblock>cpan FusionInventory::Agent</codeblock>
+      </p>
   </body>
 </topic>
