@@ -28,6 +28,6 @@ dita: dita.tar.gz
 	mv DITA-OT${DITAOT_VER} dita
 
 clean:
-	rm -rf build/fr build/de build/en build/temp
+	rm -rf build/fr build/de build/en build/temp dita.tar.gz dita
 
 .PHONY: fr de en
