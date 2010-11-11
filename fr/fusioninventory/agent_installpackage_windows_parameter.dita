@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="agent_installpackage_windows_parameter" xml:lang="fr-fr">
+  <title>Paramètre de l'installeur Windows</title>
+  <shortdesc>Paramètre d'installation pour l'installateur Windows</shortdesc>
+  <body>
+    <p>L'installateur Windows dispose d'une serie de paramètre prévus pour automatiser les installation.</p>
+
+   <ul>
+<li><i>/h</i>: Display the help</li>
+<li><i>/S</i>: Run setup in silent mode</li>
+<li><i>/server=url1,url2</i>: Set URL of the server</li>
+<li><i>/tag=tagame</i>: Set tag of agent</li>
+<li><i>/user=username</i>: Set user name</li>
+<li><i>/pass=password</i>: Set password</li>
+<li><i>/realm=realm</i>: Set realmi (optional)</li>
+<li><i>/ca-cert-file=filename</i>: Set file name of certificate</li>
+<li><i>/no-ssl-check</i>: No certificate check when establishing SSL connection</li>
+<li><i>/proxy=http://proxy/</i>: Set proxy</li>
+<li><i>/debug</i>: Set debug mode</li>
+<li><i>/rpc-trust-localhost</i>: Allowlocalusertorunagent</li>
+<li><i>/scan-homedirs</i>: Lookforvirtualmachinesinhomedirectories</li>
+<li><i>/runnow</i>: Runagentafterendofinstallation</li>
+   </ul>
+  </body>
+</topic>
