@@ -37,7 +37,10 @@
         <topicref href="fusioninventory/agent_installpackage.dita">
           <topicref href="fusioninventory/agent_installpackage_apt.dita"/>
           <topicref href="fusioninventory/agent_installpackage_yum.dita"/>
-          <topicref href="fusioninventory/agent_installpackage_windows.dita"/>
+          <topicref href="fusioninventory/agent_installpackage_windows.dita">
+	    <topicref href="fusioninventory/agent_installpackage_windows_parameter.dita"/>
+	  </topicref>
+
           <topicref href="fusioninventory/agent_installpackage_macosx.dita"/>
         </topicref>
         <topicref href="fusioninventory/agent_installcpan.dita"/>
@@ -45,6 +48,7 @@
       </topicref>
     </topicref>
     <topicref href="fusioninventory/inventory.dita">
+      <topicref href="fusioninventory/inventory_injector.dita"/>
       <topicref href="fusioninventory/inventory_datas.dita"/>
     </topicref>
     <topicref href="fusioninventory/networkdiscovery.dita">
