@@ -5,7 +5,7 @@
 <topic id="agent_installpackage_windows_parameter" xml:lang="fr-fr">
   <title>Paramètre de l'installeur Windows</title>
   <body>
-    <p>L'installateur Windows dispose d'une serie de paramètre prévus pour automatiser les installation.</p>
+    <p>L'installateur Windows dispose d'une serie de paramètre prévus pour automatiser les installation :
 
    <ul>
 <li><i>/h</i>: Affiche une fenêtre d'aide qui reprend la liste des options</li>
@@ -23,5 +23,11 @@
 <li><i>/scan-homedirs</i>: l'agent doit-il scanner les dossiers des utilisateurs à la recherche de machine virtuelle</li>
 <li><i>/runnow</i>: un premier inventaire doit-il être fait suite à l'installation</li>
    </ul>
+   </p>
+   <p>
+   Exemple:
+   <codeblock>fusioninventory-agent_windows-i386_2.1-1.exe /S /debug /runnow /server=https://myown-ocs-server.mydomain.de/ocsinventory"</codeblock>
+   </p>
+
   </body>
 </topic>

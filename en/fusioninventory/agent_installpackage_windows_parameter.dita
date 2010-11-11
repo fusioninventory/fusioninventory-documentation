@@ -5,7 +5,7 @@
 <topic id="agent_installpackage_windows_parameter" xml:lang="en-en">
   <title>Parameter for Windows installer</title>
   <body>
-    <p>A list of parameter are avalaible to automise the agent installation.</p>
+    <p>A list of parameter are avalaible to automise the agent installation:
    <ul>
 <li><i>/h</i>: Display the help</li>
 <li><i>/S</i>: Run setup in silent mode</li>
@@ -22,5 +22,10 @@
 <li><i>/scan-homedirs</i>: Look for virtual machines in home directories</li>
 <li><i>/runnow</i>: Turn this parameter on if you want a first inventory just after the installation</li>
    </ul>
+   </p>
+   <p>
+   Example:
+   <codeblock>fusioninventory-agent_windows-i386_2.1-1.exe /S /debug /runnow /server=https://myown-ocs-server.mydomain.de/ocsinventory"</codeblock>
+   </p>
   </body>
 </topic>
