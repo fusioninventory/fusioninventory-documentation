@@ -4,19 +4,19 @@
  applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="inventory" xml:lang="fr-fr">
   <title>Inventaire local de la machine</title>
-  <shortdesc>Inventaire local de la machine</shortdesc>
+  <shortdesc>Réalisation d'un inventaire de la machine</shortdesc>
   <body>
       <p>Vous pouvez générer un inventaire local de la machine au format XML ou HTML.</p>
       <p>
-          on Windows :
+          sur Windows, vous devez dans un premier temps vous rendre dans le dossier où est installé l'agent, puis dans le sous dossier perl/bin :
+          <codeblock>perl fusioninventory-agent --local c:/tmp</codeblock>
+      </p>
+      <p>
+          sur une système de type UNIX :
           <codeblock>fusioninventory-agent --local c:/tmp</codeblock>
       </p>
       <p>
-          or on UNIX :
-          <codeblock>fusioninventory-agent --local c:/tmp</codeblock>
-      </p>
-      <p>
-          Pour faire un inventaire local, vous devez juste ajouter le paramètre <b>--html</b> :
+          Pour faire un inventaire en HTML, vous devez juste ajouter le paramètre <b>--html</b> :
           <codeblock>fusioninventory-agent --local c:/tmp --html</codeblock>
       </p>
   </body>

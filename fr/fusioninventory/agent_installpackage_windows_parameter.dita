@@ -4,25 +4,24 @@
  applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="agent_installpackage_windows_parameter" xml:lang="fr-fr">
   <title>Paramètre de l'installeur Windows</title>
-  <shortdesc>Paramètre d'installation pour l'installateur Windows</shortdesc>
   <body>
     <p>L'installateur Windows dispose d'une serie de paramètre prévus pour automatiser les installation.</p>
 
    <ul>
-<li><i>/h</i>: Display the help</li>
-<li><i>/S</i>: Run setup in silent mode</li>
-<li><i>/server=url1,url2</i>: Set URL of the server</li>
-<li><i>/tag=tagame</i>: Set tag of agent</li>
-<li><i>/user=username</i>: Set user name</li>
-<li><i>/pass=password</i>: Set password</li>
-<li><i>/realm=realm</i>: Set realmi (optional)</li>
-<li><i>/ca-cert-file=filename</i>: Set file name of certificate</li>
-<li><i>/no-ssl-check</i>: No certificate check when establishing SSL connection</li>
-<li><i>/proxy=http://proxy/</i>: Set proxy</li>
-<li><i>/debug</i>: Set debug mode</li>
-<li><i>/rpc-trust-localhost</i>: Allowlocalusertorunagent</li>
-<li><i>/scan-homedirs</i>: Lookforvirtualmachinesinhomedirectories</li>
-<li><i>/runnow</i>: Runagentafterendofinstallation</li>
+<li><i>/h</i>: Affiche une fenêtre d'aide qui reprend la liste des options</li>
+<li><i>/S</i>: Lance l'installeur en mode silentieux</li>
+<li><i>/server=url1,url2</i>: Le ou les serveurs a contacter</li>
+<li><i>/tag=tagame</i>: le tag affecté a l'agent</li>
+<li><i>/user=username</i>: le nom de l'utilisateur</li>
+<li><i>/pass=password</i>: le mot de passe</li>
+<li><i>/realm=realm</i>: le royaume a utiliser pour l'authentification (optionel)</li>
+<li><i>/ca-cert-file=filename</i>: le certificat SSL a utiliser</li>
+<li><i>/no-ssl-check</i>: ne pas vérifier le certificat SSL durant les connexions HTTPS</li>
+<li><i>/proxy=http://proxy/</i>: le serveur mandataire HTTP</li>
+<li><i>/debug</i>: active le mode debug</li>
+<li><i>/rpc-trust-localhost</i>: l'utilisateur peut-il lui même réveiller l'agent ?</li>
+<li><i>/scan-homedirs</i>: l'agent doit-il scanner les dossiers des utilisateurs à la recherche de machine virtuelle</li>
+<li><i>/runnow</i>: un premier inventaire doit-il être fait suite à l'installation</li>
    </ul>
   </body>
 </topic>

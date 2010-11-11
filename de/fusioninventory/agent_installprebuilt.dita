@@ -6,9 +6,7 @@
   <title>Installation avec les prebuilt</title>
   <shortdesc>Comment utiliser les versions prebuilt</shortdesc>
   <body>
-    <p>Les version prebuilt sont des versions précompilée.</p>
-    <p>Le but est d&apos;utiliser un agent sans rien installer sur le système.</p>
-    <p>Voici les manipulations : </p>
+    <p>Les version prebuilt sont des versions précompilée. Le but est d&apos;utiliser un agent sans rien installer sur le système. Voici les manipulations : </p>
     <ul>
       <li>Télécharger la version prebuilt pour son système d&apos;exploitation à cette addresse : <xref format="html" href="http://prebuilt.fusioninventory.org/stable/">http://prebuilt.fusioninventory.org/stable/</xref></li>
       <li>Décompresser l&apos;archive</li>

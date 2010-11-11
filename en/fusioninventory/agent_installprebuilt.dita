@@ -6,9 +6,7 @@
   <title>Installation / Usage of pre-built versions</title>
   <shortdesc>How to use the pre-built versions</shortdesc>
   <body>
-    <p>There are also pre-compiled or pre-built versions of the agent maintained by the project.</p>
-    <p>The idea is to launch the agent without installing anything on your system.</p>
-    <p>Here are the steps : </p>
+    <p>There are also pre-compiled or pre-built versions of the agent maintained by the project. The idea is to launch the agent without installing anything on your system. Here are the steps : </p>
     <ul>
       <li>Download the pre-built version for your OS: <xref href="http://prebuilt.fusioninventory.org/stable/" format="html">http://prebuilt.fusioninventory.org/stable/</xref></li>
       <li>Uncompress the downloaded archive</li>

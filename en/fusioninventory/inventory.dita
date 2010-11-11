@@ -2,10 +2,23 @@
 <!-- This file is part of the DITA Open Toolkit project hosted on 
  Sourceforge.net. See the accompanying license.txt file for 
  applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
-<topic id="inventory" xml:lang="fr-fr">
-  <title>Local machine inventorymachine</title>
-  <shortdesc>Inventaire local de la machine</shortdesc>
+<topic id="inventory" xml:lang="en-en">
+  <title>Local machine inventory</title>
+  <shortdesc>How to do a local machine inventory</shortdesc>
   <body>
-    <p>TODO</p>
+      <p>You can generate a local inventory of a machine in XML or HTML/</p>
+      <p>
+          on Windows, you must first go in the directory where the agent is installed and then in the perl/bin subdirectory:
+          <codeblock>perl fusioninventory-agent --local c:/tmp</codeblock>
+      </p>
+      <p>
+          on an UNIX systeme :
+          <codeblock>fusioninventory-agent --local c:/tmp</codeblock>
+      </p>
+      <p>
+          To do a HTML inventory, you've just to add the <b>--html</b> parameter:
+          <codeblock>fusioninventory-agent --local c:/tmp --html</codeblock>
+      </p>
+
   </body>
 </topic>
