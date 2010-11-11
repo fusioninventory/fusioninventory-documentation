@@ -4,7 +4,6 @@
  applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="agent_installpackage_windows_parameter" xml:lang="de-de">
   <title>Parameter for Windows installer</title>
-  <shortdesc>The parameter of the Windows installer</shortdesc>
   <body>
     <p>A list of parameter are avalaible to automise the agent installation.</p>
    <ul>
@@ -19,9 +18,9 @@
 <li><i>/no-ssl-check</i>: No certificate check when establishing SSL connection</li>
 <li><i>/proxy=http://proxy/</i>: Set proxy</li>
 <li><i>/debug</i>: Set debug mode</li>
-<li><i>/rpc-trust-localhost</i>: Allowlocalusertorunagent</li>
-<li><i>/scan-homedirs</i>: Lookforvirtualmachinesinhomedirectories</li>
-<li><i>/runnow</i>: Runagentafterendofinstallation</li>
+<li><i>/rpc-trust-localhost</i>: Allow local user to wake agent up</li>
+<li><i>/scan-homedirs</i>: Look for virtual machines in home directories</li>
+<li><i>/runnow</i>: Turn this parameter on if you want a first inventory just after the installation</li>
    </ul>
   </body>
 </topic>
