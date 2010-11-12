@@ -7,6 +7,10 @@
   <body>
       <p>Il est possible d'injecter un fichier d'inventaire au format XML dans un serveur grâce à la commande fusioninventory-injector:</p>
       <p>
+      <note type="important">
+      fusioninventory-injector is avalaible only since the 2.1.7 release of the agent.
+      </note>
+
       <codeblock>
       fusioninventory-injector -v -f /tmp/toto-2010-09-10-11-42-22.ocs --url https://login:pw@yourserver/ocsinventory
       </codeblock>
