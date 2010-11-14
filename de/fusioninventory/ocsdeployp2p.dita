@@ -4,7 +4,7 @@
  applicable licenses.--><!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="ocsdeployp2p" xml:lang="fr-fr">
   <title>OCS Deploy p2p</title>
-  <shortdesc>OCS Deploy p2p : déploiement d&apos;applications avec gestion p2p</shortdesc>
+  <shortdesc>OCS Deploy p2p : déploiement d&apos;applications avec gestion des échanges de données en "pair à pair"</shortdesc>
   <body>
       <p>This module is designed to work with an OCS Inventory server and especially with the OCS Reports web console. Please read OCS Inventory documentaton to go further.
           <xref format="html" href="http://wiki.ocsinventory-ng.org/index.php/Main_Page">http://wiki.ocsinventory-ng.org/index.php/Main_Page</xref>
