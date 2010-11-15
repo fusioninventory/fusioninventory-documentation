@@ -44,11 +44,34 @@ sub analyseStatus {
     print "  $_\n" foreach @error;
 }
 
+sub createEmptyDita {
+    my ($ditaFile) = @_;
 
+    open DITA, ">$ditaFile" or die;
+    print DITA '<?xml version=\'1.0\' encoding=\'UTF-8\'?>
+<!-- LAST_UPDATE=1970-01-01 00:00:00 -->
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="toto" xml:lang="en-en">
+  <title>TODO</title>
+  <shortdesc>TODO</shortdesc>
+  <body>
+  TODO
+  </body>
+</topic>';
+    close DITA;
+
+}
+
+
+my @newFiles;
 foreach my $ditaFile (getDitaFiles) {
     my %status;
-
     foreach my $l (@lang) {
+	if (! -f "$l/fusioninventory/$ditaFile") {
+	    createEmptyDita("$l/fusioninventory/$ditaFile");
+	    push @newFiles, "$l/fusioninventory/$ditaFile";
+	}
+
 	open FD, "<$l/fusioninventory/$ditaFile" or die;
 	my $content;
 	{
@@ -62,4 +85,10 @@ foreach my $ditaFile (getDitaFiles) {
     }
 
     analyseStatus($ditaFile, %status);
+}
+
+if (@newFiles) {
+    print "New empty file generated.:\n";
+    print "  $_\n" foreach @newFiles;
+    print "DONT FORGET TO 'git add' them!!!\n";
 }
