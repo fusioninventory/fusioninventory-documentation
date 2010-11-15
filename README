@@ -1,0 +1,18 @@
+This is the documentation module of FusionInventory.
+
+= BUILD =
+To generate the documentation, run:
+ make
+
+= TRANSLATOR =
+First, thank you!
+
+To know which file need to be refresh we use a timestamp
+mecanism.
+
+To know what need to be done, run:
+ ./tools/findTodo.pl <language>
+The tool will give you a list of file to synchronise.
+
+Once a file is synchronised, you have to update its timestamp like that:
+ ./updateStamp.pl thefile.dita 
