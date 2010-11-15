@@ -47,10 +47,11 @@
         <topicref href="fusioninventory/agent_installprebuilt.dita"/>
       </topicref>
     </topicref>
-    <topicref href="fusioninventory/inventory.dita">
-      <topicref href="fusioninventory/inventory_injector.dita"/>
-      <topicref href="fusioninventory/inventory_datas.dita"/>
-    </topicref>
+    <topicref href="fusioninventory/inventory.dita"/>
+    <topicref href="fusioninventory/inventory_config.dita"/>
+    <topicref href="fusioninventory/inventory_injector.dita"/>
+<!--      <topicref href="fusioninventory/inventory_datas.dita"/>
+    </topicref> -->
     <topicref href="fusioninventory/networkdiscovery.dita">
       <topicref href="fusioninventory/networkdiscovery_description.dita"/>
       <topicref href="fusioninventory/networkdiscovery_scan.dita">
