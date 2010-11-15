@@ -88,7 +88,7 @@ foreach my $ditaFile (getDitaFiles) {
 }
 
 if (@newFiles) {
-    print "New empty file generated.:\n";
+    print "\nNew empty file generated.:\n";
     print "  $_\n" foreach @newFiles;
     print "DONT FORGET TO 'git add' them!!!\n";
 }
