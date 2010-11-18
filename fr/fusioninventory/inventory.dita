@@ -2,8 +2,11 @@
 <!-- LAST_UPDATE=2010-11-15 20:45:51 -->
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="inventory" xml:lang="fr-fr">
-  <title>L'agent</title>
+  <title>Configuration de l'agent</title>
   <shortdesc>Comment paramètrer l'agent</shortdesc>
   <body>
+  <p>
+    Le module d'inventaire de FusionInventory peut travailler en mode connecté avec un serveur ou en local. Les autres modules (SNMP, Netdiscovery, WakeOnLan, etc) ne sont pas concernés par le mode local.
+  </p>
   </body>
 </topic>
