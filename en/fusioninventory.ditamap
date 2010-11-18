@@ -49,6 +49,8 @@
     </topicref>
     <topicref href="fusioninventory/inventory.dita"/>
     <topicref href="fusioninventory/inventory_config.dita"/>
+    <topicref href="fusioninventory/inventory_server.dita"/>
+    <topicref href="fusioninventory/inventory_local.dita"/>
     <topicref href="fusioninventory/inventory_injector.dita"/>
 <!--      <topicref href="fusioninventory/inventory_datas.dita"/>
     </topicref> -->
