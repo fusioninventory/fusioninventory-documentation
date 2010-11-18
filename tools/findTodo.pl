@@ -55,7 +55,7 @@ sub createEmptyDita {
   <title>TODO</title>
   <shortdesc>TODO</shortdesc>
   <body>
-  TODO
+  <p>TODO</p>
   </body>
 </topic>';
     close DITA;
