@@ -5,5 +5,43 @@
   <title>Configuration initiale</title>
   <shortdesc>Paramètrage du ou des serveurs</shortdesc>
   <body>
+<p>
+Votre agent FusionInventory peut s'interfacer avec un ou plusieurs serveurs. En fonction du serveur que vous avez choisi, les fonctions disponibles seront différentes :
+<ul>
+<li><strong>FusionInventory pour GLPI 0.72</strong> : inventaire SNMP, découverte réseau, réveil depuis le réseau</li>
+<li><strong>FusionInventory pour GLPI 0.78</strong> : inventaire des machines, inventaire SNMP, découverte réseau, réveil depuis le réseau</li>
+<li><strong>OCS Inventory</strong> : inventaire des machines, télédiffusion au foramt OCS (OcsDeploy)</li>
+<li><strong>Artica</strong> : inventaire</li>
+<li><strong>Uranus (?)</strong> : inventaire</li>
+</ul>
+<note type="important">Nous préconisons fortement l'utilisation du protocle HTTPS pour chiffrer les échanges et pouvoir identifier le serveur.
+</note>
+
+<note>
+OCS Inventory ne gère pas correctement les remontés d'inventaire des encodages différents. Si vous êtes dans un environement mixé, (Windows en Japonnais, MacOSX en UTF-8, ...), des correctifs non officiels sont disponibles pour passer l'application en UTF-8.
+</note>
+
+
+<p>
+Les échanges entre les agents et le serveur se font sur du HTTP et sont basés sur XML.
+<p>
+Du point de vu de la configuration, le paramètrage de votre serveur se faire en passant par les clés suivantes :
+<ul>
+<li>server : vous devez indiquer le chemin (URL) vers votre serveur. Celle-ci est lié au type de serveur que vous utilisez.</li>
+</ul>
+</p>
+
+<p>
+Vous pouvez protéger votre serveur grâce a une authentification HTTP. Dans ce cas, le paramètrage se fait via les clés de configuration suivantes :
+<ul>
+<li>user : le nom de l'utilisateur a utiliser</li>
+<li>passwd : le mot de passe</li>
+</ul>
+</p>
+
+<p>
+L'utilisation d'un serveur mandataire HTTP se fait via la clé de configuration "proxy". Le paramètrage doit avoir cette forme "http://serveur:port". Une authentification est ici aussi possible grâce au format "http://utilisateur:mot de passe@server:port". Si vous utilisez une authentification sur un serveur Active Directory, vous devez utiliser la syntaxe suivante : "http://domaine\utilisateur:mot de passe@server:port"
+</p>
+
   </body>
 </topic>
