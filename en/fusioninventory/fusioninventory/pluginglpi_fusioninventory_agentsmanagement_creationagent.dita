@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="pluginglpi_fusioninventory_agentsmanagement_creationagent" xml:lang="en-gb">
+  <title>Agents creation</title>
+  <shortdesc>Agents creation</shortdesc>
+  <body>
+    <p>How agents is created here.</p>
+    <p>It is so simple : </p>
+    <p>When installation of agent is done on a computer, it is running and it contact for the first time the server (plugin fusioninventory). </p>
+    <p>The plugin register the agent with some informations in this menu.</p>
+  </body>
+</topic>
