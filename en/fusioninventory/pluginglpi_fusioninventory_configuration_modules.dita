@@ -1,17 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- LAST_UPDATE=1970-01-01 00:00:00 -->
+<!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. -->
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="pluginglpi_fusioninventory_configuration_modules" xml:lang="en-gb">
-  <title>Configuration des modules</title>
-  <shortdesc>Configuration des modules</shortdesc>
+  <title>Agents modules</title>
+  <shortdesc>Agents modules</shortdesc>
   <body>
-    <p>Liste des modules a activer : </p>
+    <p>In this tab of configuration web page, we can say to plugin how to give order to agent when they contact it.</p>
+    <p>Each plugin fusinv... can add a module in this menu, by default, you have only WAKEONLAN because it is integrated in this plugin.</p>
+    <p> For each module you can configure : </p>
     <ul>
-      <li><i>Snmp</i> : Activation de la partie SNMP de Fusioninventory</li>
-      <li><i>Découverte d&apos;équipements</i> : Activation de la partie découverte (découverte SNMP, Netbios, NMAP)</li>
-      <li><i>Inventaire OCS</i> : l&apos;agent FusionInventory envoie au plugin <i>FusionInventory pour GLPI</i> un inventaire, qui est envoyé au serveur OCS (solution actuelle de contournement)</li>
-      <li><i>Contrôle de l&apos;agent à partir de GLPI</i> : Réveil (démarrage) de l&apos;agent à partir de GLPI afin de lui envoyer des tâches à effectuer (WakeOnLan, inventaire de l&apos;ordinateur, découverte réseau, interrogation SNMP)</li>
-      <li><i>Wake On Lan</i> : Activation du Wake On Lan qui permet de démarrer les ordinateurs à travers le réseau</li>
+      <li><i>Activation by default</i> : default activation of this module (it&apos;s activated or not).</li>
+      <li><i>Agents exceptions</i> : It depends on <i>Activation by default</i> but invert activation for each agent selected.Activation de la partie découverte (découverte SNMP, Netbios, NMAP). For exemple if WAKEONLAN is not activated by default and we put an exception of agent &quot;computer01-2010-11-24&quot;, this agent will be able to get order &quot;WAKEONLAN&quot; from plugin, and invert when default activation is checked.</li>
     </ul>
   </body>
 </topic>

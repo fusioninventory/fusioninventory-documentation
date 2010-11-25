@@ -1,16 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- LAST_UPDATE=1970-01-01 00:00:00 -->
+<!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. -->
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="pluginglpi_fusioninventory_description" xml:lang="en-gb">
   <title>Description</title>
-  <shortdesc>Description du plugin FusionInventory pour GLPI</shortdesc>
+  <shortdesc>Description of plugin for GLPI : fusioninventory</shortdesc>
   <body>
-    <p>FusionInventory pour GLPI est une extension (plugin) de GLPI permettant un dialogue direct avec les agents FusionInventory.
-Les fonctionnalités accessibles depuis GLPI sont :</p>
-    <ul>
-      <li>la découverte de tous les équipements connectés au réseau</li>
-      <li>l&apos;interrogation (inventaire) des équipements réseaux via SNMP</li>
-      <li>Le réveil à distance de l&apos;ordinateur</li>
-    </ul>
+    <p>This plugin is the core of different other plugins (fusinv....).</p>
+    <p>It gives many functions and have the communication part with the agents.</p>
   </body>
 </topic>
