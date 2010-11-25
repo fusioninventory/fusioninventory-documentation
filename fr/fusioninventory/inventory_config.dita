@@ -5,6 +5,7 @@
   <title>Paramétrage de l'agent</title>
   <shortdesc>Comment configurer l'agent</shortdesc>
   <body>
+      <p>La configuration de l'agent est basée sur un mécanisme de clé/valeur.</p>
       <p>L'agent se configure de façon différente en fonction des systèmes d'exploitation et des types d'installation :
       <ul>
       <li><i>Windows</i> : avec la base de registre qui se trouve dans HKEY_LOCAL_MACHINE/SOFTWARE/FusionInventory-Agent</li>
