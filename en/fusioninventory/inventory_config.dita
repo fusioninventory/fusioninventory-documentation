@@ -1,10 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- LAST_UPDATE=1970-01-01 00:00:00 -->
+<!-- LAST_UPDATE=2010-11-15 20:45:51 -->
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="toto" xml:lang="en-en">
-  <title>TODO</title>
-  <shortdesc>TODO</shortdesc>
+  <title>Agent settings</title>
+  <shortdesc>How to configure the agent</shortdesc>
   <body>
-  <p>TODO</p>
+      <p>The agent settings are based on a classic key/value mechanism.</p>
+      <p>It reads its settings differently depending on the operating system:
+      <ul>
+      <li><i>Windows</i>: with the registry keys located at KEY_LOCAL_MACHINE/SOFTWARE/FusionInventory-Agent</li>
+      <li><i>MacOSX</i>: the configuration file is located in FusionInventory-Agent.pkg/Contents/Resources/agent.cfg</li>
+      <li><i>UNIX/Linux</i>: on UNIX/Linux, the agent expect its configuration to be here /etc/fusioninventory/agent.cfg</li>
+      <li><i>prebuilt</i>: if you use a prebuilt package, the agent.cfg configuration is in the root directory of the package.</li>
+      </ul>
+      </p>
+
+      <p>
+      </p>
   </body>
+
 </topic>

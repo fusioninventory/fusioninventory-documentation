@@ -1,18 +1,24 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- LAST_UPDATE=2010-11-19 18:48:41 -->
+<!-- LAST_UPDATE=2010-11-22 12:36:44 -->
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="inventory_remotecall" xml:lang="fr-fr">
   <title>Exécution à distance</title>
   <shortdesc>L'interface HTTP de l'agent</shortdesc>
   <body>
 <p>
-Lorsqu'il est démarré en mode daemon ou service, l'agent ouvre sur le port 62354 un service HTTP. Celui-ci vous permet de connaitre l'état de l'agent. Vous pouvez y accéder via l'URL suivante : http://127.0.0.1:62354/
+Lorsqu'il est démarré en mode daemon ou service, l'agent ouvre sur le port 62354 un service HTTP.
+Celui-ci vous permet de connaitre l'état de l'agent. Vous pouvez y accéder via l'URL suivante :
+<xref format="html" href="http://127.0.0.1:62354/">http://127.0.0.1:62354</a> . 
+Ce port est aussi utilisé par le module OcsDeploy.
+Celui-ci l'utilise pour les échanges de fichiers "pair à pair" entre les différents machines.
 </p>
 <p>
 Si vous vous connectez depuis l'IP local 127.0.0.1 et que la clé rpc-trust-localhost est configurée a 1 vous pouvez alors réveiller vous même l'agent en cliquant sur le lien "force an inventory".
 </p>
 <p>
-Le lien http://127.0.0.1:62354/status est destiné a fournir des informations techniques sur l'agent en cours d'éxecution dans un format simple a analyser.
+Le lien
+<xref format="html" href="http://127.0.0.1:62354/status">http://127.0.0.1:62354/status</a> . 
+est destiné a fournir des informations techniques sur l'agent en cours d'éxecution dans un format simple a analyser.
 </p>
   </body>
 </topic>
