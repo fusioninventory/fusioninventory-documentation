@@ -86,25 +86,24 @@
     </topicref>
   </part>
   <part href="fusioninventory/pluginglpi.dita">
-    <chapter href="fusioninventory/pluginglpi_fusioninventory.dita"/>
+    <chapter href="fusioninventory/pluginglpi_fusioninventory.dita">
+      <topicref href="fusioninventory/pluginglpi_fusioninventory_description.dita"/>
+      <topicref href="fusioninventory/pluginglpi_fusioninventory_prerequisite.dita"/>
+      <topicref href="fusioninventory/pluginglpi_fusioninventory_functionalities.dita"/>
+      <topicref href="fusioninventory/pluginglpi_fusioninventory_installation.dita">
+        <topicref href="fusioninventory/pluginglpi_fusioninventory_installation_new.dita"/>
+        <topicref href="fusioninventory/pluginglpi_fusioninventory_installation_updatefusioninventory.dita"/>
+        <topicref href="fusioninventory/pluginglpi_fusioninventory_installation_updatetracker.dita"/>
+      </topicref>
+      <topicref href="fusioninventory/pluginglpi_fusioninventory_configuration.dita">
+        <topicref href="fusioninventory/pluginglpi_fusioninventory_configuration_general.dita"/>
+        <topicref href="fusioninventory/pluginglpi_fusioninventory_configuration_locks.dita"/>
+        <topicref href="fusioninventory/pluginglpi_fusioninventory_configuration_modules.dita"/>
+      </topicref>
+    </chapter>
     <chapter href="fusioninventory/pluginglpi_fusinvinventory.dita"/>
     <chapter href="fusioninventory/pluginglpi_fusinvsnmp.dita"/>
     <chapter href="fusioninventory/pluginglpi_fusinvdeploy.dita"/>
-    <topicref href="fusioninventory/pluginglpi_fusioninventory_description.dita"/>
-    <topicref href="fusioninventory/pluginglpi_fusioninventory_prerequisite.dita"/>
-    <topicref href="fusioninventory/pluginglpi_fusioninventory_functionalities.dita"/>
-    <topicref href="fusioninventory/pluginglpi_fusioninventory_installation.dita">
-      <topicref href="fusioninventory/pluginglpi_fusioninventory_installation_new.dita"/>
-      <topicref href="fusioninventory/pluginglpi_fusioninventory_installation_updatefusioninventory.dita"/>
-      <topicref href="fusioninventory/pluginglpi_fusioninventory_installation_updatetracker.dita"/>
-    </topicref>
-    <topicref href="fusioninventory/pluginglpi_fusioninventory_configuration.dita">
-      <topicref href="fusioninventory/pluginglpi_fusioninventory_configuration_general.dita"/>
-      <topicref href="fusioninventory/pluginglpi_fusioninventory_configuration_criterii.dita"/>
-      <topicref href="fusioninventory/pluginglpi_fusioninventory_configuration_modules.dita"/>
-      <topicref href="fusioninventory/pluginglpi_fusioninventory_configuration_historical.dita"/>
-      <topicref href="fusioninventory/pluginglpi_fusioninventory_configuration_locks.dita"/>
-    </topicref>
     <topicref href="fusioninventory/pluginglpi_fusioninventory_rangeip.dita"/>
     <topicref href="fusioninventory/pluginglpi_fusioninventory_agentsconfiguration.dita"/>
     <topicref href="fusioninventory/pluginglpi_fusioninventory_historyagentinformations.dita"/>
