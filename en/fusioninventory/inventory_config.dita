@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- LAST_UPDATE=2010-11-15 20:45:51 -->
+<!-- LAST_UPDATE=2010-11-26 08:23:45 -->
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="toto" xml:lang="en-en">
   <title>Agent settings</title>
@@ -8,14 +8,15 @@
       <p>Settings use a key/value mechanism.</p>
       <p>Depending on the operating system, the agent are its configuration from different places:
       <ul>
+      <li><i>Command line</i>: it's possible to pass a parameter during the agent invocation.
+      For example: <codeblock>fusioninventory-agent --server localhost</codeblock>.
+      In case such parameters are in use, the values overwrite the ones from the configuration
+      file or registry.</li>
       <li><i>Windows</i>: configuration is stored in the registry at HKEY_LOCAL_MACHINE/SOFTWARE/FusionInventory-Agent</li>
       <li><i>MacOSX</i>: the configuration file is in the .pkg package itself at FusionInventory-Agent.pkg/Contents/Resources/agent.cfg</li>
       <li><i>UNIX/Linux</i>: the configuration file is located at /etc/fusioninventory/agent.cfg</li>
       <li><i>prebuilt</i>: the “prebuilt” archive uses a agent.cfg configuration file located in the root directory of the archive.</li>
       </ul>
-      </p>
-
-      <p>
       </p>
   </body>
 </topic>
