@@ -104,6 +104,7 @@
       <topicref href="fusioninventory/pluginglpi_fusioninventory_agentsmanagement.dita">
         <topicref href="fusioninventory/pluginglpi_fusioninventory_agentsmanagement_creationagent.dita"/>
         <topicref href="fusioninventory/pluginglpi_fusioninventory_agentsmanagement_agentinformations.dita"/>
+        <topicref href="fusioninventory/pluginglpi_fusioninventory_agentsmanagement_agentsmodules.dita"/>
       </topicref>
     </chapter>
     <chapter href="fusioninventory/pluginglpi_fusinvinventory.dita"/>

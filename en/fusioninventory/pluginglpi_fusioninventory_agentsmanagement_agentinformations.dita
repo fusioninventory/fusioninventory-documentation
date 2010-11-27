@@ -9,12 +9,12 @@
       <li><i>device_id</i> : it&apos;s the ID of the agent generated on first running time.</li>
       <li><i>Token</i> : it&apos;s the key used to wake agent remotly. It is generated each time of agent begin to run.</li>
       <li><i>Version</i> : it&apos;s the version of agent core. This version is only get when agent send its inventory to plugin.</li>
-      <li><i>Last scan</i> : it&apos;s the last time agent have contacted plugin.</li>
+      <li><i>Last contact</i> : it&apos;s the last time agent have contacted plugin.</li>
     </ul>
     <p>Other informations can be modified :  </p>
     <ul>
-      <li><i>Name</i> : </li>
-      <li><i>Lock</i> :</li>
+      <li><i>Name</i> : it&apos;s the name of agent. By default, name is device_id</li>
+      <li><i>Lock</i> : if it&apos;s set to YES, when agent contact plugin to get list of actions, server don&apos;t send actions. With this, agent is temporary disabled.</li>
     </ul>
   </body>
 </topic>
