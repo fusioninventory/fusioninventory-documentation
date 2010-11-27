@@ -111,6 +111,9 @@
       <topicref href="fusioninventory/pluginglpi_fusinvinventory_description.dita"/>
       <topicref href="fusioninventory/pluginglpi_fusinvinventory_prerequisite.dita"/>
       <topicref href="fusioninventory/pluginglpi_fusinvinventory_features.dita"/>
+      <topicref href="fusioninventory/pluginglpi_fusinvinventory_installation.dita">
+        <topicref href="fusioninventory/pluginglpi_fusinvinventory_installation_new.dita"/>
+      </topicref>
     </chapter>
     <chapter href="fusioninventory/pluginglpi_fusinvsnmp.dita"/>
     <chapter href="fusioninventory/pluginglpi_fusinvdeploy.dita"/>
