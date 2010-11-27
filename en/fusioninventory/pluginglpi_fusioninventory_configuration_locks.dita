@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. -->
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="pluginglpi_fusioninventory_configuration_locks" xml:lang="en-gb">
   <title>Locks configuration</title>
   <shortdesc>Locks configuration</shortdesc>
   <body>
+    <p>This is available in the tab <i>Lockable fields</i>.</p>
     <p>We will be able to lock some fields. </p>
   </body>
 </topic>

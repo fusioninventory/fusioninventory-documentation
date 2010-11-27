@@ -101,8 +101,21 @@
         <topicref href="fusioninventory/pluginglpi_fusioninventory_configuration_locks.dita"/>
         <topicref href="fusioninventory/pluginglpi_fusioninventory_configuration_modules.dita"/>
       </topicref>
+      <topicref href="fusioninventory/pluginglpi_fusioninventory_agentsmanagement.dita">
+        <topicref href="fusioninventory/pluginglpi_fusioninventory_agentsmanagement_creationagent.dita"/>
+        <topicref href="fusioninventory/pluginglpi_fusioninventory_agentsmanagement_agentinformations.dita"/>
+        <topicref href="fusioninventory/pluginglpi_fusioninventory_agentsmanagement_agentsmodules.dita"/>
+      </topicref>
     </chapter>
-    <chapter href="fusioninventory/pluginglpi_fusinvinventory.dita"/>
+    <chapter href="fusioninventory/pluginglpi_fusinvinventory.dita">
+      <topicref href="fusioninventory/pluginglpi_fusinvinventory_description.dita"/>
+      <topicref href="fusioninventory/pluginglpi_fusinvinventory_prerequisite.dita"/>
+      <topicref href="fusioninventory/pluginglpi_fusinvinventory_features.dita"/>
+      <topicref href="fusioninventory/pluginglpi_fusinvinventory_installation.dita">
+        <topicref href="fusioninventory/pluginglpi_fusinvinventory_installation_new.dita"/>
+      </topicref>
+      <topicref href="fusioninventory/pluginglpi_fusinvinventory_howitwork.dita"/>
+    </chapter>
     <chapter href="fusioninventory/pluginglpi_fusinvsnmp.dita"/>
     <chapter href="fusioninventory/pluginglpi_fusinvdeploy.dita"/>
     <topicref href="fusioninventory/pluginglpi_fusioninventory_rangeip.dita"/>
