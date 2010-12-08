@@ -6,18 +6,18 @@
   <body>
     <p>This is a description of the processus to inventory computers.</p>
     <ol>
-      <li><i>[Agent]</i> It connect to server (plugin <i>fusioninventory</i>).</li>
-      <li><i>[Plugin fusioninventory]</i> Plugin create agent (see <xref href="pluginglpi_fusioninventory_agentsmanagement.dita"/>).</li>
-      <li><i>[Plugin fusinvinventory]</i> Plugin get information if this agent is allowed to execute local inventory module. If no, Agent return order with no inventory request. If yes, go on next step.</li>
-      <li><i>[Agent]</i> It get all informations.</li>
-      <li><i>[Agent]</i> It send XML of inventory to plugin</li>
-      <li><i>[Plugin fusioninventory]</i> The plugin get XML file and send it to plugin <i>fusinvinventory</i>.</li>
-      <li><i>[Plugin fusinvinventory]</i> It receive XML file, parse it and remove fields that are blacklisted.</li>
+      <li><i>[Agent]</i> contact server (plugin <i>fusioninventory</i>).</li>
+      <li><i>[Plugin fusioninventory]</i> create agent the first time (see <xref href="pluginglpi_fusioninventory_agentsmanagement.dita"/>).</li>
+      <li><i>[Plugin fusinvinventory]</i> get information if this agent is allowed to execute local inventory module. If no, Agent return order with no inventory request. If yes, go on next step.</li>
+      <li><i>[Agent]</i> get all informations of computer.</li>
+      <li><i>[Agent]</i> send XML of inventory to plugin.</li>
+      <li><i>[Plugin fusioninventory]</i> get XML file and send it to plugin <i>fusinvinventory</i>.</li>
+      <li><i>[Plugin fusinvinventory]</i> receive XML file, parse it and remove fields that are blacklisted.</li>
       <li><i>[Plugin fusinvinventory]</i> Datas are sent to criterias rules.</li>
       <li><i>[Plugin fusinvinventory]</i> Criteria rules check, and send to the <i>libserver fusioninventory</i>.</li>
-      <li><i>[Libserver fusioninventory]</i> Lib create a file and send all datas to plugin <i>fusinvinventory</i>. In case of computer is yet created, it send only modifications to plugin <i>fusinvinventory</i>. </li>
+      <li><i>[Libserver fusioninventory]</i> Lib create a file and send all datas to plugin <i>fusinvinventory</i>. In case of computer is yet created, it send only modifications of inventory to plugin <i>fusinvinventory</i>. </li>
       <li><i>[Plugin fusinvinventory]</i> Get datas, create computer, send to entity rules to get the right entity.</li>
-      <li><i>[Plugin fusinvinventory]</i> All datas of XML file will be created in GLPI (for some fields, before write in GLPI, dictionnaries are used to rewrite them.</li>
+      <li><i>[Plugin fusinvinventory]</i> All datas of XML file will be created in GLPI (for some fields, before write in GLPI, dictionnaries are used to rewrite them).</li>
       <li>Your computer is in GLPI !</li>
     </ol>
   </body>
