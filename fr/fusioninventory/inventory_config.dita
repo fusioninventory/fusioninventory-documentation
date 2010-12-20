@@ -8,14 +8,16 @@
       <p>La configuration de l'agent est basée sur un mécanisme de clé/valeur.</p>
       <p>L'agent se configure de façon différente en fonction des systèmes d'exploitation et des types d'installation :
       <ul>
+      <li><i>Ligne de commande</i>:
+      il est possible de passer des paramètres lors de l'exécution de l'agent.
+      Par exemple : <codeblock>fusioninventory-agent --server localhost</codeblock>.
+      Dans ce cas, les valeurs passées en paramètre écrasent l'éventuelle configuration
+      existante se trouvant dans un fichier ou la base de registre..</li>
       <li><i>Windows</i> : avec la base de registre qui se trouve dans HKEY_LOCAL_MACHINE/SOFTWARE/FusionInventory-Agent</li>
       <li><i>MacOSX</i> : le fichier de configuration se trouve dans FusionInventory-Agent.pkg/Contents/Resources/agent.cfg</li>
       <li><i>UNIX/Linux</i> : le fichier de configuration se trouvant dans /etc/fusioninventory/agent.cfg</li>
       <li><i>prebuilt</i> : pour les archives préconstruites, le fichier agent.cfg est à la racine du dossier courant.</li>
       </ul>
-      </p>
-
-      <p>
       </p>
   </body>
 </topic>

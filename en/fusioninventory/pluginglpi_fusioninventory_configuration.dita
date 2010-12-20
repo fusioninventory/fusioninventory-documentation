@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<!-- LAST_UPDATE=1970-01-01 00:00:00 -->
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="pluginglpi_fusioninventory_configuration" xml:lang="en-gb">
   <title>Configuration</title>
-  <shortdesc>Configuration of plugin for GLPI : fusioninventory</shortdesc>
+  <shortdesc>Configuration du plugin FusionInventory pour GLPI</shortdesc>
   <body>
-    <p>In this topic, the general configuration is describe.</p>
-    <p>This configuration page is available in menu <i>Plugins &gt; FusionInventory</i> and after by the icon with a <i>key</i> in the top of the page.</p>
+    <p>Dans ce chapitre, toute la configuration du plugin est décrite.</p>
   </body>
 </topic>
