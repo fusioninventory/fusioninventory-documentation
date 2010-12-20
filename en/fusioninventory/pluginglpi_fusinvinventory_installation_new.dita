@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="pluginglpi_fusinvinventory_installation_new" xml:lang="en-gb">
+  <title>New installation</title>
+  <shortdesc>How to install the plugin <i>fusinvinventory</i></shortdesc>
+  <body>
+    <p>To install it, you must do : </p>
+    <ul>
+      <li>
+        <p>Download file here : </p>
+        <xref href="http://forge.fusioninventory.org/projects/pluginfusinvinventory/files" format="html"/>
+      </li>
+      <li>
+        <p>Uncompress the file into the plugin folder of GLPI. File list seems to be like :</p>
+        <p>- glpi</p>
+        <p>--- plugins</p>
+        <p>-----fusinvinventory</p>
+        <p>-------index.php</p>
+        <p>------- hook.php</p>
+        <p>------- front</p>
+        <p>------- inc</p>
+        <p>etc...</p>
+      </li>
+      <li>Connect on GLPI on super-admin </li>
+      <li>Go into the menu <i>Configuration &gt; Plugins</i></li>
+      <li>Install <i>FusionInventory INVENTORY</i>. </li>
+      <li>Activate <i>FusionInventory INVENTORY</i>. </li>
+    </ul>
+    <p>These operations will create tables in database MySQL and rights on the plugin.</p>
+    <note type="important">Link for install / activate this plugin is hidden if plugin <xref href="pluginglpi_fusioninventory.dita"/> isn&apos;t installed and activated.</note>
+  </body>
+</topic>

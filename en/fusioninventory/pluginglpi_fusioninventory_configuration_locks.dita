@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- LAST_UPDATE=1970-01-01 00:00:00 -->
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="pluginglpi_fusioninventory_configuration_locks" xml:lang="en-gb">
-  <title>Configuration des verrous</title>
-  <shortdesc>Configuration des verrous</shortdesc>
+  <title>Locks configuration</title>
+  <shortdesc>Locks configuration</shortdesc>
   <body>
-    <p>On peut verrouiller des champs. Par exemple si sur un switch, le lieu remonte &apos;salle1&apos; et que le lieu réel est &apos;salle2&apos;, on peut dire que le champs lieu reste &apos;salle2&apos; et que la remontée via  Fusioninventory ne doit pas le modifier.</p>
+    <p>This is available in the tab <i>Lockable fields</i>.</p>
+    <p>We will be able to lock some fields. </p>
   </body>
 </topic>
