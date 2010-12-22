@@ -116,7 +116,11 @@
       </topicref>
       <topicref href="fusioninventory/pluginglpi_fusinvinventory_howitwork.dita"/>
     </chapter>
-    <chapter href="fusioninventory/pluginglpi_fusinvsnmp.dita"/>
+    <chapter href="fusioninventory/pluginglpi_fusinvsnmp.dita">
+      <topicref href="fusioninventory/pluginglpi_fusinvsnmp_description.dita"/>
+      <topicref href="fusioninventory/pluginglpi_fusinvsnmp_prerequisite.dita"/>
+      <topicref href="fusioninventory/pluginglpi_fusinvsnmp_features.dita"/>
+    </chapter>
     <chapter href="fusioninventory/pluginglpi_fusinvdeploy.dita"/>
     <topicref href="fusioninventory/pluginglpi_fusioninventory_rangeip.dita"/>
     <topicref href="fusioninventory/pluginglpi_fusioninventory_agentsconfiguration.dita"/>

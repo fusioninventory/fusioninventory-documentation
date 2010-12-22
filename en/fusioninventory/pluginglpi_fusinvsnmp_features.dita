@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="pluginglpi_fusinvsnmp_features" xml:lang="en-gb">
+  <title>Features</title>
+  <shortdesc>Features list</shortdesc>
+  <body>
+    <p>This is features list : </p>
+    <ul>
+      <li>
+        <p>Get many informations of switch: </p>
+        <ul>
+          <li>Hardware informations (serial number, model, manufacturer, firmware, mac caddress...)</li>
+          <li>Ports informations (name, description, MTU, erors...)</li>
+          <li>Connections on each port (what mac is connected on this port)</li>
+        </ul>
+      </li>
+      <li>
+        <p>Get many informations of printer:</p>
+        <ul>
+          <li>Hardware informations (serial number, model, manufacturer, firmware, memory...)</li>
+          <li>Cartridges state (empty, full, percent of ink)</li>
+          <li>Page counter (counter registred all days and possibility to display graph of these datas, get counter total, color counter, black and white counter...)</li>
+        </ul>
+      </li>
+      <li>
+        <p>Discovery all devices connected on the network</p>
+        <ul>
+          <li>Scan by NMAP (if installed, get mac address and dns name)</li>
+          <li>Scan by NETBIOS (get netbios name, workgroup or domain, user connected)</li>
+          <li>Scan by SNMP (get serial number, mac address, name)</li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</topic>
