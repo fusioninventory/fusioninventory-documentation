@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="pluginglpi_fusioninventory_tasksmanagement_description" xml:lang="en-gb">
+  <title>Tasks description</title>
+  <shortdesc>Tasks description</shortdesc>
+  <body>
+    <p>The tasks are defined by 2 things : </p>
+    <ul>
+      <li>Tasks : task are great definition with <i>name</i>, <i>activation</i>, <i>communication</i>...</li>
+      <li>Actions : defined in a task, theses actions is defined to make wakeonlan, inventory, netdiscovery... on agents. You can have many actions on one task.</li>
+    </ul>
+  </body>
+</topic>

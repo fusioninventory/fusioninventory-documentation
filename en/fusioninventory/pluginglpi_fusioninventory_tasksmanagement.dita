@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="pluginglpi_fusioninventory_tasksmanagement" xml:lang="en-gb">
+  <title>Tasks management</title>
+  <shortdesc>Tasks management</shortdesc>
+  <body>
+    <p>This is available in the menu <i>Plugins &gt; FusionInventory &gt; Task management</i>.</p>
+    <p>It is possible to manage tasks and configuration of them here.</p>
+  </body>
+</topic>

@@ -106,6 +106,10 @@
         <topicref href="fusioninventory/pluginglpi_fusioninventory_agentsmanagement_agentinformations.dita"/>
         <topicref href="fusioninventory/pluginglpi_fusioninventory_agentsmanagement_agentsmodules.dita"/>
       </topicref>
+      <topicref href="fusioninventory/pluginglpi_fusioninventory_tasksmanagement.dita">
+        <topicref href="fusioninventory/pluginglpi_fusioninventory_tasksmanagement_description.dita"/>
+        <topicref href="fusioninventory/pluginglpi_fusioninventory_tasksmanagement_usage.dita"/>
+      </topicref>
     </chapter>
     <chapter href="fusioninventory/pluginglpi_fusinvinventory.dita">
       <topicref href="fusioninventory/pluginglpi_fusinvinventory_description.dita"/>
