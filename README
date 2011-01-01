@@ -3,21 +3,3 @@ This is the documentation module of FusionInventory.
 = BUILD =
 To generate the documentation, run:
  make
-
-= DOC WRITER =
-
-Once a file is written, you have to update its timestamp like that:
- ./updateStamp.pl thefile.dita 
-
-= TRANSLATOR =
-First, thank you!
-
-To know which file need to be refresh we use a timestamp
-mecanism.
-
-To know what need to be done, run:
- ./tools/findTodo.pl <language>
-The tool will give you a list of file to synchronise.
-
-Once a file is refreshed, you've to copy the TIMESTAMP from the original
-file.
