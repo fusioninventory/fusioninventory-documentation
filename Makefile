@@ -12,12 +12,15 @@ all: fr en de
 
 fr: createEmpty dita
 	ant -Dlang=fr -f build/build.xml
+	cp build/fr/fusioninventory.pdf fusioninventory-fr.pdf
 
 en: dita
 	ant -Dlang=en -f build/build.xml
+	cp build/en/fusioninventory.pdf fusioninventory-en.pdf
 
 de: createEmpty dita
 	ant -Dlang=de -f build/build.xml
+	cp build/de/fusioninventory.pdf fusioninventory-de.pdf
 
 dita.tar.gz:
 	wget -O dita.tar.gz.part ${DITAOT_URL}
