@@ -10,13 +10,13 @@ export CLASSPATH
 all: fr en de
 
 
-fr: dita
+fr: createEmpty dita
 	ant -Dlang=fr -f build/build.xml
 
 en: dita
 	ant -Dlang=en -f build/build.xml
 
-de: dita
+de: createEmpty dita
 	ant -Dlang=de -f build/build.xml
 
 dita.tar.gz:
@@ -30,4 +30,7 @@ dita: dita.tar.gz
 clean:
 	rm -rf build/fr build/de build/en build/temp dita.tar.gz dita
 
-.PHONY: fr de en
+createEmpty:
+	perl tools/createEmptyDitaFile.pl
+
+.PHONY: fr de en createEmpty
