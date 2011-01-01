@@ -1,0 +1,6 @@
+*.pdf
+*.swp
+build
+dita.tar.gz
+dita
+*~
