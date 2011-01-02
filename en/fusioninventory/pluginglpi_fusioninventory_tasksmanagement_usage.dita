@@ -4,7 +4,7 @@
   <title>Tasks usage</title>
   <shortdesc>Tasks usage</shortdesc>
   <body>
-    <p>The tasks must be defined by differents fields :  </p>
+    <p>The tasks must be defined by different fields :  </p>
     <ul>
       <li>Name : used to identify task. Think to put a complete name because if there is lots of tasks, it must be better to find task you want to display.</li>
       <li>Active : enable or disable a task.</li>
