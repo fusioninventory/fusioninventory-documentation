@@ -7,7 +7,7 @@
     <p>The tasks are defined by 2 things : </p>
     <ul>
       <li>Tasks : task are great definition with <i>name</i>, <i>activation</i>, <i>communication</i>...</li>
-      <li>Actions : defined in a task, theses actions is defined to make wakeonlan, inventory, netdiscovery... on agents. You can have many actions on one task.</li>
+      <li>Actions : defined in a task, theses actions are designed to make wakeonlan, inventory, netdiscovery... on agents. You can have many actions on one task.</li>
     </ul>
   </body>
 </topic>

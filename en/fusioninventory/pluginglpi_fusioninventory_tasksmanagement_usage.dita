@@ -6,10 +6,11 @@
   <body>
     <p>The tasks must be defined by different fields :  </p>
     <ul>
-      <li>Name : used to identify task. Think to put a complete name because if there is lots of tasks, it must be better to find task you want to display.</li>
+      <li>Name : used to identify task. Think to put a complete name because if there is lots of tasks, it must be better to find task you want to display or configure.</li>
       <li>Active : enable or disable a task.</li>
-      <li>Communication : Push (server wake agent and give task to it) or Pull (server wait agent contact server and get tasks from it)</li>
-      <li>Permanent : some tasks may be permanent. these tasks are defined in other menu (for example in IP range of fusinvsnmp plugin). For example, a task must be sent to agent all 10 minutes and we don&apos;t recreate a task for each time.</li>
+      <li>Communication : Push (server wake agent and give task to it) or Pull (server wait agent contact server and get tasks from it).</li>
+      <li>Permanent : some tasks may be permanent. these tasks are defined in other menu (like in IP range of fusinvsnmp plugin). For example, a task must be running and send order to agent all 10 minutes; so, we don&apos;t recreate a task for each time.</li>
+      <li>Scheduled date: You define the date / time of next execution of the task. This date will be updated after each running if periodicity is set. </li>
       <li>Periodicity : define time between 2 runs of this task. </li>
     </ul>
   </body>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="pluginglpi_fusioninventory_tasksmanagement_actions" xml:lang="en-gb">
+  <title>Task actions</title>
+  <shortdesc>Task actions</shortdesc>
+  <body>
+    <p>A tasks is defined by one or more action.  </p>
+    <p>Depends of plugins <i>fusinv[...]</i> installed, you can have  a wakeonlan of a computer at 1 hour am and a local inventory at 2 hours am.</p>
+    <p>There are 2 types of tabs : </p>
+    <ul>
+      <li><i>New action</i>: used to add a new action.</li>
+      <li><i>Action [number]</i>: it&apos;s an action defined. Number is incremental, so if there are 4 actions, 4 tabs are displayed : <i>Action 1</i>, <i>Action 2</i>, <i>Action 3</i> and <i>Action 4</i>. These tabs are sorted time of execution (<i>Action 1</i> at 0 seconds after task begin , <i>Action 2</i> 30 minutes after the first action etc...).</li>
+    </ul>
+  </body>
+</topic>

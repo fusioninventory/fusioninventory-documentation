@@ -98,7 +98,6 @@
       </topicref>
       <topicref href="fusioninventory/pluginglpi_fusioninventory_configuration.dita">
         <topicref href="fusioninventory/pluginglpi_fusioninventory_configuration_general.dita"/>
-        <topicref href="fusioninventory/pluginglpi_fusioninventory_configuration_locks.dita"/>
         <topicref href="fusioninventory/pluginglpi_fusioninventory_configuration_modules.dita"/>
       </topicref>
       <topicref href="fusioninventory/pluginglpi_fusioninventory_agentsmanagement.dita">
@@ -109,6 +108,11 @@
       <topicref href="fusioninventory/pluginglpi_fusioninventory_tasksmanagement.dita">
         <topicref href="fusioninventory/pluginglpi_fusioninventory_tasksmanagement_description.dita"/>
         <topicref href="fusioninventory/pluginglpi_fusioninventory_tasksmanagement_usage.dita"/>
+        <topicref href="fusioninventory/pluginglpi_fusioninventory_tasksmanagement_actions.dita">
+          <topicref href="fusioninventory/pluginglpi_fusioninventory_tasksmanagement_actions_description.dita"/>
+          <topicref href="fusioninventory/pluginglpi_fusioninventory_tasksmanagement_actions_definition.dita"/>
+          <topicref href="fusioninventory/pluginglpi_fusioninventory_tasksmanagement_actions_action.dita"/>
+        </topicref>
       </topicref>
     </chapter>
     <chapter href="fusioninventory/pluginglpi_fusinvinventory.dita">
