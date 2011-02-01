@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- LAST_UPDATE=1970-01-01 00:00:00 -->
+<!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. -->
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" [
 <!ENTITY toto 'www.google.fr'>
 <!ENTITY www.google.fr SYSTEM "http://www.google.fr">]>
 <topic id="preface_liens_mailing" xml:lang="fr-fr">
-  <title>Mailing liste</title>
-  <shortdesc>Adresses des mailings listes</shortdesc>
+  <title>Listes de diffusion</title>
+  <shortdesc>Adresses des listes de diffusions officielles du projet</shortdesc>
   <body>
     <p><ul>
-        <li><xref format="html" href="http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-user">Utilisateurs FusionInventory</xref> (<xref format="html" href="http://lists.alioth.debian.org/pipermail/fusioninventory-devel/">archive</xref>)</li>
-        <li><xref format="html" href="http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-devel">Deloppeurs FusionInventory</xref> (<xref format="html" href="http://lists.alioth.debian.org/pipermail/fusioninventory-user/">archive</xref>)</li>
-        <li><xref format="html" href="http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-i18n">Internationalisation et traduction FusionInventory</xref> (<xref format="html" href="http://lists.alioth.debian.org/pipermail/fusioninventory-i18n/">archive</xref>)</li>
+        <li><xref href="http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-user" format="html">Liste des utilisateurs FusionInventory</xref> (<xref href="http://lists.alioth.debian.org/pipermail/fusioninventory-devel/" format="html">archive</xref>)</li>
+        <li><xref href="http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-devel" format="html">Liste des développeurs FusionInventory</xref> (<xref href="http://lists.alioth.debian.org/pipermail/fusioninventory-user/" format="html">archive</xref>)</li>
+        <li><xref href="http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-i18n" format="html">Liste pour l&apos;internationalisation et traduction</xref> (<xref href="http://lists.alioth.debian.org/pipermail/fusioninventory-i18n/" format="html">archive</xref>)</li>
       </ul></p>
   </body>
 </topic>

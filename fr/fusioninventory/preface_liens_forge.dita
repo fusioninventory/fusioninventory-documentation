@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- LAST_UPDATE=1970-01-01 00:00:00 -->
+<!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. -->
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="preface_liens_forge" xml:lang="fr-fr">
   <title>Forge de développement</title>
   <shortdesc>Adresse de la forge</shortdesc>
   <body>
-    <p>Le lien pour accéder la forge de développement est : </p>
+    <p>Le lien pour accéder l&apos;espace  de développement communataire est :</p>
     <ul>
       <li>
-        <xref format="html" href="http://forge.fusioninventory.org/">http://forge.fusioninventory.org/</xref>
+        <xref href="http://forge.fusioninventory.org/" format="html">http://forge.fusioninventory.org/</xref>
       </li>
     </ul>
   </body>
