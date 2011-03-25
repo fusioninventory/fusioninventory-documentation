@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- LAST_UPDATE=1970-01-01 00:00:00 -->
+<!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. -->
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="pluginglpi_fusioninventory_installation_updatetracker" xml:lang="en-gb">
-  <title>Mise à jour du plugin Tracker</title>
-  <shortdesc>Procédure pour mettre à jour le plugin Tracker</shortdesc>
+  <title>Update from Tracker plugin</title>
+  <shortdesc>How to update Tracker plugin to FusionInventory plugin</shortdesc>
   <body>
-    <p>Tracker est l&apos;ancien nom du plugin FusionInventory pour GLPI.</p>
-    <p>Pour celà, il faut : </p>
+    <p>Tracker is the old name of the plugin FusionInventory for GLPI.</p>
+    <p>To update, you must : </p>
     <ul>
-      <li> Supprimer le dossier &quot;tracker&quot; dans glpi/plugins</li>
-      <li>Télécharger l&apos;archive du plugin ici : <xref format="html" href="http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/files">http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/files</xref></li>
+      <li> Delete the folder &quot;tracker&quot; in glpi/plugins</li>
+      <li>Download file of the plugin here : <xref href="http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/files" format="html">http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/files</xref></li>
       <li>
-        <p>Décompresser l&apos;archive dans le dossier plugins de GLPI. La liste des fichiers doit ressembler à cette arborescence :</p>
+        <p>Uncompress the file into the plugin folder of GLPI. File list seems to be like : :</p>
         <p>- glpi</p>
         <p>--- plugins</p>
         <p>-----fusioninventory</p>
@@ -21,20 +21,13 @@
         <p>------- inc</p>
         <p>etc...</p>
       </li>
-      <li>Se connecter sur GLPI en tant qu&apos;administrateur </li>
-      <li>Aller dans le menu <i>Configuration &gt; Plugins</i> </li>
+      <li>Connect on GLPI on super-admin </li>
+      <li>Go into the menu <i>Configuration &gt; Plugins</i></li>
       <li>
-        <p>Installer FusionInventory . Le plugin va se mettre à jour. Celà peut durer plusieurs dizaines de secondes. L&apos;historique est modifiée, on a 2 cas :</p>
-        <ul>
-          <li>Si l&apos;historique compte moins de 300 000 lignes, la mise à jour se fait directement avec barres d&apos;avancement de la mise à jour </li>
-          <li>
-            <p>Si l&apos;historique compte plus de 300 000 lignes, la mise à jour se fait partiellement mais il faut finir l&apos;installation en ligne de commande. La commande vous est donnée dans l&apos;interface de GLPI à ce moment là :</p>
-            <codeblock>cd glpi/plugins/fusioninventory/front/ &amp;&amp; php -f cli_update.php</codeblock>
-          </li>
-        </ul>
-       </li>
-      <li>Activer FusionInventory </li>
+        <p>Install FusionInventory . The plugin will update the plugin. Update process can be short (few seconds) to long (many minutes or one/two hours) if you have a very old version of Tracker and if you have lots of data in the plugin.</p>
+      </li>
+      <li>Activate FusionInventory </li>
     </ul>
-    <p>Ces opérations permettent de mettre à jour les tables Tracker en Fusioninventory dans la base de données MySQL ainsi que les droits d&apos;administration du plugin.</p>
+    <p>These operations will modify tables and datas in database MySQL and rights on the plugin.</p>
   </body>
 </topic>

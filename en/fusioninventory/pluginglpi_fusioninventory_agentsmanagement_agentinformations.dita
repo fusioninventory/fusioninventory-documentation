@@ -8,7 +8,7 @@
     <ul>
       <li><i>device_id</i> : it&apos;s the ID of the agent generated it is running first time.</li>
       <li><i>Token</i> : it&apos;s the key used to wake agent remotely. It is regenerated each time agent begin to run.</li>
-      <li><i>Version</i> : it&apos;s the version of agent core. This version is only get when agent send its inventory to plugin.</li>
+      <li><i>Version</i> : it&apos;s the versions of agent (version core and for each modules). This version is only get when agent send its inventory to plugin.</li>
       <li><i>Last contact</i> : it&apos;s the last time agent have contacted plugin.</li>
     </ul>
     <p>Other informations can be modified :  </p>

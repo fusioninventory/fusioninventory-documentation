@@ -7,9 +7,10 @@
     <p>This is available in the tab <i>General configuration</i>.</p>
     <ul>
       <li><i>SSL only for agent</i> : activate or not communication only in HTTPS between plugin and agents.</li>
-      <li><i>Inventory frequency (in hours)</i> : parameter for the PROLOG function of agent. With it, agent must contact plugin always between 0 and xx hours (configured here).</li>
+      <li><i>Inventory frequency (in hours)</i> : parameter for the PROLOG function of agent. With it, agent must contact plugin (server) always between 0 and xx hours (configured here).</li>
       <li><i>Delete tasks after</i> : Delete tasks xx hours after they are finished.</li>
       <li><i>Agent port</i> : it&apos;s the port of agent to wake it from the plugin. (by default, port is 62354).</li>
+      <li><i>Extra-debug</i> : plugin write log files to debug, with one file for communication trace, antoher for the rules usage...</li>
     </ul>
   </body>
 </topic>
