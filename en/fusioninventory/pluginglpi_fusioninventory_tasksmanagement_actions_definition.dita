@@ -4,7 +4,7 @@
   <title>Action definition</title>
   <shortdesc>Action definition</shortdesc>
   <body>
-    <p>Definition in action dscribe what definition of action like a computer to wake up (WakeOnLan module, ip range to netdiscovery...).</p>
-    <p>Foreach module selected, you can select a type and after an object of this type. Click on <i>Add</i> button  to add in selection list. You can have many objects in this definition list.</p>
+    <p>Definition in action describe what definition of action like a computer to wake up (WakeOnLan module), IP range to netdiscovery (network discovery) ...</p>
+    <p>You can select a type defined for each module and after an object of this type. Click on <i>Add</i> button  to add it in selection list. You can have many objects in this definition list.</p>
   </body>
 </topic>

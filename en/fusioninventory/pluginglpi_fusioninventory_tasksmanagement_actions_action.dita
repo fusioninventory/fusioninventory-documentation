@@ -4,7 +4,12 @@
   <title>Action action</title>
   <shortdesc>Action action</shortdesc>
   <body>
-    <p>Action in an action describe with what agent or computer you can to this tack action.</p>
-    <p>One or more agents can be selected, or <i>Auto management dynamic of agents</i>.</p>
+    <p>Action in an action witch describe with what agent or computer you can to this tack action.</p>
+    <p>One or more agents can be selected.</p>
+    <p>For some method, you can have 2 other choices for agent actions : </p>
+    <ul>
+      <li><i>Auto management dynamic of agents</i>: can be used only in <i>push</i> communication. Task will detect online and not running agent are allowed to run this method and give definitions to these agents.</li>
+      <li><i>Auto management dynamic of agents (same subnet)</i>: can be used only in <i>push</i> communication. Task will detect online and not running agent in the same subnet of definition (for SNMP inventory switchs for example) are allowed to run this method and give definitions to these agents.</li>
+    </ul>
   </body>
 </topic>
