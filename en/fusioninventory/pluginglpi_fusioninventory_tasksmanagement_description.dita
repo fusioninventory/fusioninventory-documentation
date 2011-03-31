@@ -6,8 +6,9 @@
   <body>
     <p>The tasks are defined by 2 things : </p>
     <ul>
-      <li>Tasks : task are great definition with <i>name</i>, <i>activation</i>, <i>communication</i>...</li>
-      <li>Actions : defined in a task, theses actions are designed to make wakeonlan, inventory, netdiscovery... on agents. You can have many actions on one task.</li>
+      <li><i>Tasks</i> : task are great definition with <i>name</i>, <i>activation</i>, <i>communication</i>...</li>
+      <li><i>Actions</i> : defined in a task, theses actions are designed to make wakeonlan, inventory, netdiscovery... on agents. You can have many actions on one task.</li>
     </ul>
+    <p>These tasks are used to order to agents to make some functions. They can be scheduled and have periodicity parameter to run for example every hour.</p>
   </body>
 </topic>

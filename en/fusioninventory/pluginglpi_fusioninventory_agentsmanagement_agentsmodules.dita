@@ -7,6 +7,6 @@
     <p>This is available in the tab <i>Agents modules</i>. </p>
     <p>In this tab, is displaying the fusioninventory modules and if they are activated or not for this agent.</p>
     <p>So you can see in this tab what modules are allowed to be running in this agent.</p>
-    <p>The default activation (or not activation) is controlled by the general configuration page (<xref href="pluginglpi_fusioninventory_configuration_modules.dita"/>). If you inverse check, the plugin add an exception that you can see in general configuration page.</p>
+    <p>The default activation (or not activation) is controlled by the general configuration page (<xref href="pluginglpi_fusioninventory_configuration_modules.dita"/>). If you inverse check, the plugin add an exception that you can see in general configuration page and allow or deny for this agent.</p>
   </body>
 </topic>
