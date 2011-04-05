@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- LAST_UPDATE=1970-01-01 00:00:00 -->
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//RU" "../../dtd/topic.dtd" []>
+<topic id="inventory" xml:lang="ru-ru">
+  <title>Локальный инвентарный фаил</title>
+  <shortdesc>Как сделать локальный инвентарный фаил</shortdesc>
+  <body>
+      <p>Вы можите сгенерировать локальный инвентарный фаил в XML или HTML/</p>
+      <p>
+          на Windows, вы должны в первую очередь переийти в то место, куда был установлен агент и за тем перейти в perl/bin :
+          <codeblock>perl fusioninventory-agent --local c:/tmp</codeblock>
+      </p>
+      <p>
+          на UNIX системах :
+          <codeblock>fusioninventory-agent --local c:/tmp</codeblock>
+      </p>
+      <p>
+          Для получения HTML, вы должны просто добавить <b>--html</b> параметер:
+          <codeblock>fusioninventory-agent --local c:/tmp --html</codeblock>
+      </p>
+
+  </body>
+</topic>

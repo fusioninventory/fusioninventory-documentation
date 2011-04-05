@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//RU" "../../dtd/topic.dtd" []>
+<topic id="pluginglpi_fusinvsnmp_prerequisite" xml:lang="ru-ru">
+  <title>Требования</title>
+  <shortdesc>Первоначальные требования для использования плагина GLPI : fusinvsnmp</shortdesc>
+  <body>
+    <p>Для того что бы установить и использовать плагин <i>fusinvsnmp</i> на вашем сервере вы должны иметь:</p>
+    <ul>
+      <li>GLPI 0.78 или выше (0.72 и старые версии не поддерживаются)</li>
+      <li>Plugin : <xref href="pluginglpi_fusioninventory.dita"/></li>
+    </ul>
+  </body>
+</topic>

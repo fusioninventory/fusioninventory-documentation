@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- LAST_UPDATE=1970-01-01 00:00:00 -->
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="preface_liens_irc" xml:lang="en-gb">
+  <title>IRC-Channel</title>
+  <shortdesc>Adress of the irc-ChannelAdresse du canal IRC</shortdesc>
+  <body>
+    <p>Here are the informations to find the projects&apos; IRC channel: </p>
+    <ul>
+      <li>Server: freenode</li>
+      <li>Channel: #fusioninventory</li>
+    </ul>
+  </body>
+</topic>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- LAST_UPDATE=1970-01-01 00:00:00 -->
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//RU" "../../dtd/topic.dtd" []>
+<topic id="agent_installpackage_windows" xml:lang="ru-ru">
+  <title>Windows инсталлятор</title>
+  <shortdesc>Как можно установить агент под Windows используя установщик</shortdesc>
+  <body>
+    <p>Вы можите скачать установщик пакета FusionInventory на этой странице:<xref href="http://prebuilt.fusioninventory.org/stable/windows-i386/" format="html">http://prebuilt.fusioninventory.org/stable/windows-i386/</xref></p>
+    <p>Вы должны просто запустить установщик для интерактивного процесса установки.</p>
+    <note>Этот установщик имеет встроенный Perl для использования FusionInventory.</note>
+    <note>Если вы хотите использовать просмоторщик сети или сканер nmap, вы должны установить Windows версию nmap. Вы можите найти последнюю версию здесь: <xref href="http://nmap.org/download.html" format="html">http://nmap.org/download.html</xref>.</note>
+  </body>
+</topic>

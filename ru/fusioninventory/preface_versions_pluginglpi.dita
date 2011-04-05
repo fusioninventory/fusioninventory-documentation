@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. -->
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="preface_versions_pluginglpi" xml:lang="en-gb">
+  <title>FusionInventory plugin for GLPI</title>
+  <shortdesc>GLPI plugin version</shortdesc>
+  <body>
+    <p>The version of the GLPI plugin described in this manual is: <b>2.3.0</b></p>
+  </body>
+</topic>

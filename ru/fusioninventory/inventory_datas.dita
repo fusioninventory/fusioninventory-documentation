@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- LAST_UPDATE=1970-01-01 00:00:00 -->
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//RU" "../../dtd/topic.dtd" []>
+<topic id="inventory_datas" xml:lang="ru-ru">
+  <title>Informations récoltées</title>
+  <shortdesc>Informations récoltées</shortdesc>
+  <body>
+      <p>
+      Field description and structure are documented in the Agent documentation avaialbe here:
+      <xref format="html" href="http://search.cpan.org/dist/FusionInventory-Agent/lib/FusionInventory/Agent/XML/Query/Inventory.pm">http://search.cpan.org/dist/FusionInventory-Agent/lib/FusionInventory/Agent/XML/Query/Inventory.pm</xref>
+  </p>
+  </body>
+</topic>

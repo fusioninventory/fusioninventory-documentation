@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- LAST_UPDATE=1970-01-01 00:00:00 -->
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="preface_versions_libserveurphp" xml:lang="en-gb">
+  <title>Lib serveur php</title>
+  <shortdesc>Version de la lib serveur php</shortdesc>
+  <body>
+    <p>La lib serveur php n&apos;a pas encore été releasé, elle est encore en cours de développement / test.</p>
+  </body>
+</topic>

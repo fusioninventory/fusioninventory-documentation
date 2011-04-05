@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//RU" "../../dtd/topic.dtd" []>
+<topic id="pluginglpi_fusinvinventory_installation_new" xml:lang="ru-ru">
+  <title>Первая установка</title>
+  <shortdesc>Как установить плагин <i>fusinvinventory</i></shortdesc>
+  <body>
+    <p>Для его установки вы должны сделать : </p>
+    <ul>
+      <li>
+        <p>Скачать фаил здесь : </p>
+        <xref href="http://forge.fusioninventory.org/projects/pluginfusinvinventory/files" format="html"/>
+      </li>
+      <li>
+        <p>Распаковать фаил в папку с плагинами GLPI. Примерно будет так это выглядеть :</p>
+        <p>- glpi</p>
+        <p>--- plugins</p>
+        <p>-----fusinvinventory</p>
+        <p>-------index.php</p>
+        <p>------- hook.php</p>
+        <p>------- front</p>
+        <p>------- inc</p>
+        <p>etc...</p>
+      </li>
+      <li>Подключитесь к GLPI от super-admin </li>
+      <li>Войдите в меню <i>Настройка &gt; Плагины</i></li>
+      <li>Установить <i>FusionInventory INVENTORY</i>. </li>
+      <li>Активировать <i>FusionInventory INVENTORY</i>. </li>
+    </ul>
+    <p>Эта операция создаст таблицы в базе данных MySQL.</p>
+    <note type="important">Ссылка для установки / активирутей этот плагин в скрытых если плагин <xref href="pluginglpi_fusioninventory.dita"/> не был установлен и активирован.</note>
+  </body>
+</topic>

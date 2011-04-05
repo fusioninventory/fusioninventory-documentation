@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//RU" "../../dtd/topic.dtd" []>
+<topic id="pluginglpi_fusinvinventory_description" xml:lang="ru-ru">
+  <title>Описание</title>
+  <shortdesc>Описание плагина GLPI : fusinvinventory</shortdesc>
+  <body>
+    <p>Цель этого плагина - получение информации об установлено оборудовании и программном обеспечении на компьтерах в GLPI. </p>
+  </body>
+</topic>

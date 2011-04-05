@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- LAST_UPDATE=1970-01-01 00:00:00 -->
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//RU" "../../dtd/topic.dtd" []>
+<topic id="agent_prerequisite" xml:lang="ru-ru">
+  <title>Требования</title>
+  <shortdesc>Требования для установки агента</shortdesc>
+  <body>
+    <p>Агент может быть установлен на следующие операционные системы:
+    <ul>
+      <li>Windows (с 2000 до 7 так же Server editions)</li>
+      <li>Linux-based systems</li>
+      <li>FreeBSD, OpenBSD, NetBSD, DragonFlyBSD</li>
+      <li>MacOS X</li>
+      <li>Solaris, OpenSolaris, OpenIndiana</li>
+      <li>AIX</li>
+      <li>HP-UX</li>
+    </ul>
+</p>
+<p>
+    Список из протестированных платформ здесь: <xref format="html" href="http://forge.fusioninventory.org/projects/fusioninventory-agent/wiki/Agent_supportedplateforms">http://forge.fusioninventory.org/projects/fusioninventory-agent/wiki/Agent_supportedplateforms</xref>
+</p>
+</body>
+</topic>

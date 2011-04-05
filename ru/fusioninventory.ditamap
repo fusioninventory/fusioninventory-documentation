@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This document was created with Syntext Serna Free. --><!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "../dtd/bookmap.dtd" []>
+<!-- (c) Copyright IBM Corp. 2004, 2007 All Rights Reserved. -->
+<bookmap id="fusioninventory-DOC" xml:lang="ru-ru">
+  <booktitle>
+    <mainbooktitle>FusionInventory !</mainbooktitle>
+    <booktitlealt>
+      <image href="image/fusion_transparence_400x150.png" height="150" width="400"/>
+    </booktitlealt>
+  </booktitle>
+  <frontmatter>
+    <booklists>
+      <toc/>
+    </booklists>
+    <preface href="fusioninventory/preface.dita">
+      <topicref href="fusioninventory/preface_liens.dita">
+        <topicref href="fusioninventory/preface_liens_site.dita"/>
+        <topicref href="fusioninventory/preface_liens_forge.dita"/>
+        <topicref href="fusioninventory/preface_liens_mailing.dita"/>
+        <topicref href="fusioninventory/preface_liens_irc.dita"/>
+        <topicref href="fusioninventory/preface_liens_forum.dita"/>
+      </topicref>
+      <topicref href="fusioninventory/preface_versions.dita">
+        <topicref href="fusioninventory/preface_versions_agent.dita"/>
+        <topicref href="fusioninventory/preface_versions_moduledecouverte.dita"/>
+        <topicref href="fusioninventory/preface_versions_moduleinventairesnmp.dita"/>
+        <topicref href="fusioninventory/preface_versions_moduleocsdeploy.dita"/>
+        <topicref href="fusioninventory/preface_versions_pluginglpi.dita"/>
+        <topicref href="fusioninventory/preface_versions_libserveurphp.dita"/>
+      </topicref>
+    </preface>
+  </frontmatter>
+  <part href="fusioninventory/agent.dita">
+    <topicref href="fusioninventory/agent_installing.dita">
+      <topicref href="fusioninventory/agent_prerequisite.dita"/>
+      <topicref href="fusioninventory/agent_install.dita">
+        <topicref href="fusioninventory/agent_installpackage.dita">
+          <topicref href="fusioninventory/agent_installpackage_apt.dita"/>
+          <topicref href="fusioninventory/agent_installpackage_yum.dita"/>
+          <topicref href="fusioninventory/agent_installpackage_windows.dita">
+            <topicref href="fusioninventory/agent_installpackage_windows_parameter.dita"/>
+          </topicref>
+          <topicref href="fusioninventory/agent_installpackage_macosx.dita"/>
+        </topicref>
+        <topicref href="fusioninventory/agent_installcpan.dita"/>
+        <topicref href="fusioninventory/agent_installprebuilt.dita"/>
+      </topicref>
+    </topicref>
+    <topicref href="fusioninventory/inventory.dita"/>
+    <topicref href="fusioninventory/inventory_config.dita"/>
+    <topicref href="fusioninventory/inventory_server.dita"/>
+    <topicref href="fusioninventory/inventory_local.dita"/>
+    <topicref href="fusioninventory/inventory_injector.dita"/>
+    <topicref href="fusioninventory/inventory_remotecall.dita"/>
+<!--      <topicref href="fusioninventory/inventory_datas.dita"/>
+    </topicref> -->    <topicref href="fusioninventory/networkdiscovery.dita">
+      <topicref href="fusioninventory/networkdiscovery_description.dita"/>
+      <topicref href="fusioninventory/networkdiscovery_scan.dita">
+        <topicref href="fusioninventory/networkdiscovery_scan_nmap.dita"/>
+        <topicref href="fusioninventory/networkdiscovery_scan_netbios.dita"/>
+        <topicref href="fusioninventory/networkdiscovery_scan_snmp.dita"/>
+      </topicref>
+    </topicref>
+    <topicref href="fusioninventory/snmpquery.dita">
+      <topicref href="fusioninventory/snmpquery_description.dita"/>
+      <topicref href="fusioninventory/snmpquery_datas.dita">
+        <topicref href="fusioninventory/snmpquery_datas_hardwaresoftware.dita"/>
+        <topicref href="fusioninventory/snmpquery_datas_switchrouter.dita">
+          <topicref href="fusioninventory/snmpquery_datas_switchrouter_ports.dita"/>
+          <topicref href="fusioninventory/snmpquery_datas_switchrouter_portsconnections.dita"/>
+        </topicref>
+        <topicref href="fusioninventory/snmpquery_datas_printer.dita">
+          <topicref href="fusioninventory/snmpquery_datas_printer_ports.dita"/>
+          <topicref href="fusioninventory/snmpquery_datas_printer_cartridgestate.dita"/>
+          <topicref href="fusioninventory/snmpquery_datas_printer_pagecounter.dita"/>
+        </topicref>
+      </topicref>
+    </topicref>
+    <topicref href="fusioninventory/wakeonlan.dita">
+      <topicref href="fusioninventory/wakeonlan_description.dita"/>
+      <topicref href="fusioninventory/wakeonlan_wakeosi2.dita"/>
+      <topicref href="fusioninventory/wakeonlan_wakeudp.dita"/>
+    </topicref>
+    <topicref href="fusioninventory/ocsdeployp2p.dita">
+      <topicref href="fusioninventory/ocsdeployp2p_description.dita"/>
+      <topicref href="fusioninventory/ocsdeployp2p_p2p.dita"/>
+    </topicref>
+  </part>
+  <part href="fusioninventory/pluginglpi.dita">
+    <chapter href="fusioninventory/pluginglpi_fusioninventory.dita">
+      <topicref href="fusioninventory/pluginglpi_fusioninventory_description.dita"/>
+      <topicref href="fusioninventory/pluginglpi_fusioninventory_prerequisite.dita"/>
+      <topicref href="fusioninventory/pluginglpi_fusioninventory_functionalities.dita"/>
+      <topicref href="fusioninventory/pluginglpi_fusioninventory_installation.dita">
+        <topicref href="fusioninventory/pluginglpi_fusioninventory_installation_new.dita"/>
+        <topicref href="fusioninventory/pluginglpi_fusioninventory_installation_updatefusioninventory.dita"/>
+        <topicref href="fusioninventory/pluginglpi_fusioninventory_installation_updatetracker.dita"/>
+      </topicref>
+      <topicref href="fusioninventory/pluginglpi_fusioninventory_configuration.dita">
+        <topicref href="fusioninventory/pluginglpi_fusioninventory_configuration_general.dita"/>
+        <topicref href="fusioninventory/pluginglpi_fusioninventory_configuration_modules.dita"/>
+      </topicref>
+      <topicref href="fusioninventory/pluginglpi_fusioninventory_agentsmanagement.dita">
+        <topicref href="fusioninventory/pluginglpi_fusioninventory_agentsmanagement_creationagent.dita"/>
+        <topicref href="fusioninventory/pluginglpi_fusioninventory_agentsmanagement_agentinformations.dita"/>
+        <topicref href="fusioninventory/pluginglpi_fusioninventory_agentsmanagement_agentsmodules.dita"/>
+      </topicref>
+      <topicref href="fusioninventory/pluginglpi_fusioninventory_tasksmanagement.dita">
+        <topicref href="fusioninventory/pluginglpi_fusioninventory_tasksmanagement_description.dita"/>
+        <topicref href="fusioninventory/pluginglpi_fusioninventory_tasksmanagement_usage.dita"/>
+        <topicref href="fusioninventory/pluginglpi_fusioninventory_tasksmanagement_actions.dita">
+          <topicref href="fusioninventory/pluginglpi_fusioninventory_tasksmanagement_actions_description.dita"/>
+          <topicref href="fusioninventory/pluginglpi_fusioninventory_tasksmanagement_actions_definition.dita"/>
+          <topicref href="fusioninventory/pluginglpi_fusioninventory_tasksmanagement_actions_action.dita"/>
+        </topicref>
+      </topicref>
+    </chapter>
+    <chapter href="fusioninventory/pluginglpi_fusinvinventory.dita">
+      <topicref href="fusioninventory/pluginglpi_fusinvinventory_description.dita"/>
+      <topicref href="fusioninventory/pluginglpi_fusinvinventory_prerequisite.dita"/>
+      <topicref href="fusioninventory/pluginglpi_fusinvinventory_features.dita"/>
+      <topicref href="fusioninventory/pluginglpi_fusinvinventory_installation.dita">
+        <topicref href="fusioninventory/pluginglpi_fusinvinventory_installation_new.dita"/>
+      </topicref>
+      <topicref href="fusioninventory/pluginglpi_fusinvinventory_howitwork.dita"/>
+    </chapter>
+    <chapter href="fusioninventory/pluginglpi_fusinvsnmp.dita">
+      <topicref href="fusioninventory/pluginglpi_fusinvsnmp_description.dita"/>
+      <topicref href="fusioninventory/pluginglpi_fusinvsnmp_prerequisite.dita"/>
+      <topicref href="fusioninventory/pluginglpi_fusinvsnmp_features.dita"/>
+      <topicref href="fusioninventory/pluginglpi_fusinvinventory_installation.dita">
+        <topicref href="fusioninventory/pluginglpi_fusinvsnmp_installation_new.dita"/>
+      </topicref>
+    </chapter>
+    <chapter href="fusioninventory/pluginglpi_fusinvdeploy.dita"/>
+    <topicref href="fusioninventory/pluginglpi_fusioninventory_rangeip.dita"/>
+    <topicref href="fusioninventory/pluginglpi_fusioninventory_agentsconfiguration.dita"/>
+    <topicref href="fusioninventory/pluginglpi_fusioninventory_historyagentinformations.dita"/>
+    <topicref href="fusioninventory/pluginglpi_fusioninventory_unknowndevices.dita"/>
+    <topicref href="fusioninventory/pluginglpi_fusioninventory_networkports.dita"/>
+    <topicref href="fusioninventory/pluginglpi_fusioninventory_cartridgestate.dita"/>
+    <topicref href="fusioninventory/pluginglpi_fusioninventory_pagecounter.dita"/>
+    <topicref href="fusioninventory/pluginglpi_fusioninventory_example.dita">
+      <topicref href="fusioninventory/pluginglpi_fusioninventory_example_configure.dita"/>
+      <topicref href="fusioninventory/pluginglpi_fusioninventory_example_configureagent.dita"/>
+      <topicref href="fusioninventory/pluginglpi_fusioninventory_example_configureagent_glpi.dita"/>
+      <topicref href="fusioninventory/pluginglpi_fusioninventory_example_configureiprange.dita"/>
+      <topicref href="fusioninventory/pluginglpi_fusioninventory_example_discovery.dita"/>
+      <topicref href="fusioninventory/pluginglpi_fusioninventory_example_discovery_unknowndevicesmanagement.dita"/>
+      <topicref href="fusioninventory/pluginglpi_fusioninventory_example_query.dita"/>
+    </topicref>
+  </part>
+<!--
+  <part href="fusioninventory/libserverphp.dita">
+    <topicref href="fusioninventory/libserverphp_description.dita"/>
+    <topicref href="fusioninventory/libserverphp_goal.dita"/>
+    <topicref href="fusioninventory/libserverphp_architecture.dita"/>
+    <topicref href="fusioninventory/libserverphp_installation.dita"/>
+    <topicref href="fusioninventory/libserverphp_configuration.dita"/>
+    <topicref href="fusioninventory/libserverphp_datasafterlib.dita">
+      <topicref href="fusioninventory/libserverphp_datasafterlib_phparray.dita">
+        <topicref href="fusioninventory/libserverphp_datasafterlib_infile.dita"/>
+        <topicref href="fusioninventory/libserverphp_datasafterlib_database.dita"/>
+      </topicref>
+    </topicref>
+  </part>
+-->  <appendix href="fusioninventory/glossary.dita">
+    <topicref href="fusioninventory/glossary/mac_address.dita"/>
+  </appendix>
+  <backmatter>
+    <booklists>
+      <indexlist/>
+    </booklists>
+  </backmatter>
+</bookmap>

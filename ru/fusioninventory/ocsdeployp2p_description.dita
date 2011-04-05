@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- LAST_UPDATE=1970-01-01 00:00:00 -->
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//RU" "../../dtd/topic.dtd" []>
+<topic id="ocsdeployp2p_description" xml:lang="ru-ru">
+  <title>Описание</title>
+  <shortdesc>Описание</shortdesc>
+  <body>
+    <p>Данный режим позволяет автоматически развертывать приложение, а так же простого обмена и выполнения команд.</p>
+  </body>
+</topic>

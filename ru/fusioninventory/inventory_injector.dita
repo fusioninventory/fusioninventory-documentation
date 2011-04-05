@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- LAST_UPDATE=1970-01-01 00:00:00 -->
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//RU" "../../dtd/topic.dtd" []>
+<topic id="inventory" xml:lang="ru-ru">
+  <title>Загрузка инвентарного XML файла на сервер</title>
+  <body>
+      <p>Вы можите отправить сгенерированный инвентарный фаил на сервер с использованием fusioninventory-injector команды:
+      <note type="important">
+      fusioninventory-injector доступна начиная с релиза 2.1.7 самого агента.
+      </note>
+      <codeblock>
+      fusioninventory-injector -v -f /tmp/toto-2010-09-10-11-42-22.ocs --url https://login:pw@yourserver/ocsinventory
+      </codeblock>
+  </p>
+      <p>
+      Если вы хотите использовать HTTP proxy, вам нужно объявить это в переменной http_proxy вашего окружения:
+      <codeblock>
+	export http_proxy=http://www-proxy:3128
+      </codeblock>
+      </p>
+  </body>
+</topic>

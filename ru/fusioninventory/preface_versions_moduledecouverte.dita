@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- LAST_UPDATE=1970-01-01 00:00:00 -->
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="preface_versions_moduledecouverte" xml:lang="en-gb">
+  <title>Network discovery module</title>
+  <shortdesc>Version of the discovery module (NETDISCOVERY)</shortdesc>
+  <body>
+    <p>The version of the  &quot;NETDISCOVERY&quot; module is: <b>1.2</b></p>
+  </body>
+</topic>

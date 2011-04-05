@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//RU" "../../dtd/topic.dtd" []>
+<topic id="pluginglpi_fusinvinventory_prerequisite" xml:lang="ru-ru">
+  <title>Требования</title>
+  <shortdesc>Первичные требования для использования плагина GLPI : fusinvinventory</shortdesc>
+  <body>
+    <p>Для того что бы установить и использовать плагин <i>fusinvinveantory</i> на вашем сервере, вы должны иметь:</p>
+    <ul>
+      <li>GLPI 0.78 или выше (0.72 и более старые не поддерживаются)</li>
+      <li>Плагин : <xref href="pluginglpi_fusioninventory.dita"/></li>
+    </ul>
+  </body>
+</topic>

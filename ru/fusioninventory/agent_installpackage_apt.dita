@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- LAST_UPDATE=1970-01-01 00:00:00 -->
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//RU" "../../dtd/topic.dtd" []>
+<topic id="agent_installpackage_apt" xml:lang="ru-ru">
+  <title>apt Пакет</title>
+  <shortdesc>Установка с использованием apt пакетов</shortdesc>
+  <body>
+    <p>Множество основанных от Debian дистрибутивов уже имеют одну из версий агента FusionInventory в своих репазиториях. Но многие могут быть старые или одной из актуальных версий.</p>
+    <p>Разработчики FusionInventory обнавляют DEB пакет до последней версии в одном из добавочных репазиториев. Если вы хотите использовать актуальную версию, вы должны отредактировать данный фаил :</p>
+    <p><codeblock>/etc/apt/sources.list</codeblock></p>
+    <p>Добавить данную строку: <codeblock>deb http://debian.fusioninventory.org/debian/ stable main</codeblock></p>
+    <p>Обновиться :</p>
+    <codeblock>apt-get update
+или
+aptitude update</codeblock>
+    <p>Список FusionInventory пакетов будет доступен используя данную команду:</p>
+    <codeblock>apt-cache search fusioninventory</codeblock>
+    <p>Вы можите установить агент следующей командой <i>apt-get install</i> для установки FusionInventory агента и соответствующих модулей.</p>
+  </body>
+</topic>

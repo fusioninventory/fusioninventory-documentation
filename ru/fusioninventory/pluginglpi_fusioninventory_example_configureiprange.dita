@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- LAST_UPDATE=1970-01-01 00:00:00 -->
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="pluginglpi_fusioninventory_example_configureiprange" xml:lang="en-gb">
+  <title>Configuration d&apos;une plage IP</title>
+  <shortdesc>Configuration d&apos;une plage IP</shortdesc>
+  <body>
+    <p>Il faut maintenant <xref href="pluginglpi_fusioninventory_rangeip.dita">créer notre plage IP</xref> avec les paramètres suivants : </p>
+    <ul>
+      <li><i>Nom</i> : réseau interne</li>
+      <li><i>Début de la plage IP</i> : 192.168.0.1</li>
+      <li><i>Fin de la plage IP</i> : 192.168.0.254</li>
+      <li><i>Agent découverte</i> : L&apos;agent qui a dû se créer (on ne doit en avoir qu&apos;un seul dans la liste)</li>
+      <li><i>Agent interrogation</i> : L&apos;agent qui a dû se créer (on ne doit en avoir qu&apos;un seul dans la liste) IP</li>
+      <li><i>Découverte</i> : Oui</li>
+      <li><i>Interrogation</i> : Non</li>
+    </ul>
+  </body>
+</topic>

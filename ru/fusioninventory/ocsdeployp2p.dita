@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- LAST_UPDATE=1970-01-01 00:00:00 -->
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//RU" "../../dtd/topic.dtd" []>
+<topic id="ocsdeployp2p" xml:lang="ru-ru">
+  <title>OCS P2P Развертывание</title>
+  <shortdesc>OCS P2P Развертывание: Может быть развернуто путем обмена данными хост - хост</shortdesc>
+  <body>
+      <p>Этот модуль предназначен для работы с OCS Inventory сервером и особено с web консолью OCS Reports. Пожалуйста прочтите об этой функции в документации OCS Inventory.
+          <xref format="html" href="http://wiki.ocsinventory-ng.org/index.php/Main_Page">http://wiki.ocsinventory-ng.org/index.php/Main_Page</xref>
+      </p>
+  </body>
+</topic>

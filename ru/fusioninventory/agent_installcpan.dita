@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- LAST_UPDATE=1970-01-01 00:00:00 -->
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//RU" "../../dtd/topic.dtd" []>
+<topic id="agent_installcpan" xml:lang="ru-ru">
+  <title>Установка с использованием CPAN</title>
+  <shortdesc>Как установить агент из CPAN</shortdesc>
+  <body>
+      <p>Для установки FusionInventory из CPAN, используйте эту команду:
+          <codeblock>cpan FusionInventory::Agent</codeblock>
+      </p>
+  </body>
+</topic>

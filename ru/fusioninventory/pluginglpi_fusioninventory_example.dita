@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- LAST_UPDATE=1970-01-01 00:00:00 -->
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="pluginglpi_fusioninventory_example" xml:lang="en-gb">
+  <title>Exemple de mise en place</title>
+  <shortdesc>Exemple de mise en place de FusionInventory</shortdesc>
+  <body>
+    <p>Nous souhaitons : </p>
+    <ul>
+      <li>Faire une découverte de nos switchs</li>
+      <li>Faire un inventaire de nos switchs découverts</li>
+    </ul>
+    <p>Voici les données utilisées dans cet exemple : </p>
+    <ul>
+      <li>Plage IP de notre réseau : <i>192.168.0.1</i> à <i>192.168.0.254</i></li>
+      <li>Serveur GLPI : <i>192.168.0.10</i></li>
+      <li>GLPI est accessible via l&apos;url http://192.168.0.10/glpi/</li>
+      <li>L&apos;agent sera installé sur le serveur 192.168.0.11 (mais il pourrait être installé sur le même serveur que le serveur GLPI)</li>
+      <li>Communauté utilisée : versions 1 &amp; 2c &quot;public&quot;</li>
+    </ul>
+  </body>
+</topic>

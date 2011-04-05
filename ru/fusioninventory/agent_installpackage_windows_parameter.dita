@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- LAST_UPDATE=1970-01-01 00:00:00 -->
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//RU" "../../dtd/topic.dtd" []>
+<topic id="agent_installpackage_windows_parameter" xml:lang="ru-ru">
+  <title>Параментры для Windows установщика </title>
+  <body>
+    <p>Это список доступных параметров для автоматической устновки агента:
+   <ul>
+<li><i>/h</i>: Показать справку</li>
+<li><i>/S</i>: Запуск установки в тихом режиме</li>
+<li><i>/server=url1,url2</i>: Ссылки на сервер</li>
+<li><i>/tag=tagame</i>: Сменить тег в агенте</li>
+<li><i>/user=username</i>: Имя пользователя</li>
+<li><i>/pass=password</i>: Пароль</li>
+<li><i>/realm=realm</i>: Сменить область (опционально)</li>
+<li><i>/ca-cert-file=filename</i>: Имя файла сертификата</li>
+<li><i>/no-ssl-check</i>: Не проверять сертификат когда установленно SSL соединение</li>
+<li><i>/proxy=http://proxy/</i>: Адрес прокси сервера</li>
+<li><i>/debug</i>: Включить режим отладки</li>
+<li><i>/rpc-trust-localhost</i>: Любой пользователь может запускать агент</li>
+<li><i>/scan-homedirs</i>: Просматривать виртуальные машины в домшней папке</li>
+<li><i>/runnow</i>: Этот параметр необходим если вы хотите запустить агент сразу после установки</li>
+   </ul>
+   </p>
+   <p>
+   Пример:
+   <codeblock>fusioninventory-agent_windows-i386_2.1-1.exe /S /debug /runnow /server=https://myown-ocs-server.mydomain.de/ocsinventory"</codeblock>
+   </p>
+  </body>
+</topic>

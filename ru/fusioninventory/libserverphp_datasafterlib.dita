@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- LAST_UPDATE=1970-01-01 00:00:00 -->
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//RU" "../../dtd/topic.dtd" []>
+<topic id="libserverphp_datasafterlib" xml:lang="ru-ru">
+  <title>Gestion des données apres le passage dans la lib</title>
+  <shortdesc>gestion des données apres le passage dans la librairie</shortdesc>
+  <body>
+    <p>TODO</p>
+  </body>
+</topic>

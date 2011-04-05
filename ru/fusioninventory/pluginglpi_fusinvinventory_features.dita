@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//RU" "../../dtd/topic.dtd" []>
+<topic id="pluginglpi_fusinvinventory_features" xml:lang="ru-ru">
+  <title>Особенности</title>
+  <shortdesc>Список особенностей</shortdesc>
+  <body>
+    <p>Список особенностей : </p>
+    <ul>
+      <li>
+        <p>Получение большого количества информации об компьютерах : </p>
+        <ul>
+          <li>Установленное оборудование (серийный номер, модель компьютера, производитель, данные об процессоре, памяти, сетевой карты...)</li>
+          <li>Информация об программном обеспечении (все установленное программное обеспечение)</li>
+          <li>Информация об антивирусах (только для Windows)</li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</topic>

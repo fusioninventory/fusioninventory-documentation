@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- LAST_UPDATE=1970-01-01 00:00:00 -->
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//RU" "../../dtd/topic.dtd" []>
+<topic id="agent_installcpan" xml:lang="ru-ru">
+  <title>Установка / Гспользование готовой сборки</title>
+  <shortdesc>Как использовать готовую сборку</shortdesc>
+  <body>
+    <p>Это откомпиллированная и собраная версяи агента находящаяся под управлением проекта. Запуск агента без установки в вашу систему. : </p>
+    <ul>
+      <li>Вы должны скачать готовую сборку для вашей операционной системы здесь: <xref href="http://prebuilt.fusioninventory.org/stable/" format="html">http://prebuilt.fusioninventory.org/stable/</xref></li>
+      <li>Распаковать скачанный пакет</li>
+      <li>Настроить агент</li>
+      <li>
+        <p>И запустить агент при помощи этой команды:</p>
+        <codeblock>./fusioninventory-agent</codeblock>
+      </li>
+    </ul>
+  </body>
+</topic>

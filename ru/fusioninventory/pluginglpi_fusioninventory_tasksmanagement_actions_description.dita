@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="pluginglpi_fusioninventory_tasksmanagement_actions_description" xml:lang="en-gb">
+  <title>Action description</title>
+  <shortdesc>Action description</shortdesc>
+  <body>
+    <p>An action is defined by:  </p>
+    <ul>
+      <li><i>Name</i>: name for identify this action.</li>
+      <li><i>Time between task start and start this action</i>: It&apos;s the time whan action will start atfer the task is beginning. If there is 10 minutes, task start at 1 hour am and this action begin at 1hour and 10 minutes am.</li>
+      <li><i>Number of trials</i>: It&apos;s possible to define number of trials if there is errors on execution of the task. </li>
+      <li><i>Time between 2 trials (in minutes)</i>: Number of minutes between 2 trials. </li>
+      <li><i>Module</i>: Module defined of the action (WakeOnLan, Inventory, netdiscovery...). These modules are from each plugins <i>fusinv[...] </i>installed.</li>
+    </ul>
+  </body>
+</topic>

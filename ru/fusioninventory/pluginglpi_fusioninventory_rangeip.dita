@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- LAST_UPDATE=1970-01-01 00:00:00 -->
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="pluginglpi_fusioninventory_rangeip" xml:lang="en-gb">
+  <title>IP ranges</title>
+  <shortdesc>Management of IP ranges</shortdesc>
+  <body>
+    <p>Il faut définir les plages IP pour la découverte et l&apos;interrogation par les agents.</p>
+    <ul>
+      <li><i>Nom</i> : Nom donné à la plage d&apos;IP</li>
+      <li><i>Début de la plage IP</i> : Première adresse IP de la plage</li>
+      <li><i>End of IP range</i>: Dernière adresse IP de la plage</li>
+      <li><i>Agent découverte</i> : L&apos;agent qui va gérer la découverte sur cette plage IP</li>
+      <li><i>Agent interrogation</i> : L&apos;agent qui va gérer l&apos;interrogation sur cette plage IP</li>
+      <li><i>Découverte</i> : Permet d&apos;activer ou non la découverte d&apos;équipements réseau</li>
+      <li><i>Interrogation</i> : Permet d&apos;activer ou non l&apos;interrogation d&apos;équipements réseau</li>
+      <li><i>Entité</i> : Association de la plage IP à une entité </li>
+    </ul>
+    <note>Au moment de la validation, une vérification des adresses IP est faite et un message apparait s&apos;il y a une erreur.</note>
+  </body>
+</topic>

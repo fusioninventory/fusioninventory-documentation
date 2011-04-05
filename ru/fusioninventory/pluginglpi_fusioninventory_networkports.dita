@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- LAST_UPDATE=1970-01-01 00:00:00 -->
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="pluginglpi_fusioninventory_networkports" xml:lang="en-gb">
+  <title>Network ports</title>
+  <shortdesc>Port visualization of network components (switches, routers)</shortdesc>
+  <body>
+    <p>Pour accéder à cette page, il faut se rendre sur une fiche d&apos;un  matériel réseau et aller sur l&apos;onglet <i>FusionInventory</i>.</p>
+    <section>
+      <title>Informations supplémentaires</title>
+    </section>
+    <section>
+      <title>Actions de l&apos;agent</title>
+    </section>
+    <section>
+      <title>Informations SNMP</title>
+    </section>
+    <section>
+      <title>Tableau des ports</title>
+      <p>La liste des champs a afficher est personnalisable grâce au petit <b>+</b> à gauche dans la ligne des titres.</p>
+      <p>Voici cette liste : </p>
+      <ul>
+        <li><i>Name</i>: Shops the name of the network port</li>
+        <li><i>MTU</i>: Shows the maximum packet size traversing this port</li>
+        <li><i>Speed</i>: Show the speed the port is operating at<note>The speed is also shown at 10 Mbps when there is no componen attached to this port.</note></li>
+        <li><i>Statut Interne</i> : Indique par une pastille de couleur si le port est actif ou désactivé</li>
+        <li><i>Dernier changement</i> : Indique la durée depuis le dernier changement intervenu sur le port</li>
+        <li><i>Nb d&apos;octets recus</i> : Indique le nombre d&apos;octets que le port a reçu</li>
+        <li><i>Nb d&apos;erreurs en entrée</i> : Indique le nombre d&apos;erreurs lors de la réception de données</li>
+        <li><i>Nb d&apos;octets envoyés</i> : Indique le nombre d&apos;octets que le port a envoyé</li>
+        <li><i>Nb d&apos;erreurs en réception</i> : Indique le nombre d&apos;erreurs lors de l&apos;envoi de données</li>
+        <li><i>Duplex</i> : Indique si le port est en half-duplex ou full duplex</li>
+        <li><i>MAC interne</i> : Indique l&apos;adresse MAC du port (qui peut etre différente du port du switch)</li>
+        <li><i>VLAN</i>: Show the VLAN of this port</li>
+        <li><i>Connecté à</i> : Indique sur quel matériel de GLPI ce port est connecté</li>
+        <li><i>Connexion</i> : Indique par une pastille de couleur si un matériel est connecté ou pas<note>Un matériel peut être connecté et avoir une pastille rouge (pas connecté) si ce matériel n&apos;est pas allumé</note></li>
+        <li><i>Description du port</i> : Affiche la description du port</li>
+      </ul>
+    </section>
+    <p>Il existe plusieurs couleurs de lignes (couleur de fond de ligne) : </p>
+    <ul>
+      <li><i>Grey</i>: This port has no connection with any equipment</li>
+      <li><i>Orange with the wording &quot;Trunk port&quot;</i>: A connected port that is connected with a switch or server using port trunking / link aggregation (or is tagged)</li>
+      <li><i>Orange with the wording &quot;Connected port&quot;</i>: A port connected to equipment without usage of trunks.</li>
+    </ul>
+    <p>The history of each port can be visualized by clicking on the + which gen be found in the first cell</p>
+    <p>L&apos;historique de chaque port peut être visualisé en cliquant sur le <b>+</b> se situant dans la première cellule de chaque ligne de port. Un tableau va s&apos;afficher en dessous avec les modifications des colonnes citée ci-dessus ainsi que les connexion et deconnexion avec les matériels.</p>
+  </body>
+</topic>

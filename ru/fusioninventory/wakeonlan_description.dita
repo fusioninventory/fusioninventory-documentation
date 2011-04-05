@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- LAST_UPDATE=1970-01-01 00:00:00 -->
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="wakeonlan_description" xml:lang="en-us">
+  <title>Description</title>
+  <shortdesc>Description</shortdesc>
+  <body>
+    <p>Wake on LAN (WoL) allows remote wake-up of computers and workstation over the network by sending a signal over the network that is then received by the clients&apos; network adapter which then powers up the motherboard.</p>
+    <p>Sometimes it can be useful e.g. for installing updates outside working hours in the night so the users aren&apos;t disturbed.</p>
+    <p>It&apos;s with this focus that this module has been developed.</p>
+  </body>
+</topic>

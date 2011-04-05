@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//RU" "../../dtd/topic.dtd" []>
+<topic id="pluginglpi_fusinvsnmp_installation_new" xml:lang="ru-ru">
+  <title>Установка</title>
+  <shortdesc>Как установить плагин <i>fusinvsnmp</i></shortdesc>
+  <body>
+    <p>Для уставновки вы должны сделать : </p>
+    <ul>
+      <li>
+        <p>Скачать фаил здесь : </p>
+        <xref href="http://forge.fusioninventory.org/projects/pluginfusinvsnmp/files" format="html"/>
+      </li>
+      <li>
+        <p>Распаковать фаил в папку плагинов GLPI. Примерно так выглядит :</p>
+        <p>- glpi</p>
+        <p>--- plugins</p>
+        <p>-----fusinvsnmp</p>
+        <p>-------index.php</p>
+        <p>------- hook.php</p>
+        <p>------- front</p>
+        <p>------- inc</p>
+        <p>etc...</p>
+      </li>
+      <li>Подключение к GLPI как super-admin </li>
+      <li>Перейти в меню <i>Настройка &gt; Плагины</i></li>
+      <li>Установить <i>FusionInventory SNMP</i>. </li>
+      <li>Активировать <i>FusionInventory SNMP</i>. </li>
+    </ul>
+    <p>Эта операция создат таблицы в базе данных MySQL нужных для этого плагина.</p>
+    <note type="important">Ссылка для установки / Активировать этот плагин в скрытых если плагин <xref href="pluginglpi_fusioninventory.dita"/> не был установле или активирован.</note>
+  </body>
+</topic>

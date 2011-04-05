@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- LAST_UPDATE=2010-11-15 20:45:51 -->
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//RU" "../../dtd/topic.dtd" []>
+<topic id="toto" xml:lang="ru-ru">
+  <title>Настройки агента</title>
+  <shortdesc>Как сконфигурировать агент</shortdesc>
+  <body>
+      <p>Установки агента основаны на классическом ключь/значение механизме.</p>
+      <p>Он читает установки из зависимых зависимостей вашей операционной системы:
+      <ul>
+      <li><i>Windows</i>: из ключей реестра находящихся в KEY_LOCAL_MACHINE/SOFTWARE/FusionInventory-Agent</li>
+      <li><i>MacOSX</i>: фаил конфигурации находиться в FusionInventory-Agent.pkg/Contents/Resources/agent.cfg</li>
+      <li><i>UNIX/Linux</i>: в UNIX/Linux, файл настроек находится в /etc/fusioninventory/agent.cfg</li>
+      <li><i>prebuilt</i>: при использовании готового пакета, фаил конфигурации agent.cfg находится в папке пакета.</li>
+      </ul>
+      </p>
+
+      <p>
+      </p>
+  </body>
+
+</topic>

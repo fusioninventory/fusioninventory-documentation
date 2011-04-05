@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//RU" "../../dtd/topic.dtd" []>
+<topic id="pluginglpi_fusinvinventory_howitwork" xml:lang="ru-ru">
+  <title>Как это работает</title>
+  <shortdesc>Как работает плагин <i>fusinvinventory</i>?</shortdesc>
+  <body>
+    <p>Это описание процесса инвентаризации компьютера.</p>
+    <ol>
+      <li><i>[Agent]</i> соединение с сервером (плагин <i>fusioninventory</i>).</li>
+      <li><i>[Plugin fusioninventory]</i> создается агент в данный момент (see <xref href="pluginglpi_fusioninventory_agentsmanagement.dita"/>).</li>
+      <li><i>[Plugin fusinvinventory]</i> получает информацию если этот агент доступен так же если на этом агенте разрешено выполенение установленных модулей агента. Если нет, агент возвращает ответ с  no inventory request. Если же да, то переходит к следующему шагу.</li>
+      <li><i>[Agent]</i> получение всей информации об компьютере.</li>
+      <li><i>[Agent]</i> отправка XML в плагин инвенторизации.</li>
+      <li><i>[Plugin fusioninventory]</i> получение XML файла и отправка в плагин <i>fusinvinventory</i>.</li>
+      <li><i>[Plugin fusinvinventory]</i> получение XML файла, разборка и удаление полей находящихся в черном списке.</li>
+      <li><i>[Plugin fusinvinventory]</i> Отправка данных с критериями правил.</li>
+      <li><i>[Plugin fusinvinventory]</i> Проверка по правилам и отправка в <i>libserver fusioninventory</i>.</li>
+      <li><i>[Libserver fusioninventory]</i> Библиотека создает фаил и отправляет все данные в плагин <i>fusinvinventory</i>. В случае если компьютер уже был добавлен в абазу, то будет отправлены только измененияв в плагин <i>fusinvinventory</i>. </li>
+      <li><i>[Plugin fusinvinventory]</i> Получение данных, создание компьютера, отправка объекта правила для получения верного объектаy.</li>
+      <li><i>[Plugin fusinvinventory]</i> Все данные из XML файла будут созданы в GLPI (для некоторых полей, до записи в GLPI, для перезаписи будут использованы словари).</li>
+      <li>Your computer is in GLPI !</li>
+    </ol>
+  </body>
+</topic>
