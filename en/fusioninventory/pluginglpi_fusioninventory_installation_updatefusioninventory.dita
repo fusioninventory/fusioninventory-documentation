@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- LAST_UPDATE=1970-01-01 00:00:00 -->
+<!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. -->
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="pluginglpi_fusioninventory_installation_updatefusioninventory" xml:lang="en-gb">
-  <title>Mise à jour du plugin FusionInventory pour GLPI</title>
-  <shortdesc>Procédure pour mettre à jour le plugin FusionInventory pour GLPI</shortdesc>
+  <title>Update plugin FusionInventory for GLPI</title>
+  <shortdesc>This describe how to update plugin FusionInventory for GLPI</shortdesc>
   <body>
-    <p>Pour celà, il faut : </p>
+    <p>To update, you must : </p>
     <ul>
-      <li> Télécharger l&apos;archive du plugin ici : <xref format="html" href="http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/files">http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/files</xref></li>
-      <li>Supprimer le dossier glpi/plugins/fusioninventory</li>
+      <li> Download file of the plugin here : <xref href="http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/files" format="html">http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/files</xref></li>
+      <li>Delete the folder &quot;fusioninventory&quot; in glpi/plugins</li>
       <li>
-        <p>Décompresser l&apos;archive dans le dossier plugins de GLPI. La liste des fichiers doit ressembler à cette arborescence :</p>
+        <p>Uncompress the file into the plugin folder of GLPI. File list seems to be like : :</p>
         <p>- glpi</p>
         <p>--- plugins</p>
         <p>-----fusioninventory</p>
@@ -20,11 +20,11 @@
         <p>------- inc</p>
         <p>etc...</p>
       </li>
-      <li>Se connecter sur GLPI en tant qu&apos;administrateur </li>
-      <li>Aller dans le menu <i>Configuration &gt; Plugins </i></li>
-      <li>Installer FusionInventory </li>
-      <li>Activer FusionInventory </li>
+      <li>Connect to GLPI on super-admin </li>
+      <li>Go into the menu <i>Configuration &gt; Plugins</i></li>
+      <li>Install FusionInventory. The plugin will update. Update process can be short (few seconds) to long (many minutes or one/two hours).</li>
+      <li>Activate FusionInventory </li>
     </ul>
-    <p>Ces opérations permettent de mettre à jour les tables dans la base de données MySQL ainsi que les droits d&apos;administration du plugin.</p>
+    <p>These operations will modify tables and datas in database MySQL and rights on the plugin.</p>
   </body>
 </topic>
