@@ -114,7 +114,13 @@
           <topicref href="fusioninventory/pluginglpi_fusioninventory_tasksmanagement_actions_action.dita"/>
         </topicref>
       </topicref>
-      <topicref href="fusioninventory/pluginglpi_fusioninventory_rules.dita"/>
+      <topicref href="fusioninventory/pluginglpi_fusioninventory_rules.dita">
+        <topicref href="fusioninventory/pluginglpi_fusioninventory_rules_description.dita"/>
+        <topicref href="fusioninventory/pluginglpi_fusioninventory_rules_works.dita">
+          <topicref href="fusioninventory/pluginglpi_fusioninventory_rules_works_criteria.dita"/>
+          <topicref href="fusioninventory/pluginglpi_fusioninventory_rules_works_actions.dita"/>
+        </topicref>
+      </topicref>
     </chapter>
     <chapter href="fusioninventory/pluginglpi_fusinvinventory.dita">
       <topicref href="fusioninventory/pluginglpi_fusinvinventory_description.dita"/>

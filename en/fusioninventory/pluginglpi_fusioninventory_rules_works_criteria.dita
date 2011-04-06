@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="pluginglpi_fusioninventory_rules_works" xml:lang="en-gb">
+  <title>Rules criteria</title>
+  <shortdesc>Rules criteria</shortdesc>
+  <body>
+    <p>Many possibilities are possible to have a criteria.</p>
+    <p>This is the different operators :</p>
+    <ul>
+      <li><i>is</i> : the criteria is a value</li>
+      <li><i>is not</i> : the criteria is not a value</li>
+      <li><i>contains</i> : the criteria have this value in the name</li>
+      <li><i>does not contain</i> : the criteria don&apos;t have this value in the name</li>
+      <li><i>start with </i>: the criteria have is a name begin with this value</li>
+      <li><i>finished by</i> : the criteria have is a name finish with this value</li>
+      <li><i>regular expression checks</i> : the criteria check this regular expression</li>
+      <li><i>regular expression does not check</i> : the criteria doesn&apos;t check this regular expression</li>
+      <li><i>exist</i> : the criteria is defined </li>
+      <li><i>not exist</i> : the criteria is not defined</li>
+      <li><i>is present in GLPI</i> : this criteria value is find in GLPI</li>
+      <li><i>is empty</i> : this criteria is empty</li>
+    </ul>
+    <p>With all of these operators, it is possible to make really powerfull rules.</p>
+  </body>
+</topic>

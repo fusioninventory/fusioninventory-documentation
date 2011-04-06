@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="pluginglpi_fusioninventory_rules_actions" xml:lang="en-gb">
+  <title>Rules actions</title>
+  <shortdesc>Rules actions</shortdesc>
+  <body>
+    <p>These are 2 possibilities for actions.</p>
+    <ul>
+      <li><i>link if possible</i> : the rule will link a device enter in rules with a GLPI device if find it or continue this next rule </li>
+      <li><i>link if possible, else import denied</i> : the rule will link a device enter in rules with a GLPI device if find it, else end rules here</li>
+    </ul>
+  </body>
+</topic>
