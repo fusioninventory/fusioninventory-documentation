@@ -1,19 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- LAST_UPDATE=1970-01-01 00:00:00 -->
+<!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. -->
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="agent_installcpan" xml:lang="en-us">
-  <title>Installation / Usage of pre-built versions</title>
+  <title>Using a prebuilt agent</title>
   <shortdesc>How to use the pre-built versions</shortdesc>
   <body>
     <p>There are also pre-compiled or pre-built versions of the agent maintained by the project. The idea is to launch the agent without installing anything on your system. Here are the steps : </p>
     <ul>
-      <li>Download the pre-built version for your OS: <xref href="http://prebuilt.fusioninventory.org/stable/" format="html">http://prebuilt.fusioninventory.org/stable/</xref></li>
+      <li>Download the prebuilt version for your OS: <xref href="http://prebuilt.fusioninventory.org/stable/" format="html">http://prebuilt.fusioninventory.org/stable/</xref></li>
       <li>Uncompress the downloaded archive</li>
-      <li>Configure the agent</li>
+      <li>Configure the agent by editing the agent.cfg file</li>
       <li>
-        <p>Launch the agent with the following command:</p>
+        <p>Launch the agent with the following command as root :</p>
         <codeblock>./fusioninventory-agent</codeblock>
       </li>
     </ul>
+    <p><note>the FusionInventory project recommands usage of packages (deb, rpm, etc.) when it&apos;s possble. Prebuilts are interesting for testing, or when you have no possibility to install packages on your system.</note></p>
   </body>
 </topic>

@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- LAST_UPDATE=1970-01-01 00:00:00 -->
+<!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. -->
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="agent_installpackage_apt" xml:lang="en-us">
-  <title>apt Package</title>
-  <shortdesc>Installation with apt packages</shortdesc>
+  <title>Using FusionInventory debian packages</title>
+  <shortdesc>Installation with the debian packages</shortdesc>
   <body>
     <p>Some distributions like Debian do already have versions of the FusionInventory agent  in their distribution repositories - But they are more lilkely being older or even quite outdated.</p>
-    <p>The FusionInventory developers  maintain a up-to-date DEB-Package of the most recent version in a extra repository. If you want to use it, you have to edit the following file:</p>
+    <p>The FusionInventory project  maintains an up-to-date debian package of the most recent version, in a extra repository. To use it, edit the following file:</p>
     <p><codeblock>/etc/apt/sources.list</codeblock></p>
     <p>Add the following line: <codeblock>deb http://debian.fusioninventory.org/debian/ stable main</codeblock></p>
     <p>Update the local package list:</p>
@@ -15,6 +15,6 @@ or
 aptitude update</codeblock>
     <p>List all the FusionInventory packages available:</p>
     <codeblock>apt-cache search fusioninventory</codeblock>
-    <p>You will have to install the agent then with the command <i>apt-get install</i> to install the FusionInventory agent and its modules onto a machine.</p>
+    <p>Simply run  <i>apt-get install</i> fusioninventory to install the FusionInventory agent and his dependencies. If you want additional tasks to be performed by this agent (like network discovery and SNMP inventory), you&apos;ll have to install additionnal packages : <i>libfusioninventory-agent-task-netdiscovery-perl</i> and <i>libfusioninventory-agent-task-snmpquery-perl</i>.</p>
   </body>
 </topic>
