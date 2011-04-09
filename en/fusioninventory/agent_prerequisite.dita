@@ -3,21 +3,21 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="agent_prerequisite" xml:lang="en-us">
   <title>Requirements</title>
-  <shortdesc>Requirements for the agents&apos; installation</shortdesc>
+  <shortdesc>Requirements for the agent&apos;s installation</shortdesc>
   <body>
-    <p>The agent can be installed on the folliwing operating systems:
+    <p>The agent can be installed on the following operating systems:
     <ul>
         <li>Windows (from 2000 up to 7 including Server editions), 32 and 64 bits ;</li>
         <li>Linux-based systems ;</li>
         <li>FreeBSD, OpenBSD, NetBSD, DragonFlyBSD ;</li>
         <li>MacOS X (from 10.3.9 PPC to 10.6 Intel)</li>
-        <li>Solaris, OpenSolaris, OpenIndiana</li>
+        <li>Solaris, OpenSolaris, OpenIndiana (SPARC and Intel)</li>
         <li>AIX</li>
-        <li>HP-UX</li>
+        <li>HP-UX (Pa-RISC and IA64)</li>
       </ul>
 </p>
     <p>
-    More informations are available here about platforms where the agent was successfully tests and built: <xref href="http://forge.fusioninventory.org/projects/fusioninventory-agent/wiki/Agent_supportedplateforms" format="html">http://forge.fusioninventory.org/projects/fusioninventory-agent/wiki/Agent_supportedplateforms</xref>
+    More informations are available here : <xref href="http://forge.fusioninventory.org/projects/fusioninventory-agent/wiki/Agent_supportedplateforms" format="html">http://forge.fusioninventory.org/projects/fusioninventory-agent/wiki/Agent_supportedplateforms</xref>
 </p>
   </body>
 </topic>
