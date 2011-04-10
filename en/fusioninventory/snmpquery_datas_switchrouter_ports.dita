@@ -1,27 +1,34 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- LAST_UPDATE=1970-01-01 00:00:00 -->
+<!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. -->
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="snmpquery_datas_switchrouter_ports" xml:lang="fr-fr">
-  <title>Informations des ports réseau</title>
-  <shortdesc>Informations des ports réseau</shortdesc>
+  <title>Network ports informations</title>
+  <shortdesc>Network ports informations</shortdesc>
   <body>
-    <p>On récupere chaque port physique du switch ainsi que leurs informations : </p>
+    <p>Network inventory get each physical port and its informations : </p>
     <ul>
-      <li><i>Nom</i> : Affiche le nom du port</li>
-      <li><i>MTU</i> : Affiche la taille maximale d&apos;un paquet transitant par cd port</li>
-      <li><i>Vitesse </i>: Affiche la vitesse du port</li>
-      <li><i>Statut Interne</i> : Indique par une pastille de couleur si le port est actif ou désactivé</li>
-      <li><i>Dernier changement</i> : Indique la durée depuis le dernier changement intervenu sur le port</li>
-      <li><i>Nb d&apos;octets recus</i> : Indique le nombre d&apos;octets que le port a reçu</li>
-      <li><i>Nb d&apos;erreurs en entrée</i> : Indique le nombre d&apos;erreurs lors de la réception de données</li>
-      <li><i>Nb d&apos;octets envoyés</i> : Indique le nombre d&apos;octets que le port a envoyé</li>
-      <li><i>Nb d&apos;erreurs en réception</i> : Indique le nombre d&apos;erreurs lors de l&apos;envoi de données</li>
-      <li><i>Duplex</i> : Indique si le port est en half-duplex ou full duplex</li>
-      <li><i>MAC interne</i> : Indique l&apos;adresse MAC du port (qui peut etre différente du port du switch)</li>
-      <li><i>VLAN</i> : Indique le ou les VLAN du port</li>
-      <li><i>Connecté à</i> : Indique sur quel matériel de GLPI ce port est connecté</li>
-      <li><i>Connexion</i> : Indique par une pastille de couleur si un matériel est connecté ou pas<note>Un matériel peut être connecté et avoir une pastille rouge (pas connecté) si ce matériel n&apos;est pas allumé</note></li>
-      <li><i>Description du port</i> : Affiche la description du port</li>
+      <li><i>Name</i> : port name</li>
+      <li><i>MTU</i> : </li>
+      <li><i>Speed </i>: Port speed (10, 100, 1000... Mbps)</li>
+      <li><i>Internal status</i> : port is active or not</li>
+      <li><i>Last changement</i> : time since last modification of port</li>
+      <li>
+        <i>Number of octets received</i>
+      </li>
+      <li>
+        <i>Number of errors in input</i>
+      </li>
+      <li>
+        <i>Number of octets sent</i>
+       </li>
+      <li>
+        <i>Number of errors in output</i>
+      </li>
+      <li><i>Duplex</i> : Port is in half-duplex or full duplex</li>
+      <li><i>Internal MAC</i> : MAC address of the port (can be different of switch mac address)</li>
+      <li><i>VLAN</i> : </li>
+      <li><i>Connexion</i> : List of MAC connected to the port</li>
+      <li><i>Description port</i> : </li>
     </ul>
   </body>
 </topic>

@@ -5,7 +5,7 @@
 <!ENTITY www.google.fr SYSTEM "http://www.google.fr">]>
 <topic id="preface_liens_mailing" xml:lang="en-gb">
   <title>Mailing lists</title>
-  <shortdesc>Adress of mailing lists</shortdesc>
+  <shortdesc>Address of mailing lists</shortdesc>
   <body>
     <p><ul>
         <li><xref href="http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-user" format="html">FusionInventory users</xref> (<xref href="http://lists.alioth.debian.org/pipermail/fusioninventory-devel/" format="html">archive</xref>)</li>
