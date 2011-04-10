@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- LAST_UPDATE=1970-01-01 00:00:00 -->
+<!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. -->
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="pluginglpi_fusioninventory_cartridgestate" xml:lang="en-gb">
-  <title>Etat des cartouches d&apos;imprimante</title>
-  <shortdesc>Visualisation de l&apos;état des cartouches d&apos;imprimantes</shortdesc>
+  <title>Cartridge state of printers</title>
+  <shortdesc>See cartridge state of printers</shortdesc>
   <body>
     <p>TODO</p>
   </body>
