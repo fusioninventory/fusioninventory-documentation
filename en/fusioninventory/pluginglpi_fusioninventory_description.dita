@@ -4,7 +4,7 @@
   <title>Description</title>
   <shortdesc>Description of plugin for GLPI : fusioninventory</shortdesc>
   <body>
-    <p>This plugin is the core of differents other plugins (fusinv....).</p>
+    <p>This plugin is the core of different other plugins (fusinv....).</p>
     <p>It gives many functions and have the communication part with the agents.</p>
   </body>
 </topic>
