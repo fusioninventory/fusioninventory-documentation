@@ -21,6 +21,11 @@ de: createEmpty dita
 	./dita/tools/ant/bin/ant -Dlang=de -f build/build.xml
 	cp build/de/fusioninventory.pdf fusioninventory-de.pdf
 
+ru: createEmpty dita
+	./dita/tools/ant/bin/ant -Dlang=ru -f build/build.xml
+	cp build/ru/fusioninventory.pdf fusioninventory-ru.pdf
+
+
 dita.tar.gz:
 	wget -O dita.tar.gz.part ${DITAOT_URL}
 	mv dita.tar.gz.part dita.tar.gz
