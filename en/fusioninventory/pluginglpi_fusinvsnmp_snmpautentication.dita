@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="pluginglpi_fusinvsnmp_snmpautentication" xml:lang="en-gb">
+  <title>SNMP authentication</title>
+  <shortdesc>SNMP authentication</shortdesc>
+  <body>
+    <p>This is the list of authentication for permit to read SNMP of the devices.</p>
+    <p>FusionInventory support SNMP v1, v2c and v3 (no crypt, half crypt and full crypt).</p>
+    <p>Authentication is defined by : </p>
+    <ul>
+      <li><i>Name</i> : Name of the authentication</li>
+      <li><i>SNMP version</i> : Version of SNMP (v1, v2c or v3)</li>
+      <li><i>Community</i> : Used by versions 1 and 2c (it&apos;s like a password)</li>
+    </ul>
+    <section>
+      <title>For version 3 only : </title>
+    </section>
+    <ul>
+      <li><i>User</i> : Name of user allowed to read SNMP used only for communication</li>
+      <li><i>Encryption protocol for authentication</i> : Set encryption protocol (MD5 or SHA) used only for communication</li>
+      <li><i>Password</i> : password used only for communication</li>
+      <li><i>Encryption protocol for data</i> : set encryption protocol (DES, AES128, AES192 or AES256) used only to get SNMP data.</li>
+      <li><i>Password</i> : password used only to get SNMP data.</li>
+    </ul>
+  </body>
+</topic>
