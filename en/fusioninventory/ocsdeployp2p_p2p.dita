@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- LAST_UPDATE=1970-01-01 00:00:00 -->
+<!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. -->
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="ocsdeployp2p_p2p" xml:lang="en-us">
   <title>How peer 2 peer deployment feature works</title>
@@ -7,8 +7,8 @@
   <body>
     <p>Peer 2 peer (P2P) allows: </p>
     <ul>
-      <li>économiser la bande passante entre le serveur central (utile si il est sur un site distant) et l&apos;ordinateur</li>
-      <li>récupérer les fichiers très rapidement</li>
+      <li>Reduce bandwidth between central server (useful when have remote site) and the computer</li>
+      <li>Get files very quickly</li>
     </ul>
     <p>How it works: </p>
     <ul>
