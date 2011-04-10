@@ -121,6 +121,7 @@
           <topicref href="fusioninventory/pluginglpi_fusioninventory_rules_works_actions.dita"/>
         </topicref>
       </topicref>
+      <topicref href="fusioninventory/pluginglpi_fusioninventory_unknowndevices.dita"/>
     </chapter>
     <chapter href="fusioninventory/pluginglpi_fusinvinventory.dita">
       <topicref href="fusioninventory/pluginglpi_fusinvinventory_description.dita"/>
@@ -138,16 +139,12 @@
       <topicref href="fusioninventory/pluginglpi_fusinvinventory_installation.dita">
         <topicref href="fusioninventory/pluginglpi_fusinvsnmp_installation_new.dita"/>
       </topicref>
+      <topicref href="fusioninventory/pluginglpi_fusioninventory_rangeip.dita"/>
+      <topicref href="fusioninventory/pluginglpi_fusioninventory_networkports.dita"/>
+      <topicref href="fusioninventory/pluginglpi_fusioninventory_cartridgestate.dita"/>
+      <topicref href="fusioninventory/pluginglpi_fusioninventory_pagecounter.dita"/>
     </chapter>
-    <chapter href="fusioninventory/pluginglpi_fusinvdeploy.dita"/>
-    <topicref href="fusioninventory/pluginglpi_fusioninventory_rangeip.dita"/>
-    <topicref href="fusioninventory/pluginglpi_fusioninventory_agentsconfiguration.dita"/>
-    <topicref href="fusioninventory/pluginglpi_fusioninventory_historyagentinformations.dita"/>
-    <topicref href="fusioninventory/pluginglpi_fusioninventory_unknowndevices.dita"/>
-    <topicref href="fusioninventory/pluginglpi_fusioninventory_networkports.dita"/>
-    <topicref href="fusioninventory/pluginglpi_fusioninventory_cartridgestate.dita"/>
-    <topicref href="fusioninventory/pluginglpi_fusioninventory_pagecounter.dita"/>
-    <topicref href="fusioninventory/pluginglpi_fusioninventory_example.dita">
+    <chapter href="fusioninventory/pluginglpi_fusioninventory_example.dita">
       <topicref href="fusioninventory/pluginglpi_fusioninventory_example_configure.dita"/>
       <topicref href="fusioninventory/pluginglpi_fusioninventory_example_configureagent.dita"/>
       <topicref href="fusioninventory/pluginglpi_fusioninventory_example_configureagent_glpi.dita"/>
@@ -155,7 +152,7 @@
       <topicref href="fusioninventory/pluginglpi_fusioninventory_example_discovery.dita"/>
       <topicref href="fusioninventory/pluginglpi_fusioninventory_example_discovery_unknowndevicesmanagement.dita"/>
       <topicref href="fusioninventory/pluginglpi_fusioninventory_example_query.dita"/>
-    </topicref>
+    </chapter>
   </part>
 <!--
   <part href="fusioninventory/libserverphp.dita">
