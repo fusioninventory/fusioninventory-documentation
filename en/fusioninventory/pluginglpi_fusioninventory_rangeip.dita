@@ -1,21 +1,27 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- LAST_UPDATE=1970-01-01 00:00:00 -->
+<!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. -->
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="pluginglpi_fusioninventory_rangeip" xml:lang="en-gb">
   <title>IP ranges</title>
   <shortdesc>Management of IP ranges</shortdesc>
   <body>
-    <p>Il faut définir les plages IP pour la découverte et l&apos;interrogation par les agents.</p>
+    <p>The range IP must be defined for network discovery and SNMP inventory by the agents.</p>
     <ul>
-      <li><i>Nom</i> : Nom donné à la plage d&apos;IP</li>
-      <li><i>Début de la plage IP</i> : Première adresse IP de la plage</li>
-      <li><i>End of IP range</i>: Dernière adresse IP de la plage</li>
-      <li><i>Agent découverte</i> : L&apos;agent qui va gérer la découverte sur cette plage IP</li>
-      <li><i>Agent interrogation</i> : L&apos;agent qui va gérer l&apos;interrogation sur cette plage IP</li>
-      <li><i>Découverte</i> : Permet d&apos;activer ou non la découverte d&apos;équipements réseau</li>
-      <li><i>Interrogation</i> : Permet d&apos;activer ou non l&apos;interrogation d&apos;équipements réseau</li>
-      <li><i>Entité</i> : Association de la plage IP à une entité </li>
+      <li><i>Name</i> : Name of the range</li>
+      <li><i>Start of IP range</i> : First IP address of the range</li>
+      <li><i>End of IP range</i>: Last IP address of the range</li>
+      <li><i>Entity</i> : Associate this range IP to an entity </li>
     </ul>
-    <note>Au moment de la validation, une vérification des adresses IP est faite et un message apparait s&apos;il y a une erreur.</note>
+    <note>When validate, a verification of IP is made and a message appear if there is a problem.</note>
+    <section>
+      <title>Tab Permanent task - discovery (SNMP)</title>
+      <p>This tab is used to create a netdiscovery task easily. </p>
+      <p>Clic on link <i>Create task easily</i> to create the task. After configuration is required. For configuration, see <xref href="pluginglpi_fusioninventory_tasksmanagement.dita"/>.</p>
+      <p>In this tab, history and complete logs of last executions is displayed.</p>
+    </section>
+    <section>
+      <title>Tab Permanent task - inventory (SNMP)</title>
+      <p>This tab is used to create an inventory (SNMP) task easily. See section before <i>Tab Permanent task - discovery (SNMP).</i> </p>
+    </section>
   </body>
 </topic>

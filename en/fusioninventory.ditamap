@@ -139,6 +139,7 @@
       <topicref href="fusioninventory/pluginglpi_fusinvinventory_installation.dita">
         <topicref href="fusioninventory/pluginglpi_fusinvsnmp_installation_new.dita"/>
       </topicref>
+      <topicref href="fusioninventory/pluginglpi_fusinvsnmp_snmpmodels.dita"/>
       <topicref href="fusioninventory/pluginglpi_fusioninventory_rangeip.dita"/>
       <topicref href="fusioninventory/pluginglpi_fusioninventory_networkports.dita"/>
       <topicref href="fusioninventory/pluginglpi_fusioninventory_cartridgestate.dita"/>

@@ -13,12 +13,13 @@
       <li><i>[Agent]</i> send XML of inventory to plugin.</li>
       <li><i>[Plugin fusioninventory]</i> get XML file and send it to plugin <i>fusinvinventory</i>.</li>
       <li><i>[Plugin fusinvinventory]</i> receive XML file, parse it and remove fields that are blacklisted.</li>
-      <li><i>[Plugin fusinvinventory]</i> Datas are sent to criterias rules.</li>
+      <li><i>[Plugin fusinvinventory]</i> Data are sent to criteria rules.</li>
       <li><i>[Plugin fusinvinventory]</i> Criteria rules check, and send to the <i>libserver fusioninventory</i>.</li>
-      <li><i>[Libserver fusioninventory]</i> Lib create a file and send all datas to plugin <i>fusinvinventory</i>. In case of computer is yet created, it send only modifications of inventory to plugin <i>fusinvinventory</i>. </li>
-      <li><i>[Plugin fusinvinventory]</i> Get datas, create computer, send to entity rules to get the right entity.</li>
-      <li><i>[Plugin fusinvinventory]</i> All datas of XML file will be created in GLPI (for some fields, before write in GLPI, dictionnaries are used to rewrite them).</li>
+      <li><i>[Libserver fusioninventory]</i> Lib create a file and send all data to plugin <i>fusinvinventory</i>. In case of computer is yet created, it send only modifications of inventory to plugin <i>fusinvinventory</i>. </li>
+      <li><i>[Plugin fusinvinventory]</i> Get data, create computer, send to entity rules to get the right entity.</li>
+      <li><i>[Plugin fusinvinventory]</i> All data of XML file will be created in GLPI (for some fields, before write in GLPI, dictionnaries are used to rewrite them).</li>
       <li>Your computer is in GLPI !</li>
     </ol>
+    <note type="important">To make inventory, you don&apos;t need use task management they are bypassed).</note>
   </body>
 </topic>
