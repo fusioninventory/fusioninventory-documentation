@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="agent_installpackage_windows" xml:lang="en-us">
+  <title>Installing agent on Windows using VBS script</title>
+  <shortdesc>How to install the agent under Windows using a VBS script</shortdesc>
+  <body>
+    <p>The project provides a VBS script  to deploy agents in a silent way: http://forge.fusioninventory.org/projects/fusioninventory-agent/wiki/Vbs_install_upgrade</p>
+    <p>To use it, you need to adjust some variables :</p>
+    <p><ol>
+        <li>versionverification : the exact version of the agent that needs to be installed on the computer. If the version is not present, or a less recent, the new one will be installed ;</li>
+        <li>fusionarguments : command line arguments to perform a silent installation. Please refer to this page to have the complete list of switchs : http://forge.fusioninventory.org/projects/fusioninventory-agent/wiki/Command_Line_parameters_to_install_FusionInventory_Agent_on_Windows ;</li>
+        <li>fusionsetupfile : path to the FusionInventory-Agent setup file ;</li>
+        <li>uninstallocsagent : tells the script to uninstall any existing OCS Agent on the computer or not.</li>
+      </ol> </p>
+  </body>
+</topic>
