@@ -4,7 +4,7 @@
   <title>Requirements</title>
   <shortdesc>Requirements for using this plugin for GLPI : fusioninventory</shortdesc>
   <body>
-    <p>In order to install and use the FusionInventory Plugin for GPLI on your server, you have to meet the following requirements:</p>
+    <p>In order to install and use the plugin FusionInventory for GPLI on your server, the following requirements must be verified:</p>
     <ul>
       <li>GLPI 0.78.x (0.72 and older is not supported)</li>
       <li>PHP 5 or greater</li>

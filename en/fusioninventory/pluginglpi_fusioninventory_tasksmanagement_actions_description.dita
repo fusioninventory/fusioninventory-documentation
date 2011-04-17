@@ -7,8 +7,8 @@
     <p>An action is defined by fields:  </p>
     <ul>
       <li><i>Name</i>: name for identify this action.</li>
-      <li><i>Time between task start and start this action</i>: It&apos;s the time when action will start after the task is beginning. If there is 10 minutes, task start at 1 hour am and this action begin at 1 hour and 10 minutes am.<note type="caution">Always have a minimum an action of each task with this value set to 0.</note></li>
-      <li><i>Number of trials</i>: It&apos;s possible to define number of trials if there is errors on execution of the task. </li>
+      <li><i>Time between task start and start this action</i>: It&apos;s the time when action will start after the task is beginning. If are set 10 minutes, task start at 1 hour am and this action begin at 1 hour and 10 minutes am.<note type="caution">Always have at minimum, an action of each task with this value set to 0.</note></li>
+      <li><i>Number of trials</i>: It&apos;s possible to define number of trials if there are errors on execution of the task. </li>
       <li><i>Time between 2 trials (in minutes)</i>: Number of minutes between 2 trials. </li>
       <li><i>Module</i>: Module defined the action (WakeOnLan, Inventory, netdiscovery...). These modules come from each plugins <i>fusinv[...] </i>installed.</li>
     </ul>

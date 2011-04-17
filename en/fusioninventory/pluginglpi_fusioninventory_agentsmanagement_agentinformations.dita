@@ -6,15 +6,15 @@
   <body>
     <p>Some informations are get from agent dynamically and can&apos;t be modified : </p>
     <ul>
-      <li><i>device_id</i> : it&apos;s the ID of the agent generated it is running first time.</li>
-      <li><i>Token</i> : it&apos;s the key used to wake agent remotely. It is regenerated each time agent begin to run.</li>
+      <li><i>device_id</i> : it&apos;s the identifier of the agent generated it is running first time.</li>
+      <li><i>Token</i> : it&apos;s the key used to wake agent remotely. It is regenerated each time agent begin to run and sent to server.</li>
       <li><i>Version</i> : it&apos;s the versions of agent (version core and for each modules). This version is only get when agent send informations of each modules to plugin.</li>
       <li><i>Last contact</i> : it&apos;s the last time agent have contacted plugin.</li>
     </ul>
     <p>Other informations can be modified :  </p>
     <ul>
       <li><i>Name</i> : it&apos;s the name of agent. By default, name is <i>device_id</i>.</li>
-      <li><i>Locked</i> : if it&apos;s set to YES, when agent contact plugin to get list of actions, server don&apos;t send actions. With this, agent is temporary disabled and don&apos;t do anything.</li>
+      <li><i>Locked</i> : if it&apos;s set to YES, when agent contact plugin to get list of actions, server answer to do nothing. With this, agent is temporary disabled.</li>
       <li><i>Computer link</i>: It&apos;s the link with a GLPI computer. The goal is to have IP of computer to wake up the agent. This link can be made automatically if you use Inventory function (inventory of the computer where agent is installed). </li>
     </ul>
   </body>

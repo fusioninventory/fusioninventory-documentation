@@ -6,6 +6,6 @@
   <body>
     <p>How agents is created here?</p>
     <p>It is so simple : Creation is created itself!</p>
-    <p>When installation of agent is done on a computer, it is running and it contact for the first time the server (plugin fusioninventory).  The plugin register the agent with some informations in this menu.</p>
+    <p>When installation of agent is done on a computer, agent run and  contact for the first time the server (plugin fusioninventory).  The plugin register the agent with some informations in this menu.</p>
   </body>
 </topic>

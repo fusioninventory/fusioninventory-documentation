@@ -10,6 +10,11 @@
     <ul>
       <li><i>Name</i> : Name of the authentication</li>
       <li><i>SNMP version</i> : Version of SNMP (v1, v2c or v3)</li>
+    </ul>
+    <section>
+      <title>For versions 1 and 2c only : </title>
+    </section>
+    <ul>
       <li><i>Community</i> : Used by versions 1 and 2c (it&apos;s like a password)</li>
     </ul>
     <section>

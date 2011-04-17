@@ -3,5 +3,8 @@
 <topic id="pluginglpi_fusioninventory_rules_works" xml:lang="en-gb">
   <title>Rules working</title>
   <shortdesc>Rules working</shortdesc>
-  <body/>
+  <body>
+    <p>This section will describe how rules works.</p>
+    <p>For each import device from agent, device informations pass on rules to try to discover is device exist in GLPI inventory. If find, this device will be updated, else device will be created.</p>
+  </body>
 </topic>
