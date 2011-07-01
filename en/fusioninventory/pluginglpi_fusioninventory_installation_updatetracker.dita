@@ -2,7 +2,7 @@
 <!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="pluginglpi_fusioninventory_installation_updatetracker" xml:lang="en-gb">
   <title>Update from Tracker plugin</title>
-  <shortdesc>How to update Tracker plugin to FusionInventory plugin</shortdesc>
+  <shortdesc>How to update from the Tracker plugin to the FusionInventory plugin</shortdesc>
   <body>
     <p>Tracker is the old name of the plugin FusionInventory for GLPI.</p>
     <p>To update, you must : </p>
@@ -10,7 +10,7 @@
       <li>Delete the folder &quot;tracker&quot; in glpi/plugins</li>
       <li>Download archive of the plugin here : <xref href="http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/files" format="html">http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/files</xref></li>
       <li>
-        <p>Uncompress the file into the plugin folder of GLPI. File list seems to be like : :</p>
+        <p>Uncompress the file into the plugin folder of GLPI. The files list should be as follows:</p>
         <p>- glpi</p>
         <p>--- plugins</p>
         <p>-----fusioninventory</p>
@@ -23,10 +23,10 @@
       <li>Connect to GLPI on super-admin </li>
       <li>Go into the menu <i>Configuration &gt; Plugins</i></li>
       <li>
-        <p>Install FusionInventory. The plugin will update the plugin. Update process can be short (few seconds) to long (many minutes or one/two hours) if you have a very old version of Tracker and if you have lots of data in the plugin.</p>
+        <p>Install FusionInventory. The plugin will update the plugin. The speed of the update process  may vary (from a few seconds to several minutes/hours)  depending on how old is your version of Tracker and the amount of data stored by the plugin.</p>
       </li>
       <li>Activate FusionInventory </li>
     </ul>
-    <p>These operations will modify tables and datas in database MySQL and rights on the plugin.</p>
+    <p>These operations will modify tables and data in the MySQL database  and rights on the plugin.</p>
   </body>
 </topic>

@@ -1,24 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. -->
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="ocsdeployp2p_p2p" xml:lang="en-us">
   <title>How peer 2 peer deployment feature works</title>
   <shortdesc>How the peer 2 peer feature works</shortdesc>
   <body>
     <p>Peer 2 peer (P2P) allows: </p>
     <ul>
-      <li>Reduce bandwidth between central server (useful when have remote site) and the computer</li>
-      <li>Get files very quickly</li>
+      <li>To reduce bandwidth between central server and the computer (useful in the case of a remote site)</li>
+      <li>To get files very quickly</li>
     </ul>
     <p>How it works: </p>
     <ul>
-      <li>The first client downloads the fragments of a pckage from the central server.</li>
-      <li>The other computers check the other clients&apos; agents on the local site whether they have these fragments. Depending on the answers the agent gets:<ul>
+      <li>The first client downloads the fragments of a package from the central server.</li>
+      <li>The other computers check whether agents from other clients on the local site have these fragments. Depending on the answers the agent gets:<ul>
           <li>if the fragments are found on other computers, then they are downloaded (they will then only be downloaded from the local site)</li>
           <li>if the fragments are not found on other agents / systems, then they will be downloaded from the central server.</li>
         </ul></li>
     </ul>
-    <p>During a deployment on serveral machines who are on the same site, you can see a significant better bandwith usage.</p>
+    <p>During a deployment on several machines located on the same site, you can see a significant improvement in bandwidth usage.</p>
     <note>With the P2P feature you can e.g. avoid having local server with synchronization to a remote master server. Etc. In this case you can start automated application deployment without changing the architecture of an already present network.</note>
   </body>
 </topic>

@@ -1,27 +1,27 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. -->
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="pluginglpi_fusioninventory_rangeip" xml:lang="en-gb">
   <title>IP ranges</title>
   <shortdesc>Management of IP ranges</shortdesc>
   <body>
-    <p>The range IP must be defined for network discovery and SNMP inventory by the agents.</p>
+    <p>Defining an IP range is mandatory in order to carry out either a network discovery or an SNMP inventory.</p>
     <ul>
       <li><i>Name</i> : Name of the range</li>
       <li><i>Start of IP range</i> : First IP address of the range</li>
       <li><i>End of IP range</i>: Last IP address of the range</li>
-      <li><i>Entity</i> : Associate this range IP to an entity </li>
+      <li><i>Entity</i> : Associate this IP range to an entity </li>
     </ul>
-    <note>When validate, a verification of IP is made and a message appear if there is a problem.</note>
+    <note>An input validation is performed upon saving the IP range and any issue will result in an error message being displayed.</note>
     <section>
-      <title>Tab Permanent task - discovery (SNMP)</title>
-      <p>This tab is used to create a netdiscovery task easily. </p>
-      <p>Clic on link <i>Create task easily</i> to create the task. After configuration is required. For configuration, see <xref href="pluginglpi_fusioninventory_tasksmanagement.dita"/>.</p>
-      <p>In this tab, history and complete logs of last executions is displayed.</p>
+      <title>&quot;Permanent task - discovery (SNMP)&quot; tab </title>
+      <p>This tab is used to create a network discovery task easily. </p>
+      <p>Click on the <i>&quot;Create task easily&quot;</i> link  to set up the task. Further configuration is required (see <xref href="pluginglpi_fusioninventory_tasksmanagement.dita"/>).</p>
     </section>
     <section>
-      <title>Tab Permanent task - inventory (SNMP)</title>
-      <p>This tab is used to create an inventory (SNMP) task easily. See section before <i>Tab Permanent task - discovery (SNMP).</i> </p>
+      <title>&quot;Permanent task - inventory (SNMP)&quot; tab </title>
+      <p>This tab is used to create an inventory (SNMP) task easily. </p>
+      <p>Click on the <i>&quot;Create task easily&quot;</i> link  to set up the task. Further configuration is required (see <xref href="pluginglpi_fusioninventory_tasksmanagement.dita"/>).See section before <i>Tab Permanent task - discovery (SNMP).</i> </p>
     </section>
+    <p>Both tabs contain  a history providing complete logs for each task. The time-limit for storing this logs can be set in the setup options (see <xref href="pluginglpi_fusioninventory_configuration_general.dita"/>).</p>
   </body>
 </topic>
