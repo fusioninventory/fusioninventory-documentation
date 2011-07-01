@@ -7,9 +7,9 @@
     <p>To update, you must : </p>
     <ul>
       <li> Download archive of the plugin here : <xref href="http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/files" format="html">http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/files</xref></li>
-      <li>Delete the folder &quot;fusioninventory&quot; in glpi/plugins</li>
+      <li>Delete the &quot;Fusioninventory&quot; folder located in glpi/plugins</li>
       <li>
-        <p>Uncompress the file into the plugin folder of GLPI. File list seems to be like :</p>
+        <p>Uncompress the file into the plugin folder of GLPI. The files list should be as follows:</p>
         <p>- glpi</p>
         <p>--- plugins</p>
         <p>-----fusioninventory</p>
@@ -21,7 +21,7 @@
       </li>
       <li>Connect to GLPI on super-admin </li>
       <li>Go into the menu <i>Configuration &gt; Plugins</i></li>
-      <li>Install FusionInventory. The plugin will update. Update process can be short (few seconds) to long (many minutes or one/two hours).</li>
+      <li>Install FusionInventory. The plugin will update. The speed of the update process may vary (from a few seconds to several minutes/hours).</li>
       <li>Activate FusionInventory </li>
     </ul>
     <p>These operations will modify tables and datas in database MySQL and rights on the plugin.</p>
