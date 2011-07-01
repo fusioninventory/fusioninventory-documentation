@@ -11,7 +11,7 @@
         <ul>
           <li>Hardware informations (serial number, computer model, manufacturer, components like processor, memory, network card...)</li>
           <li>Software informations (all softwares installed in the computer)</li>
-          <li>Antivirus informations (for Windows only)</li>
+          <li>Anti-virus informations (for Windows only)</li>
         </ul>
       </li>
     </ul>

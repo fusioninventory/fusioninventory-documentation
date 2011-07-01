@@ -1,6 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. -->
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="agent_installcpan" xml:lang="en-us">
   <title>Using a prebuilt agent</title>
   <shortdesc>How to use the pre-built versions</shortdesc>
@@ -15,6 +14,6 @@
         <codeblock>./fusioninventory-agent</codeblock>
       </li>
     </ul>
-    <p><note>the FusionInventory project recommands usage of packages (deb, rpm, etc.) when it&apos;s possble. Prebuilts are interesting for testing, or when you have no possibility to install packages on your system.</note></p>
+    <p><note>the FusionInventory project recommends using packages (deb, rpm, etc.) when possible. Prebuilts are interesting for testing, or when you have no possibility to install packages on your system.</note></p>
   </body>
 </topic>
