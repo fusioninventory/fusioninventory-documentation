@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="agent_install" xml:lang="en-us">
-  <title>How to install FusionInventory-Agent</title>
+  <title>Installation methods for FusionInventory-Agent</title>
   <shortdesc>Learn how to install FusionInventory-Agent on various systems.</shortdesc>
   <body>
-    <p>There are different ways to install FusionInventory-Agent depending on your system. This chapter will introduce the possible solutions.</p>
+    <p>There are different ways to install FusionInventory-Agent depending on your system. This chapter will introduce the available methods.</p>
   </body>
 </topic>

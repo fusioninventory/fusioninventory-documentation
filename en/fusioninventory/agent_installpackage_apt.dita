@@ -2,13 +2,13 @@
 <!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="agent_installpackage_apt" xml:lang="en-us">
   <title>Using FusionInventory debian packages</title>
-  <shortdesc>Installation with the debian packages</shortdesc>
+  <shortdesc>How to install the FusionInventory agent using debian packages.</shortdesc>
   <body>
-    <p>Some distributions like Debian already have versions of the FusionInventory agent  in their distribution repositories - But they are more likely being older or even quite outdated.</p>
-    <p>The FusionInventory project  maintains an up-to-date debian package of the most recent version, in a extra repository. To use it, edit the following file:</p>
+    <p>Some distributions like Debian already have versions of the FusionInventory agent  in their distribution repositories, yet most of them are likely to be outdated.</p>
+    <p>The FusionInventory project  maintains a debian package with the latest version of the FusionInventory agent in an extra repository. To use it, edit the following file:</p>
     <p><codeblock>/etc/apt/sources.list</codeblock></p>
     <p>Add the following line: <codeblock>deb http://debian.fusioninventory.org/debian/ stable main</codeblock></p>
-    <p>Update the local package list:</p>
+    <p>Update the local package index with the latest changes:</p>
     <codeblock>apt-get update
 or
 aptitude update</codeblock>

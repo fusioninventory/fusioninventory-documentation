@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="agent_installcpan" xml:lang="en-us">
-  <title>Using a prebuilt agent</title>
-  <shortdesc>How to use the pre-built versions</shortdesc>
+  <title>Using prebuilt agent</title>
+  <shortdesc>How to install the FusionInventory agent using prebuilt agent</shortdesc>
   <body>
-    <p>There are also pre-compiled or pre-built versions of the agent maintained by the project. The idea is to launch the agent without installing anything on your system. Here are the steps : </p>
+    <p>Prebuilt versions of the agent are also maintained by the project, allowing you to launch the agent without any installation on your system. The installation involves four steps :</p>
     <ul>
       <li>Download the prebuilt version for your OS: <xref href="http://prebuilt.fusioninventory.org/stable/" format="html">http://prebuilt.fusioninventory.org/stable/</xref></li>
       <li>Uncompress the downloaded archive</li>
@@ -14,6 +14,6 @@
         <codeblock>./fusioninventory-agent</codeblock>
       </li>
     </ul>
-    <p><note>the FusionInventory project recommends using packages (deb, rpm, etc.) when possible. Prebuilts are interesting for testing, or when you have no possibility to install packages on your system.</note></p>
+    <p><note>the FusionInventory project recommends using packages (deb, rpm, etc.) when possible. Prebuilts are interesting for testing purposes, or when you have no possibility to install packages on your system.</note></p>
   </body>
 </topic>

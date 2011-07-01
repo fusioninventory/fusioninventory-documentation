@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="agent_installcpan" xml:lang="en-us">
-  <title>Installation with Perl CPAN</title>
-  <shortdesc>Using perl CPAN to install FusionInventory-Agent</shortdesc>
+  <title>Using Perl CPAN</title>
+  <shortdesc>How to install the FusionInventory agent using Perl CPAN.</shortdesc>
   <body>
-    <p>Perl language provides a centralize repository for modules called CPAN.</p>
-    <p>To install FusionInventory from CPAN, use this command:
+    <p>Perl language provides a central repository for modules called CPAN (Comprehensive Perl Archive Network).</p>
+    <p>To install FusionInventory via CPAN, use the following command:
           <codeblock>cpan FusionInventory::Agent::Conf</codeblock>
       </p>
     <p>Perl modules dependencies will be automatically computed and installed.</p>

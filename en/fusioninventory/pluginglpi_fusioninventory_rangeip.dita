@@ -22,6 +22,6 @@
       <p>This tab is used to create an inventory (SNMP) task easily. </p>
       <p>Click on the <i>&quot;Create task easily&quot;</i> link  to set up the task. Further configuration is required (see <xref href="pluginglpi_fusioninventory_tasksmanagement.dita"/>).See section before <i>Tab Permanent task - discovery (SNMP).</i> </p>
     </section>
-    <p>Both tabs contain  a history providing complete logs for each task. The time-limit for storing this logs can be set in the setup options (see <xref href="pluginglpi_fusioninventory_configuration_general.dita"/>).</p>
+    <p>Both tabs contain  a history providing complete logs for each task. The time-limit for storing these logs can be set in the setup options (see <xref href="pluginglpi_fusioninventory_configuration_general.dita"/>).</p>
   </body>
 </topic>
