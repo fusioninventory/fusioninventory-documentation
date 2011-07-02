@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- LAST_UPDATE=1970-01-01 00:00:00 -->
+<!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. -->
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="agent_install" xml:lang="fr-fr">
-  <title>Installation de l&apos;agent</title>
-  <shortdesc>tout  ce qu&apos;il faut pour installer correctement l&apos;agent</shortdesc>
+  <title>Méthodes d&apos;installation de l&apos;agent FusionInventory</title>
+  <shortdesc>Apprenez comment installer convenablement l&apos;agent sur divers systèmes.</shortdesc>
   <body>
-    <p>Les différentes façons d&apos;installer l&apos;agent sont traitées ici.</p>
+    <p>Cette section expose les différentes méthodes à votre disposition afin d&apos;installer l&apos;agent FusionInventory sur votre système.</p>
   </body>
 </topic>

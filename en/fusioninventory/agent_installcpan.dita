@@ -5,9 +5,9 @@
   <shortdesc>How to install the FusionInventory agent using Perl CPAN.</shortdesc>
   <body>
     <p>Perl language provides a central repository for modules called CPAN (Comprehensive Perl Archive Network).</p>
-    <p>To install FusionInventory via CPAN, use the following command:
+    <p>To install the FusionInventory agent via CPAN, use the following command:
           <codeblock>cpan FusionInventory::Agent::Conf</codeblock>
       </p>
-    <p>Perl modules dependencies will be automatically computed and installed.</p>
+    <p>Perl modules dependencies will be automatically added and installed.</p>
   </body>
 </topic>

@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="agent_installpackage_apt" xml:lang="en-us">
-  <title>Using FusionInventory debian packages</title>
-  <shortdesc>How to install the FusionInventory agent using debian packages.</shortdesc>
+  <title>Using the Debian packages</title>
+  <shortdesc>How to install the FusionInventory agent using the Debian packages.</shortdesc>
   <body>
-    <p>Some distributions like Debian already have versions of the FusionInventory agent  in their distribution repositories, yet most of them are likely to be outdated.</p>
-    <p>The FusionInventory project  maintains a debian package with the latest version of the FusionInventory agent in an extra repository. To use it, edit the following file:</p>
+    <p>Some distributions like Debian already have versions of the FusionInventory agent  in their distribution repositories. Yet most of them are likely to be outdated.</p>
+    <p>The FusionInventory project  maintains a Debian package with the latest version of the FusionInventory agent in an extra repository. To use it, edit the following file:</p>
     <p><codeblock>/etc/apt/sources.list</codeblock></p>
     <p>Add the following line: <codeblock>deb http://debian.fusioninventory.org/debian/ stable main</codeblock></p>
-    <p>Update the local package index with the latest changes:</p>
+    <p>Update the local package index:</p>
     <codeblock>apt-get update
 or
 aptitude update</codeblock>
     <p>List all the FusionInventory packages available:</p>
     <codeblock>apt-cache search fusioninventory</codeblock>
-    <p>Simply run  <i>apt-get install</i> fusioninventory to install the FusionInventory agent and its dependencies. If you want additional tasks to be performed by this agent (like network discovery and SNMP inventory), you will have to install additional packages : <i>libfusioninventory-agent-task-netdiscovery-perl</i> and <i>libfusioninventory-agent-task-snmpquery-perl</i>.</p>
+    <p>Then  run the command  <i>apt-get install fusioninventory-agent</i> to install the  agent and its dependencies. If you want additional tasks to be performed by the agent (like network discovery and SNMP inventory), you will have to install additional packages : <i>libfusioninventory-agent-task-netdiscovery-perl</i> and <i>libfusioninventory-agent-task-snmpquery-perl</i>.</p>
   </body>
 </topic>

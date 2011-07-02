@@ -1,20 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- LAST_UPDATE=1970-01-01 00:00:00 -->
+<!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. -->
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="agent_installpackage_yum" xml:lang="fr-fr">
-  <title>Packages yum</title>
-  <shortdesc>Installation avec les packages yum</shortdesc>
+  <title>Utilisation des paquets RPM</title>
+  <shortdesc>Comment installer l&apos;agent FusionInventory par le biais des paquets RPM.</shortdesc>
   <body>
-    <p>Les packages RPM sont maintenus par Remi Collet.
+    <p>Les paquets RPM sont maintenus par Remi Collet.
 </p>
-    <p>Il faut installer EPEL (<xref format="html" href="http://fedoraproject.org/wiki/EPEL">http://fedoraproject.org/wiki/EPEL</xref>) ainsi que le dépôt de Remi (<xref format="html" href="http://blog.famillecollet.com/pages/Config">http://blog.famillecollet.com/pages/Config</xref>)
+    <p>Avant toute installation, il est nécessaire d&apos;ajouter le dépôt EPEL (<xref href="http://fedoraproject.org/wiki/EPEL" format="html">http://fedoraproject.org/wiki/EPEL</xref>) ainsi que celui de Remi Collet (<xref href="http://blog.famillecollet.com/pages/Config" format="html">http://blog.famillecollet.com/pages/Config</xref>)
 
 
 </p>
-    <p>Pour installer l&apos;agent FusionInventory, voici la commande : </p>
+    <p>Puis exécutez simplement la commande suivante pour installer l&apos;agent : </p>
     <p><codeblock>yum --enablerepo=remi install fusioninventory-agent</codeblock>
 
 </p>
-    <p><note type="important">Ne pas utiliser les packages perl provenant de rpmforge!</note></p>
+    <p><note type="important">N&apos;utilisez pas de paquets provenant de RPMforge</note></p>
   </body>
 </topic>

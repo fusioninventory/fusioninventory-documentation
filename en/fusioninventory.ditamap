@@ -39,6 +39,7 @@
           <topicref href="fusioninventory/agent_installpackage_yum.dita"/>
           <topicref href="fusioninventory/agent_installpackage_windows.dita">
             <topicref href="fusioninventory/agent_installpackage_windows_parameter.dita"/>
+			<topicref href="fusioninventory/agent_installpackage_windows_vbs.dita"/>
           </topicref>
           <topicref href="fusioninventory/agent_installpackage_macosx.dita"/>
         </topicref>
