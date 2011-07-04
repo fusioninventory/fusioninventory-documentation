@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="agent_installpackage_macosx" xml:lang="en-us">
-  <title>Using Mac OS X installer</title>
-  <shortdesc>How to install the FusionInventory agent using Mac OS X installer.</shortdesc>
+  <title>Using the Mac OS X installer</title>
+  <shortdesc>How to install the FusionInventory agent using the Mac OS X installer.</shortdesc>
   <body>
-    <p>The FusionInventory project provides two Mac OS X packages: one for powerpc computers and the other for Intel macs.</p>
-    <p>The package is a .pkg file designed for silent installation. The agent configuration needs to be done prior to installation, by going into the package and editing the <i>Content\Resources\agent.cfg</i> file.</p>
-    <p>By default, the agent runs as a daemon, and stores its files in /opt/fusioninventory-agent.</p>
-    <p>Please note that the FusionInventory agent is not a Mac OS X application, and as such is invisible for users.</p>
+    <p>The FusionInventory project provides two Mac OS X packages, one for PowerPC processors, the other for Intel processors.</p>
+    <p>The  package is a .pkg file designed for silent installations. The agent configuration needs to be done prior to installation, by  editing the <i>Content\Resources\agent.cfg</i> file (located into the package).</p>
+    <p>By default, the agent runs as a daemon, and stores its files in <i>/opt/fusioninventory-agent</i>.</p>
+    <p>Please note that the FusionInventory agent is not a Mac OS X application, and as such is invisible for the user.</p>
     <p>Once configured, the agent can be deployed either manually (by double clicking on the .pkg file) or automatically using tools like Apple Remote Desktop.</p>
   </body>
 </topic>

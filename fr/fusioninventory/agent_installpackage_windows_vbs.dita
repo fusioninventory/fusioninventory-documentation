@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<topic id="agent_installpackage_windows" xml:lang="en-us">
+  <title>Utilisation du script VBS</title>
+  <shortdesc>Comment installer l&apos;agent FusionInventory par le biais du script VBS.</shortdesc>
+  <body>
+    <p>Le projet met à disposition un script    VBS pour le déploiement automatisé d&apos;agent : <xref href="http://forge.fusioninventory.org/projects/fusioninventory-agent/wiki/Vbs_install_upgrade" format="html"/>  </p>
+    <p>Pour l&apos;utiliser, il est nécessaire de renseigner certaines variables :</p>
+    <p><ol>
+        <li>versionverification: version de l&apos;agent que vous souhaitez installer. Si l&apos;agent est manquant ou d&apos;une version antérieure, un nouveau sera installé.<p><i>Ex: versionverification = &quot;2.1.9-3&quot;</i></p></li>
+        <li>fusionarguments: arguments en ligne de commande nécessaires à l&apos;installation automatisée (voir <xref href="agent_installpackage_windows_parameter.dita"/>).<p><i>Ex: fusionarguments= &quot;/S /server=http://server1/glpi/plugins/fusioninventory/&quot;</i></p></li>
+        <li>fusionsetupfile: chemin vers le fichier d&apos;installation de l&apos;agent FusionInventory.<p><i>Ex: fusionsetupfile = &quot;\\server1\share$\fusioninventory-agent_2.1.9-3.exe&quot;</i> </p></li>
+        <li>uninstallocsagent: détermine si le script doit désinstaller un éventuel agent OCS préexistant.<p><i>Ex:uninstallocsagent = &quot;yes&quot;</i></p></li>
+      </ol> </p>
+  </body>
+</topic>
