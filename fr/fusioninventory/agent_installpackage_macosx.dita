@@ -1,14 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. -->
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="agent_installpackage_macosx" xml:lang="fr-fr">
   <title>Utilisation de l&apos;installateur pour Mac OS X</title>
-  <shortdesc>Comment installer l&apos;agent FusionInventory par le biais de l&apos;installateur pour MAC OS X.</shortdesc>
+  <shortdesc>Comment installer l&apos;agent FusionInventory par le biais de l&apos;installateur pour Mac OS X.</shortdesc>
   <body>
-    <p>Le projet FusionInventory met à disposition deux paquets pour MAC OS X, l&apos;un pour processeurs PowerPC, l&apos;autre pour processeurs Intel.</p>
+    <p>Le projet FusionInventory met à disposition deux paquets pour Mac OS X, l&apos;un pour processeurs PowerPC, l&apos;autre pour processeurs Intel.</p>
     <p>Le paquet, de type .pkg, est conçu pour les installations silencieuses. Il est nécessaire de déterminer la configuration de l&apos;agent avant toute installation, en éditant le fichier  <i>Content\Resources\agent.cfg</i> (situé dans le paquet).</p>
     <p>Par défaut, l&apos;agent s&apos;exécute en tant que daemon, et conserve ses fichiers dans<i>/opt/fusioninventory-agent</i>.</p>
-    <p>Gardez à l&apos;esprit que l&apos;agent FusionInventory n&apos;est pas une application Mac OS X, et n&apos;est donc pas visible pour l&apos;utilisateur.</p>
+    <note>l&apos;agent FusionInventory n&apos;est pas une application Mac OS X, et n&apos;est donc pas visible pour l&apos;utilisateur.</note>
     <p>Une fois paramétré, l&apos;agent peut être déployé soit manuellement (par double clic sur le fichier .pkg) ou automatiquement par le biais d&apos;outils tels que l&apos;Apple Remote Desktop.</p>
   </body>
 </topic>

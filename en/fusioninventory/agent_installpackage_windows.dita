@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="agent_installpackage_windows" xml:lang="en-us">
-  <title>Using Windows installer</title>
+  <title>Using the Windows installer</title>
   <shortdesc>How to install the FusionInventory agent using Windows installer.</shortdesc>
   <body>
-    <p>You must download the installer package from the following  FusionInventory page:<xref href="http://prebuilt.fusioninventory.org/stable/windows-i386/" format="html">http://prebuilt.fusioninventory.org/stable/windows-i386/</xref></p>
-    <p>You will just have to launch the installer for an interactive installation process.</p>
-    <note>The installer contains an embedded version of Perl dedicated to the FusionInventory agent, therefore no additional Perl installation is required. The embedded Perl doesn&apos;t conflict with another version that may be installed on your system.</note>
-    <note>If you plan on using the network discovery and the nmap feature, you will have to install the Windows-version of nmap. The latest version is available at: <xref href="http://nmap.org/download.html" format="html">http://nmap.org/download.html</xref>.</note>
+    <p>First of all, you must download the installer package from the following   page on the FusionInventory project website: <xref href="http://prebuilt.fusioninventory.org/stable/windows-i386/" format="html">http://prebuilt.fusioninventory.org/stable/windows-i386/</xref></p>
+    <p>Then, you will just have to launch the installer to start the installation process.</p>
+    <note>The installer contains an embedded version of Perl dedicated to the FusionInventory agent, therefore no additional Perl installation is required. This version will not conflict with any other version that may be installed on your system.</note>
+    <note>If you plan on using Nmap scanning as part of the network discovery, you will have to install the <i>Windows-version of Nmap</i>. The latest version is available at: <xref href="http://nmap.org/download.html" format="html">http://nmap.org/download.html</xref>.</note>
   </body>
 </topic>

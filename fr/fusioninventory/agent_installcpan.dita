@@ -4,7 +4,7 @@
   <title>Installation avec CPAN</title>
   <shortdesc>Comment installer l&apos;agent FusionInventory par le biais du système CPAN pour Perl.</shortdesc>
   <body>
-    <p>Le langage Perl dispose d&apos;un dépôt centralisé pour les modules nommé CPAN (Comprehensive Perl Archive Network).</p>
+    <p>Le langage Perl dispose d&apos;un dépôt centralisé pour les modules, nommé CPAN (Comprehensive Perl Archive Network).</p>
     <p>Afin d&apos;installer l&apos;agent FusionInventory depuis le CPAN, exécutez la commande suivante :
           <codeblock>cpan FusionInventory::Agent::Config</codeblock>
       </p>
