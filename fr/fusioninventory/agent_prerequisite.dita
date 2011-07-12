@@ -1,26 +1,25 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- LAST_UPDATE=2010-11-22 12:32:31 -->
+<!-- LAST_UPDATE=2010-11-22 12:32:31 --><!-- This document was created with Syntext Serna Free. -->
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="agent_prerequisite" xml:lang="fr-fr">
   <title>Prérequis</title>
-  <shortdesc>Prérequis pour l&apos;installation de l&apos;agent</shortdesc>
+  <shortdesc>Prérequis pour l&apos;installation de l&apos;agent.</shortdesc>
   <body>
-    <p>L&apos;agent permet d&apos;être installé sur les systèmes d&apos;exploitation suivants :
+    <p>L&apos;agent peut être installé sur les systèmes d&apos;exploitation suivants :
     <ul>
-      <li>Windows (2000 à Seven)</li>
-      <li>Systèmes a base de Linux</li>
-      <li>FreeBSD, OpenBSD, NetBSD, DragonFlyBSD</li>
-      <li>MacOS X</li>
-      <li>Solaris, OpenSolaris, OpenIndiana</li>
-      <li>AIX</li>
-      <li>HP-UX</li>
-  </ul>
+        <li>Windows (2000 à Seven, éditions Windows Server comprises), 32 et 64 bits;</li>
+        <li>Systèmes basés sur Linux;</li>
+        <li>FreeBSD, OpenBSD, NetBSD, DragonFlyBSD;</li>
+        <li>Mac OS X de la version 10.3.9 (processeurs PowerPC) à 10.6 (processeurs Intel);</li>
+        <li>Solaris, OpenSolaris, OpenIndiana (SPARC et Intel);</li>
+        <li>AIX;</li>
+        <li>HP-UX (Pa-RISC et IA64).</li>
+      </ul>
   </p>
-<p>
-    La liste des plate-formes officiellement testées est disponbile ici : <xref format="html" href="http://forge.fusioninventory.org/projects/fusioninventory-agent/wiki/Agent_supportedplateforms">http://forge.fusioninventory.org/projects/fusioninventory-agent/wiki/Agent_supportedplateforms</xref>
+    <p>Une liste des plate-formes officiellement testées est disponible à l&apos;adresse suivante : <xref href="http://forge.fusioninventory.org/projects/fusioninventory-agent/wiki/Platforms_tested" format="html">http://forge.fusioninventory.org/projects/fusioninventory-agent/wiki/Platforms_tested</xref>
 </p>
-<p>
-Si vous faites l'installation depuis les sources, durant le <i>perl Makefile.PL</i> un controle des versions des modules Perl disponibles sur le système sera effectué. Il est important de s'assurer qu'elles sont toutes bien présentes.
+    <p><note>si vous faites l&apos;installation depuis les sources, durant le <i>perl Makefile.PL</i> un controle des versions des modules Perl disponibles sur le système sera effectué. Il est important de s&apos;assurer qu&apos;elles sont toutes bien présentes.</note>
+
 </p>
   </body>
 </topic>

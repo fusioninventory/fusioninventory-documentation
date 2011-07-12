@@ -5,20 +5,20 @@
   <body>
     <p>The setup program accepts optional command line parameters:
    <ul>
-        <li><i>/h</i>: provide help information</li>
-        <li><i>/S</i>: run setup in silent mode</li>
-        <li><i>/server=url1,url2</i>: set server(s) URL</li>
-        <li><i>/tag=tagname</i>: set agent tag</li>
-        <li><i>/user=username</i>: set user name</li>
-        <li><i>/pass=password</i>: set password</li>
-        <li><i>/realm=realm</i>: set realm (optional)</li>
-        <li><i>/ca-cert-file=filename</i>: set certificate file name</li>
-        <li><i>/no-ssl-check</i>: disable certificate checking when establishing SSL connection</li>
-        <li><i>/proxy=http://proxy/</i>: set a proxy</li>
-        <li><i>/debug</i>: set debug mode</li>
-        <li><i>/rpc-trust-localhost</i>: allow local user to wake agent up</li>
-        <li><i>/scan-homedirs</i>: look for virtual machines in user&apos;s home directories</li>
-        <li><i>/runnow</i>: start the inventory process at the end of the installation</li>
+        <li><i>/h</i>: provide help information;</li>
+        <li><i>/S</i>: run setup in silent mode;</li>
+        <li><i>/server=url1,url2</i>: set server(s) URL;</li>
+        <li><i>/tag=tagname</i>: set agent tag;</li>
+        <li><i>/user=username</i>: set user name;</li>
+        <li><i>/pass=password</i>: set password;</li>
+        <li><i>/realm=realm</i>: set realm (optional);</li>
+        <li><i>/ca-cert-file=filename</i>: set certificate file name;</li>
+        <li><i>/no-ssl-check</i>: disable certificate checking when establishing SSL connection;</li>
+        <li><i>/proxy=http://proxy/</i>: set a proxy;</li>
+        <li><i>/debug</i>: set debug mode;</li>
+        <li><i>/rpc-trust-localhost</i>: allow local user to wake agent up;</li>
+        <li><i>/scan-homedirs</i>: look for virtual machines in user&apos;s home directories;</li>
+        <li><i>/runnow</i>: start the inventory process at the end of the installation.</li>
       </ul>
    </p>
     <p>Example:
