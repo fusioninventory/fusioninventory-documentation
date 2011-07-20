@@ -1,31 +1,29 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. -->
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="agent_installpackage_windows_parameter" xml:lang="fr-fr">
-  <title>Paramètre de l&apos;installeur Windows</title>
+  <title>Réaliser une installation automatisée</title>
   <body>
-    <p>L&apos;installateur Windows dispose d&apos;une serie de paramètre prévus pour automatiser les installation :
+    <p>L&apos;installateur Windows dispose  de paramètres en ligne de commande visant à automatiser l&apos;installation :
 
    <ul>
-        <li><i>/h</i>: Affiche une fenêtre d&apos;aide qui reprend la liste des options</li>
-        <li><i>/S</i>: Lance l&apos;installeur en mode silentieux</li>
-        <li><i>/server=url1,url2</i>: Le ou les serveurs a contacter</li>
-        <li><i>/tag=tagame</i>: le tag affecté a l&apos;agent</li>
-        <li><i>/user=username</i>: le nom de l&apos;utilisateur</li>
-        <li><i>/pass=password</i>: le mot de passe</li>
-        <li><i>/realm=realm</i>: le royaume a utiliser pour l&apos;authentification (optionel)</li>
-        <li><i>/ca-cert-file=filename</i>: le certificat SSL a utiliser</li>
-        <li><i>/no-ssl-check</i>: ne pas vérifier le certificat SSL durant les connexions HTTPS</li>
-        <li><i>/proxy=http://proxy/</i>: le serveur mandataire HTTP</li>
-        <li><i>/debug</i>: active le mode debug</li>
-        <li><i>/rpc-trust-localhost</i>: l&apos;utilisateur peut-il lui même réveiller l&apos;agent ?</li>
-        <li><i>/scan-homedirs</i>: l&apos;agent doit-il scanner les dossiers des utilisateurs à la recherche de machine virtuelle</li>
-        <li><i>/runnow</i>: un premier inventaire doit-il être fait suite à l&apos;installation</li>
+        <li><i>/h </i>: afficher l&apos;aide relative aux paramètres en ligne de commande;</li>
+        <li><i>/S </i>: lancer l&apos;installateur en mode silencieux;</li>
+        <li><i>/server=url1,url2 </i>: définir l&apos;URL du/des serveur(s);</li>
+        <li><i>/tag=tagame </i>: définir un tag pour l&apos;agent;</li>
+        <li><i>/user=username </i>: définir un nom d&apos;utilisateur;</li>
+        <li><i>/pass=password</i> : définir un mot de passe;</li>
+        <li><i>/realm=realm</i> : définir un royaume;</li>
+        <li><i>/ca-cert-file=filename </i>: définir un certificat SSL;</li>
+        <li><i>/no-ssl-check</i> : désactiver le contrôle de certificat SSL durant les connexions HTTPS;</li>
+        <li><i>/proxy=http://proxy/</i> : définir un serveur mandataire HTTP;</li>
+        <li><i>/debug</i> : activer le mode debug;</li>
+        <li><i>/rpc-trust-localhost</i> : permettre le réveil de l&apos;agent par l&apos;utilisateur local;</li>
+        <li><i>/scan-homedirs </i>: rechercher des machines virtuelles dans les dossiers d&apos;utilisateurs;</li>
+        <li><i>/runnow </i>: réaliser un inventaire à la suite de l&apos;installation.</li>
       </ul>
    </p>
-    <p>
-   Exemple:
-   <codeblock>fusioninventory-agent_windows-i386_2.1-1.exe /S /debug /runnow /server=https://myown-ocs-server.mydomain.de/ocsinventory</codeblock>
+    <p>Exemple :
+   <codeblock>fusioninventory-agent_windows-i386_2.1-1.exe /S /debug /runnow /server=http://chemin/vers/glpi/plugins/fusioninventory/front/plugin_fusioninventory.communication.php</codeblock>
    </p>
   </body>
 </topic>

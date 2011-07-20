@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="agent_installcpan" xml:lang="fr-fr">
-  <title>Utilisation d&apos;un version prebuilt de l&apos;agent</title>
-  <shortdesc>Comment utiliser une version prebuilt de l&apos;agent FusionInventory.</shortdesc>
+  <title>Utilisation d&apos;une version préconstruite de l&apos;agent</title>
+  <shortdesc>Comment utiliser une version préconstruite de l&apos;agent FusionInventory.</shortdesc>
   <body>
-    <p>Des versions prebuilt  sont aussi maintenues par le projet, vous permettant d&apos;utiliser l&apos;agent sans réaliser d&apos;installation sur votre système. Cette méthode implique quatre étapes :</p>
+    <p>Des versions préconstruites  sont aussi maintenues par le projet, vous permettant d&apos;utiliser l&apos;agent sans réaliser d&apos;installation sur votre système. Cette méthode implique quatre étapes :</p>
     <ul>
-      <li>Téléchargez la version prebuilt correspondant à votre système d&apos;exploitation à l&apos; addresse suivante: <xref href="http://prebuilt.fusioninventory.org/stable/" format="html">http://prebuilt.fusioninventory.org/stable/</xref>;</li>
+      <li>Téléchargez la version préconstruite correspondant à votre système d&apos;exploitation à l&apos; addresse suivante: <xref href="http://prebuilt.fusioninventory.org/stable/" format="html">http://prebuilt.fusioninventory.org/stable/</xref>;</li>
       <li>Décompressez l&apos;archive téléchargée;</li>
       <li>Configurez l&apos;agent en éditant le fichier agent.cfg;</li>
       <li>
@@ -14,6 +14,6 @@
         <codeblock>./fusioninventory-agent</codeblock>
       </li>
     </ul>
-    <p><note>le projet FusionInventory recommande l&apos;utilisation de paquets (deb, rpm, etc) lorsque cela est possible. Les versions prebuilt sont intéressantes à des fins de test, ou lorsque vous n&apos;avez pas la possibilité d&apos;installer des paquets sur votre système.</note></p>
+    <p><note>le projet FusionInventory recommande l&apos;utilisation de paquets (deb, rpm, etc) lorsque cela est possible. Les versions préconstruites sont intéressantes à des fins de test, ou lorsque vous n&apos;avez pas la possibilité d&apos;installer des paquets sur votre système.</note></p>
   </body>
 </topic>

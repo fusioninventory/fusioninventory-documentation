@@ -1,12 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. -->
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="agent_installpackage_windows" xml:lang="fr-fr">
   <title>Utilisation de l&apos;installateur pour Windows</title>
   <shortdesc>Comment installer l&apos;agent FusionInventory par le biais de l&apos;installateur pour Windows.</shortdesc>
   <body>
     <p>Il vous faut tout d&apos;abord récupérer le fichier d&apos;installation sur le site du projet FusionInventory à la page suivante : <xref href="http://prebuilt.fusioninventory.org/stable/windows-i386/" format="html">http://prebuilt.fusioninventory.org/stable/windows-i386/</xref>.</p>
-    <p>Il vous suffira ensuite d&apos;exécuter l&apos;installatateur pour démarrer le processus d&apos;installation.</p>
+    <p>Il vous suffira ensuite d&apos;exécuter l&apos;installateur pour démarrer le processus d&apos;installation.</p>
     <note>L&apos;installateur embarque une version de Perl spécialement prévue pour l&apos;agent FusionInventory, il n&apos;est donc pas nécessaire d&apos;effectuer une autre installation de Perl. Cette version n&apos;entrera pas en conflit avec toute autre installation de Perl présente sur votre système.</note>
     <note>Si vous souhaitez utiliser le scan Nmap dans le cadre de la découverte réseau, il vous faudra installer <i>Nmap pour Windows</i>. La dernière version en date est disponible à l&apos;adresse : <xref href="http://nmap.org/download.html" format="html">http://nmap.org/download.html</xref>.</note>
   </body>

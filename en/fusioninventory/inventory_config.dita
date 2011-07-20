@@ -2,16 +2,16 @@
 <!-- LAST_UPDATE=2010-11-15 20:45:51 --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="toto" xml:lang="en-en">
   <title>Agent settings</title>
-  <shortdesc>How to configure the agent</shortdesc>
+  <shortdesc>How to configure the agent.</shortdesc>
   <body>
-    <p>The agent settings are based on a classic key/value mechanism.</p>
-    <p>It reads its settings differently depending on the operating system:
+    <p>The agent configuration, relying on basic key/value pairs, takes place in different locations depending on your operating system and the installation mode:
       <ul>
-        <li><i>Windows</i>: with the registry keys located at KEY_LOCAL_MACHINE/SOFTWARE/FusionInventory-Agent</li>
-        <li><i>MacOSX</i>: the configuration file is located in /opt/fusionInventory-agent/agent.cfg</li>
-        <li><i>UNIX/Linux</i>: on UNIX/Linux, the agent expects its configuration to be here /etc/fusioninventory/agent.cfg</li>
-        <li><i>prebuilt</i>: if you use a prebuilt package, the agent.cfg configuration is in the packages&apos; root directory.</li>
+        <li><i>Windows</i>: in the <i>HKEY_LOCAL_MACHINE/SOFTWARE/FusionInventory-Agent</i> section of the Windows registry;</li>
+        <li><i>Mac OS X</i>: in the <i>opt/Contents/Resources/agent.cfg</i> file;</li>
+        <li><i>UNIX/Linux</i>: in the <i>/etc/fusioninventory/agent.cfg</i> file;</li>
+        <li><i>Prebuilt</i>: the <i>agent.cfg</i> configuration file is located in the package root directory.</li>
       </ul>
       </p>
+    <p><note>you can pass command line parameters to the agent during execution. For instance :</note></p>
   </body>
 </topic>

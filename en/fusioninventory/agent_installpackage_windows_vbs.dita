@@ -7,10 +7,10 @@
     <p>The project provides a VBS script  for automatic agent rollout: <xref href="http://forge.fusioninventory.org/projects/fusioninventory-agent/wiki/Vbs_install_upgrade" format="html"/>  </p>
     <p>To use it, you need to adjust some variables:</p>
     <p><ol>
-        <li>versionverification: agent version you plan on installing. If the agent is either missing or outdated on the computer, a new one will be installed.<p><i>Ex: versionverification = &quot;2.1.9-3&quot;</i></p></li>
-        <li>fusionarguments: command line arguments to perform the automatic installation (see <xref href="agent_installpackage_windows_parameter.dita"/>).<p><i>Ex: fusionarguments= &quot;/S /server=http://server1/glpi/plugins/fusioninventory/&quot;</i></p></li>
-        <li>fusionsetupfile: path to the FusionInventory-Agent setup file.<p><i>Ex: fusionsetupfile = &quot;\\server1\share$\fusioninventory-agent_2.1.9-3.exe&quot;</i> </p></li>
-        <li>uninstallocsagent: whether the script should uninstall any existing OCS Agent installation.<p><i>Ex:uninstallocsagent = &quot;yes&quot;</i></p></li>
+        <li><i>versionverification</i>: agent version you plan on installing. If the agent is either missing or outdated on the computer, a new one will be installed.<p><i>Ex: versionverification = &quot;2.1.9-3&quot;</i></p></li>
+        <li><i>fusionarguments</i>: command line arguments to perform the unattended installation (see <xref href="agent_installpackage_windows_parameter.dita"/>).<p><i>Ex: fusionarguments= &quot;/S /server=http://server1/glpi/plugins/fusioninventory/&quot;</i></p></li>
+        <li><i>fusionsetupfile</i>: path to the FusionInventory agent setup file.<p><i>Ex: fusionsetupfile = &quot;\\server1\share$\fusioninventory-agent_2.1.9-3.exe&quot;</i> </p></li>
+        <li><i>uninstallocsagent</i>: whether the script should uninstall any existing OCS Agent installation.<p><i>Ex:uninstallocsagent = &quot;yes&quot;</i></p></li>
       </ol> </p>
   </body>
 </topic>

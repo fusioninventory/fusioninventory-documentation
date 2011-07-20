@@ -1,28 +1,28 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="agent_installpackage_windows_parameter" xml:lang="en-en">
-  <title>Performing a command line installation</title>
+  <title>Performing an unattended installation</title>
   <body>
-    <p>The setup program accepts optional command line parameters:
+    <p>The Windows installer provides command line parameters for unattended installation:
    <ul>
-        <li><i>/h</i>: provide help information;</li>
+        <li><i>/h</i>: display help regarding the command line parameters;</li>
         <li><i>/S</i>: run setup in silent mode;</li>
-        <li><i>/server=url1,url2</i>: set server(s) URL;</li>
-        <li><i>/tag=tagname</i>: set agent tag;</li>
-        <li><i>/user=username</i>: set user name;</li>
-        <li><i>/pass=password</i>: set password;</li>
-        <li><i>/realm=realm</i>: set realm (optional);</li>
-        <li><i>/ca-cert-file=filename</i>: set certificate file name;</li>
-        <li><i>/no-ssl-check</i>: disable certificate checking when establishing SSL connection;</li>
-        <li><i>/proxy=http://proxy/</i>: set a proxy;</li>
-        <li><i>/debug</i>: set debug mode;</li>
-        <li><i>/rpc-trust-localhost</i>: allow local user to wake agent up;</li>
-        <li><i>/scan-homedirs</i>: look for virtual machines in user&apos;s home directories;</li>
-        <li><i>/runnow</i>: start the inventory process at the end of the installation.</li>
+        <li><i>/server=url1,url2</i>: set the server(s) URL(s);</li>
+        <li><i>/tag=tagname</i>: set an agent tag;</li>
+        <li><i>/user=username</i>: set a user name;</li>
+        <li><i>/pass=password</i>: set a password;</li>
+        <li><i>/realm=realm</i>: set a realm;</li>
+        <li><i>/ca-cert-file=filename</i>: set an SSL certificate;</li>
+        <li><i>/no-ssl-check</i>: disable SSL certificate checking when establishing HTTPS connections;</li>
+        <li><i>/proxy=http://proxy/</i>: set an HTTP proxy;</li>
+        <li><i>/debug</i>: enable the debug mode;</li>
+        <li><i>/rpc-trust-localhost</i>: allow the local user to wake the agent up;</li>
+        <li><i>/scan-homedirs</i>: look for virtual machines in users&apos; home directories;</li>
+        <li><i>/runnow</i>: start an inventory at the end of the installation.</li>
       </ul>
    </p>
     <p>Example:
-   <codeblock>fusioninventory-agent_windows-i386_2.1-1.exe /S /debug /runnow /server=https://myown-ocs-server.mydomain.de/ocsinventory</codeblock>
+   <codeblock>fusioninventory-agent_windows-i386_2.1-1.exe /S /debug /runnow /server=http://path/to/glpi/plugins/fusioninventory/front/plugin_fusioninventory.communication.php</codeblock>
    </p>
   </body>
 </topic>

@@ -1,19 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- LAST_UPDATE=2010-11-15 20:45:51 --><!-- This document was created with Syntext Serna Free. -->
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<!-- LAST_UPDATE=2010-11-15 20:45:51 --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="inventory" xml:lang="fr-fr">
   <title>Paramétrage de l&apos;agent</title>
   <shortdesc>Comment configurer l&apos;agent.</shortdesc>
   <body>
-    <p>La configuration de l&apos;agent est basée sur une configuration contenant un couple clé/valeur.</p>
-    <p>L&apos;agent se configure de façon différente en fonction des systèmes d&apos;exploitation et des types d&apos;installation :
-      <ul>
-        <li><i>Ligne de commande</i>: il est possible de passer des paramètres lors de l&apos;exécution de l&apos;agent. Par exemple : <codeblock>fusioninventory-agent --server localhost</codeblock>. Dans ce cas, les valeurs passées en paramètre écrasent l&apos;éventuelle configuration existante se trouvant dans un fichier ou la base de registre..</li>
-        <li><i>Windows</i> : avec la base de registre qui se trouve dans HKEY_LOCAL_MACHINE/SOFTWARE/FusionInventory-Agent</li>
-        <li><i>MacOSX</i> : le fichier de configuration se trouve dans FusionInventory-Agent.pkg/Contents/Resources/agent.cfg</li>
-        <li><i>UNIX/Linux</i> : le fichier de configuration se trouvant dans /etc/fusioninventory/agent.cfg</li>
-        <li><i>prebuilt</i> : pour les archives préconstruites, le fichier agent.cfg est à la racine du dossier courant.</li>
+    <p>La configuration de l&apos;agent, reposant sur de simples couples clé/valeur, s&apos;effectue à des endroits différents selon votre système d&apos;exploitation et le type d&apos;installation :      <ul>
+        <li><i>Windows</i> : dans la section <i>HKEY_LOCAL_MACHINE/SOFTWARE/FusionInventory-Agent</i> de la base de registre;</li>
+        <li><i>Mac OS X</i> : dans le fichier <i>opt/Contents/Resources/agent.cfg</i>;</li>
+        <li><i>UNIX/Linux</i> : dans le fichier <i>etc/fusioninventory/agent.cfg;</i></li>
+        <li><i>Version préconstruite</i> : le fichier de configuration <i>agent.cfg</i> se trouve à la racine de l&apos;archive.</li>
       </ul>
       </p>
+    <p><note>il vous est possible de passer des paramètres en ligne de commande à l&apos;agent lors de son exécution. Par exemple :</note><codeblock>fusioninventory-agent --server localhost</codeblock>Dans ce cas, les valeurs passées en paramètre remplaceront toute configuration préalable issue du fichier de configuration ou de la base de registre. </p>
   </body>
 </topic>
