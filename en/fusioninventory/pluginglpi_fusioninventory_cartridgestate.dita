@@ -1,10 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. -->
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
+<!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="pluginglpi_fusioninventory_cartridgestate" xml:lang="en-gb">
   <title>Cartridge state of printers</title>
   <shortdesc>See cartridge state of printers</shortdesc>
   <body>
-    <p>TODO</p>
+    <p>Cartridge state can be see in <i>fusiv - SNMP</i> ntab of printers.</p>
+    <p>This will display remaining ink in printer. This information is updated each time an agent make a SNMP inventory of this printer.</p>
+    <p>Cartridge state depend on device, on some device we can&apos;t have these data.</p>
   </body>
 </topic>

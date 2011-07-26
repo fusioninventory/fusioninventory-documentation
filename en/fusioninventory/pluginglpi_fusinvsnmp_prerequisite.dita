@@ -6,7 +6,7 @@
   <body>
     <p>In order to install and use the plugin <i>fusinvsnmp</i> on your server, you have to meet the following requirements:</p>
     <ul>
-      <li>GLPI 0.78.x (0.72 and older is not supported)</li>
+      <li>GLPI 0.80.x (0.78.x and older is not supported)</li>
       <li>
         <xref href="pluginglpi_fusioninventory.dita"/>
       </li>

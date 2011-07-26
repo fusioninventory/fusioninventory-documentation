@@ -6,7 +6,7 @@
   <body>
     <p>In order to install and use the plugin FusionInventory for GPLI on your server, the following requirements must be verified:</p>
     <ul>
-      <li>GLPI 0.78.x (0.72 and older is not supported)</li>
+      <li>GLPI 0.80.x (0.78.x and older is not supported)</li>
       <li>PHP 5 or greater</li>
       <li>PHP-ZLIB</li>
       <li>PHP-GD</li>
