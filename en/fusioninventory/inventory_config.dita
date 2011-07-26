@@ -12,6 +12,6 @@
         <li><i>Prebuilt</i>: the <i>agent.cfg</i> configuration file is located in the package root directory.</li>
       </ul>
       </p>
-    <p><note>you can pass command line parameters to the agent during execution. For instance :</note></p>
+    <p><note>you can pass command line parameters to the agent during execution. </note></p>
   </body>
 </topic>

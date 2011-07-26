@@ -22,7 +22,7 @@
       </ul>
    </p>
     <p>Example:
-   <codeblock>fusioninventory-agent_windows-i386_2.1-1.exe /S /debug /runnow /server=http://path/to/glpi/plugins/fusioninventory/front/plugin_fusioninventory.communication.php</codeblock>
+   <codeblock>fusioninventory-agent_windows-i386_2.1-1.exe /S /debug /runnow /server=http://path/to/glpi/plugins/fusioninventory/</codeblock>
    </p>
   </body>
 </topic>

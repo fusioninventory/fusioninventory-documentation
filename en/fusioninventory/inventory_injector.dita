@@ -6,7 +6,7 @@
     <p>You can push a locally generated inventory file to a FusionInventory for  GLPI server by using the fusioninventory-injector command:
       <note type="important"> fusioninventory-injector is available only since the 2.1.7 release of the agent. </note>
       <codeblock>
-      fusioninventory-injector -v -f /tmp/toto-2010-09-10-11-42-22.ocs --url https://login:pw@yourserver/glpi/plugins/fusioninventory/
+      fusioninventory-injector -v -f /tmp/toto-2010-09-10-11-42-22.ocs --url https://glpi/plugins/fusioninventory/
       </codeblock>
   </p>
     <p>
