@@ -19,7 +19,7 @@
         <p>etc...</p>
       </li>
       <li>Connect on GLPI on super-admin </li>
-      <li>Go into the menu <i>Configuration &gt; Plugins</i></li>
+      <li>Go to the menu <i>Configuration &gt; Plugins</i></li>
       <li>Install FusionInventory </li>
       <li>Activate FusionInventory </li>
     </ul>

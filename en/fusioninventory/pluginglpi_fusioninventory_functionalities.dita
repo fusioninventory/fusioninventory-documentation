@@ -4,13 +4,17 @@
   <title>Features</title>
   <shortdesc>Features list</shortdesc>
   <body>
-    <p>This is features list : </p>
+    <p>This is a list of the  features: </p>
     <ul>
       <li>Communication in HTTP and/or HTTPS between agent and plugin (server).</li>
-      <li>Agent wake up features.</li>
+      <li>Agent wake up by server.</li>
       <li>Agents management with actions (enable / disable), link with computers.</li>
       <li>Management of unknown devices.</li>
       <li>Complete scheduled task system.</li>
+      <li>Rules for equipments import.</li>
+      <li>Wizard used for begin and use easily and quickly FusionInventory. </li>
+      <li>Management of IP ranges.</li>
+      <li>Management of VMWare/ESX/VCenter servers for remote inventory.</li>
     </ul>
   </body>
 </topic>
