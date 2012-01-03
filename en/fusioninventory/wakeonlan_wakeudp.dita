@@ -1,10 +1,10 @@
-<?xml version='1.0' encoding='UTF-8'?>
+﻿<?xml version='1.0' encoding='UTF-8'?>
 <!-- LAST_UPDATE=1970-01-01 00:00:00 --><!-- This document was created with Syntext Serna Free. --><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "../../dtd/topic.dtd" []>
 <topic id="wakeonlan_wakeudp" xml:lang="en-us">
   <title>Wake on LAN over UDP</title>
   <shortdesc>Wake on LAN over UDP</shortdesc>
   <body>
-    <p>This method is a substitute for the method that works on OSI Layer 2. This method sends a magic-packet over UDP (usually Port 7 or 9). This is using a broadcast and won&apos;t work normally in routed networks. Sometimes you may need to used so-called directed broadcasts which normally requires configuration steps on your switches / routers.</p>
-    <note type="important">this method won&apos;t always work. You can have some computers not wake up with this method. </note>
+    <p>This method is a substitute for the method that works on OSI Layer 2 (only used by Linux agents). This method sends a magic-packet over UDP, usually port 7 or 9. This uses broadcast and won&apos;t normally work normally in routed networks, unless so-called directed broadcasts are configud on routers or L3 switches.</p>
+    <note type="important">This method proves to be less reliable. You can have some computers not waking using this method. </note>
   </body>
 </topic>
